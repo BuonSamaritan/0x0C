@@ -40,10 +40,22 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add domains.json
-
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: update domains [skip ci]"
-            git push
-          else
+          if git diff --cached --quiet; then
             echo "No changes detected"
+            exit 0
           fi
+
+          git commit -m "chore: update domains [skip ci]"
+
+          # Il Worker (POST/PUT/DELETE /domains) puo' committare in parallelo: se il
+          # remote e' avanzato il push viene respinto -> rebase e riprova.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "pushed"
+              exit 0
+            fi
+            echo "push respinto, rebase e riprovo ($i)..."
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || { echo "rebase fallito"; exit 1; }
+          done
+          echo "push fallito dopo 5 tentativi"
+          exit 1
