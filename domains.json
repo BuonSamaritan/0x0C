@@ -74,9 +74,9 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-06-23 18:01:22",
-    "last_status": -1,
-    "last_check": "2026-06-23T18:01:08.034Z"
+    "time_change": "2026-06-23 18:15:48",
+    "last_status": 200,
+    "last_check": "2026-06-23T18:15:48.019Z"
   },
   "tantifilm": {
     "full_url": "https://tantifilm.online/",
@@ -98,20 +98,20 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-23 17:28:24",
-    "last_status": 200,
-    "last_check": "2026-06-23T17:28:24.160Z"
+    "time_change": "2026-06-23 18:15:56",
+    "last_status": 403,
+    "last_check": "2026-06-23T18:15:56.552Z"
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-23 17:56:25",
-    "last_status": 200,
-    "last_check": "2026-06-23T17:56:25.405Z"
+    "time_change": "2026-06-23 18:15:58",
+    "last_status": 403,
+    "last_check": "2026-06-23T18:15:58.515Z"
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
-    "time_change": "2026-05-21 12:34:28",
-    "last_status": 200,
-    "last_check": "2026-06-23T16:30:17.883Z"
+    "time_change": "2026-06-23 18:16:20",
+    "last_status": -1,
+    "last_check": "2026-06-23T18:16:20.349Z"
   }
 }
