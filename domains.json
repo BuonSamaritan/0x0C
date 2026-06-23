@@ -98,15 +98,15 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-23 23:30:46",
-    "last_status": 403,
-    "last_check": "2026-06-23T23:30:45.890Z"
+    "time_change": "2026-06-23 23:37:05",
+    "last_status": 200,
+    "last_check": "2026-06-23T23:37:05.632Z"
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-23 23:30:47",
-    "last_status": 403,
-    "last_check": "2026-06-23T23:30:47.665Z"
+    "time_change": "2026-06-23 23:37:07",
+    "last_status": 200,
+    "last_check": "2026-06-23T23:37:07.845Z"
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
