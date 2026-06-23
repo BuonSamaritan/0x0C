@@ -115,8 +115,8 @@
     "last_check": "2026-06-23T16:30:17.883Z"
   },
   "__apitest__": {
-    "full_url": "https://example.com/",
+    "full_url": "https://example.org/",
     "last_status": null,
-    "time_change": "2026-06-23 17:30:05"
+    "time_change": "2026-06-23 17:30:06"
   }
 }
