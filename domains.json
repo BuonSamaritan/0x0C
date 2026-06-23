@@ -1,9 +1,9 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-06-23 19:45:24",
-    "last_status": 403,
-    "last_check": "2026-06-23T19:45:24.198Z"
+    "time_change": "2026-06-23 20:15:22",
+    "last_status": 200,
+    "last_check": "2026-06-23T20:15:22.259Z"
   },
   "animeunity": {
     "full_url": "https://www.animeunity.so/",
@@ -74,9 +74,9 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-06-23 20:01:23",
-    "last_status": -1,
-    "last_check": "2026-06-23T20:01:08.956Z"
+    "time_change": "2026-06-23 20:15:45",
+    "last_status": 200,
+    "last_check": "2026-06-23T20:15:45.601Z"
   },
   "tantifilm": {
     "full_url": "https://tantifilm.online/",
@@ -98,9 +98,9 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-23 19:01:39",
-    "last_status": 200,
-    "last_check": "2026-06-23T19:01:39.063Z"
+    "time_change": "2026-06-23 20:15:53",
+    "last_status": 403,
+    "last_check": "2026-06-23T20:15:52.795Z"
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
