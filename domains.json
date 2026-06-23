@@ -1,9 +1,9 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-06-23 22:00:18",
-    "last_status": 403,
-    "last_check": "2026-06-23T22:00:18.433Z"
+    "time_change": "2026-06-23 22:15:16",
+    "last_status": 200,
+    "last_check": "2026-06-23T22:15:16.792Z"
   },
   "animeunity": {
     "full_url": "https://www.animeunity.so/",
@@ -74,9 +74,9 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-06-23 22:01:14",
-    "last_status": -1,
-    "last_check": "2026-06-23T22:01:01.711Z"
+    "time_change": "2026-06-23 22:15:39",
+    "last_status": 200,
+    "last_check": "2026-06-23T22:15:39.028Z"
   },
   "tantifilm": {
     "full_url": "https://tantifilm.online/",
@@ -98,15 +98,15 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-23 21:30:55",
-    "last_status": 200,
-    "last_check": "2026-06-23T21:30:55.901Z"
+    "time_change": "2026-06-23 22:15:45",
+    "last_status": 403,
+    "last_check": "2026-06-23T22:15:45.460Z"
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-23 22:01:25",
-    "last_status": 403,
-    "last_check": "2026-06-23T22:01:24.538Z"
+    "time_change": "2026-06-23 22:15:47",
+    "last_status": 200,
+    "last_check": "2026-06-23T22:15:47.959Z"
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
