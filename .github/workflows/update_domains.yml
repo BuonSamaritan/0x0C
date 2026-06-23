@@ -1,0 +1,42 @@
+name: Update Domains
+
+on:
+  schedule:
+    # Ogni 15 min dalle 6 alle 23 UTC (stesso del cron Cloudflare)
+    - cron: "*/15 6-23 * * *"
+  workflow_dispatch: # trigger manuale da GitHub UI
+
+permissions:
+  contents: write # serve per committare domains.json
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installa dipendenze
+        run: pip install httpx
+
+      - name: Controlla domini
+        run: python check_domains.py
+        env:
+          DOMAINS_FILE: domains.json
+
+      - name: Commit domains.json se cambiato
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add domains.json
+          # Committa solo se c'è qualcosa di nuovo
+          git diff --cached --quiet || git commit -m "chore: update domains [skip ci]"
+          git push
