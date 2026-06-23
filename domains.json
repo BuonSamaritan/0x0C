@@ -1,14 +1,14 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-06-21 16:20:40",
-    "last_status": 200,
+    "time_change": "2026-06-23 16:41:24",
+    "last_status": 403,
     "last_check": "2026-06-23T16:30:05.129Z"
   },
   "animeunity": {
     "full_url": "https://www.animeunity.so/",
-    "time_change": "2026-06-17 10:06:08",
-    "last_status": 200,
+    "time_change": "2026-06-23 16:41:26",
+    "last_status": 403,
     "last_check": "2026-06-23T16:30:06.139Z"
   },
   "animeworld": {
@@ -49,15 +49,15 @@
     "last_check": "2026-06-23T16:30:10.481Z"
   },
   "streamingcommunity": {
-    "full_url": "https://streamingcommunityz.us/",
-    "time_change": "2026-06-23 16:15:09",
-    "last_status": 403,
+    "full_url": "https://streamingcommunityz.tech/",
+    "time_change": "2026-06-23 16:41:41",
+    "last_status": 200,
     "last_check": "2026-06-23T16:30:11.250Z"
   },
   "streamingcommunity_2": {
     "full_url": "https://streamingunity.dog/",
-    "time_change": "2026-06-17 10:06:21",
-    "last_status": 403,
+    "time_change": "2026-06-23 16:41:43",
+    "last_status": 200,
     "last_check": "2026-06-23T16:30:12.072Z"
   },
   "guardaplay": {
@@ -98,14 +98,14 @@
   },
   "mappl": {
     "full_url": "https://disablevpn.mapple.vip/",
-    "time_change": "2026-05-21 16:00:00",
-    "last_status": 200,
+    "time_change": "2026-06-23 16:41:58",
+    "last_status": 403,
     "last_check": "2026-06-23T16:30:16.202Z"
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-23 09:00:31",
-    "last_status": 200,
+    "time_change": "2026-06-23 16:42:00",
+    "last_status": 403,
     "last_check": "2026-06-23T16:30:17.249Z"
   },
   "cinezo": {
