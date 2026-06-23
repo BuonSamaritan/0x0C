@@ -74,9 +74,9 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-06-23 19:01:09",
-    "last_status": -1,
-    "last_check": "2026-06-23T19:01:04.647Z"
+    "time_change": "2026-06-23 19:16:03",
+    "last_status": 200,
+    "last_check": "2026-06-23T19:16:03.723Z"
   },
   "tantifilm": {
     "full_url": "https://tantifilm.online/",
@@ -104,9 +104,9 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-23 18:45:51",
-    "last_status": 200,
-    "last_check": "2026-06-23T18:45:51.903Z"
+    "time_change": "2026-06-23 19:16:16",
+    "last_status": 403,
+    "last_check": "2026-06-23T19:16:16.026Z"
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
