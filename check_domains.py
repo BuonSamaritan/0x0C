@@ -52,7 +52,41 @@ def pick_impersonate() -> str:
     return random.choice(IMPERSONATE_POOL)
 
 
+# ── Proxy residenziali (solo come fallback sui domini bloccati) ──────────────────
+# Alcuni siti rispondono 403 agli IP datacenter (es. i runner di GitHub). In quel
+# caso ritentiamo il check tramite un proxy residenziale, scaricando SOLO gli header
+# (stream=True, niente body) per non consumare banda — il piano ha un tetto di ~1GB/mese.
+# Credenziali e lista possono essere sovrascritte da env (PROXY_USER/PROXY_PASS/PROXY_LIST).
+PROXY_USER = os.environ.get("PROXY_USER", "jnwwkbvz")
+PROXY_PASS = os.environ.get("PROXY_PASS", "z60r7lu63dm7")
+_DEFAULT_PROXIES = [
+    "31.59.20.176:6754", "31.56.127.193:7684", "45.38.107.97:6014",
+    "38.154.203.95:5863", "198.105.121.200:6462", "64.137.96.74:6641",
+    "198.23.243.226:6361", "38.154.185.97:6370", "142.111.67.146:5611",
+    "191.96.254.138:6185",
+]
+PROXY_LIST = [p.strip() for p in os.environ.get("PROXY_LIST", "").split(",") if p.strip()] or _DEFAULT_PROXIES
+
+
+def pick_proxy() -> str | None:
+    if not PROXY_LIST:
+        return None
+    hostport = random.choice(PROXY_LIST)
+    return f"http://{PROXY_USER}:{PROXY_PASS}@{hostport}"
+
+
 DOMAINS_FILE = os.environ.get("DOMAINS_FILE", "domains.json")
+
+
+# Pagine "anti-VPN"/interstitial: alcuni siti (es. mapple) reindirizzano gli IP
+# datacenter/VPN/proxy a una pagina tipo disablevpn.* . Non va mai salvata come
+# nuovo dominio, e su questi siti il proxy va EVITATO (peggiora le cose).
+INTERSTITIAL_MARKERS = ("disablevpn", "disable-vpn", "vpncheck", "vpn-check", "blockvpn")
+
+
+def is_interstitial(u: str) -> bool:
+    host = (urlparse(u).hostname or "").lower()
+    return any(m in host for m in INTERSTITIAL_MARKERS)
 
 
 def now_str() -> str:
@@ -105,23 +139,44 @@ def apply_google_dns(session: cffi.Session, url: str) -> None:
 
 
 # ── Check diretto con follow redirect manuale ───────────────────────────────────
-def direct_check(session: cffi.Session, url: str, imp: str) -> dict:
+def direct_check(session: cffi.Session, url: str, imp: str, proxy: str | None = None) -> dict:
     current_url = url
     visited = []
 
     for _ in range(MAX_REDIRECTS):
-        apply_google_dns(session, current_url)
         try:
-            res = session.get(
-                current_url,
-                allow_redirects=False,
-                timeout=TIMEOUT_S,
-                impersonate=imp,
-            )
-            visited.append({"url": current_url, "status": res.status_code})
-
-            if res.status_code in (301, 302, 303, 307, 308):
+            if proxy:
+                # Via proxy (banda a consumo): il DNS lo risolve il proxy. Chiediamo
+                # solo il primo byte con l'header Range e in stream, così il server
+                # risponde 206 con body ~vuoto → consumo minimo. Niente body letto.
+                res = session.get(
+                    current_url,
+                    headers={"Range": "bytes=0-0"},
+                    allow_redirects=False,
+                    timeout=TIMEOUT_S,
+                    impersonate=imp,
+                    proxies={"http": proxy, "https": proxy},
+                    stream=True,
+                )
+                status_code = res.status_code
                 location = res.headers.get("location", "")
+                res.close()  # chiude senza scaricare il body
+                if status_code == 206:  # Partial Content = raggiungibile, come 200
+                    status_code = 200
+            else:
+                apply_google_dns(session, current_url)
+                res = session.get(
+                    current_url,
+                    allow_redirects=False,
+                    timeout=TIMEOUT_S,
+                    impersonate=imp,
+                )
+                status_code = res.status_code
+                location = res.headers.get("location", "")
+
+            visited.append({"url": current_url, "status": status_code})
+
+            if status_code in (301, 302, 303, 307, 308):
                 if not location:
                     break
                 if location.startswith("/"):
@@ -208,6 +263,29 @@ def process_site(session: cffi.Session, name: str, config: dict) -> dict | None:
     status = result["status"]
     final_url = result.get("final_url", url)
     checked = now_iso()
+
+    # Pagina anti-VPN: tieni l'URL originale, niente proxy, registra solo lo status.
+    if is_interstitial(final_url):
+        print(f"  🛡️  Pagina anti-VPN ({final_url}) → mantengo {url}")
+        if config.get("last_status") != status:
+            return {**config, "last_status": status, "time_change": now_str(), "last_check": checked}
+        return None
+
+    # Bloccato dall'IP datacenter? Ritenta UNA volta via proxy residenziale
+    # (solo header, Range piccolo → poca banda).
+    if status in (403, 503, 429, -1):
+        proxy = pick_proxy()
+        if proxy:
+            host = proxy.split("@")[-1]
+            print(f"  ⚠️  Blocco (status {status}), ritento via proxy {host}...")
+            pres = direct_check(session, url, imp, proxy=proxy)
+            p_final = pres.get("final_url", url)
+            if is_interstitial(p_final):
+                print(f"  🛡️  Proxy → pagina anti-VPN, ignoro e mantengo {url}")
+            elif pres["status"] not in (403, 503, 429, -1):
+                print(f"  ✅ Proxy OK: status {pres['status']}")
+                result, status = pres, pres["status"]
+                final_url = p_final
 
     # Redirect risolto: URL cambiato
     if final_url != url and status == 200:
