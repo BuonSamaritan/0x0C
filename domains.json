@@ -7,9 +7,9 @@
   },
   "animeunity": {
     "full_url": "https://www.animeunity.so/",
-    "time_change": "2026-06-23 17:15:06",
-    "last_status": 200,
-    "last_check": "2026-06-23T16:30:06.139Z"
+    "time_change": "2026-06-23 17:27:52",
+    "last_status": 403,
+    "last_check": "2026-06-23T17:27:51.940Z"
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
@@ -50,15 +50,15 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.tech/",
-    "time_change": "2026-06-23 17:15:08",
-    "last_status": 403,
-    "last_check": "2026-06-23T16:30:11.250Z"
+    "time_change": "2026-06-23 17:28:06",
+    "last_status": 200,
+    "last_check": "2026-06-23T17:28:06.895Z"
   },
   "streamingcommunity_2": {
     "full_url": "https://streamingunity.dog/",
-    "time_change": "2026-06-23 17:15:08",
-    "last_status": 403,
-    "last_check": "2026-06-23T16:30:12.072Z"
+    "time_change": "2026-06-23 17:28:08",
+    "last_status": 200,
+    "last_check": "2026-06-23T17:28:08.855Z"
   },
   "guardaplay": {
     "full_url": "https://guardaplay.xyz/",
@@ -97,16 +97,16 @@
     "last_check": "2026-06-23T16:30:15.642Z"
   },
   "mappl": {
-    "full_url": "https://mapple.tv/",
-    "time_change": "2026-06-23 17:27:28",
-    "last_status": null,
-    "last_check": "2026-06-23T16:30:16.202Z"
+    "full_url": "https://mapplee.com/",
+    "time_change": "2026-06-23 17:28:24",
+    "last_status": 200,
+    "last_check": "2026-06-23T17:28:24.160Z"
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-23 17:10:01",
-    "last_status": 200,
-    "last_check": "2026-06-23T17:10:01.455Z"
+    "time_change": "2026-06-23 17:28:26",
+    "last_status": 403,
+    "last_check": "2026-06-23T17:28:25.811Z"
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
@@ -116,7 +116,8 @@
   },
   "__apitest__": {
     "full_url": "https://example.com/",
-    "last_status": null,
-    "time_change": "2026-06-23 17:27:30"
+    "last_status": 200,
+    "time_change": "2026-06-23 17:28:30",
+    "last_check": "2026-06-23T17:28:30.091Z"
   }
 }
