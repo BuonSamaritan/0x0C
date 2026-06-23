@@ -113,11 +113,5 @@
     "time_change": "2026-05-21 12:34:28",
     "last_status": 200,
     "last_check": "2026-06-23T16:30:17.883Z"
-  },
-  "__apitest__": {
-    "full_url": "https://example.com/",
-    "last_status": 200,
-    "time_change": "2026-06-23 17:28:30",
-    "last_check": "2026-06-23T17:28:30.091Z"
   }
 }
