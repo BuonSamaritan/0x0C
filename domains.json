@@ -98,11 +98,17 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-06-23 23:15:42",
-    "last_status": 200,
-    "last_check": "2026-06-24T09:55:21.547Z",
+    "time_change": "2026-06-24 10:01:46",
+    "last_status": -1,
+    "last_check": "2026-06-24T10:01:38.715Z",
     "response_ms": 546,
-    "ssl_expiry": "2026-09-01"
+    "ssl_expiry": "2026-09-01",
+    "history": [
+      {
+        "t": "2026-06-24T10:01:38.715Z",
+        "status": -1
+      }
+    ]
   },
   "tantifilm": {
     "full_url": "https://tantifilm.online/",
@@ -130,29 +136,37 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-24 09:55:29",
-    "last_status": 403,
-    "last_check": "2026-06-24T09:55:28.965Z",
-    "response_ms": 19,
+    "time_change": "2026-06-24 10:01:54",
+    "last_status": 200,
+    "last_check": "2026-06-24T10:01:54.555Z",
+    "response_ms": 589,
     "ssl_expiry": "2026-09-14",
     "history": [
       {
         "t": "2026-06-24T09:55:28.965Z",
         "status": 403
+      },
+      {
+        "t": "2026-06-24T10:01:54.555Z",
+        "status": 200
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-24 09:55:31",
-    "last_status": 200,
-    "last_check": "2026-06-24T09:55:31.899Z",
-    "response_ms": 1053,
+    "time_change": "2026-06-24 10:01:56",
+    "last_status": 403,
+    "last_check": "2026-06-24T10:01:56.168Z",
+    "response_ms": 23,
     "ssl_expiry": "2026-08-25",
     "history": [
       {
         "t": "2026-06-24T09:55:31.899Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-24T10:01:56.168Z",
+        "status": 403
       }
     ]
   },
