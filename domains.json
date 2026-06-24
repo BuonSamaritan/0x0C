@@ -298,10 +298,10 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-24 23:16:23",
-    "last_status": 403,
-    "last_check": "2026-06-24T23:16:23.118Z",
-    "response_ms": 26,
+    "time_change": "2026-06-24 23:31:22",
+    "last_status": 200,
+    "last_check": "2026-06-24T23:31:22.520Z",
+    "response_ms": 720,
     "ssl_expiry": "2026-09-14",
     "history": [
       {
@@ -435,6 +435,10 @@
       {
         "t": "2026-06-24T23:16:23.118Z",
         "status": 403
+      },
+      {
+        "t": "2026-06-24T23:31:22.520Z",
+        "status": 200
       }
     ]
   },
