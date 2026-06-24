@@ -1,10 +1,10 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-06-24 22:15:53",
-    "last_status": 200,
-    "last_check": "2026-06-24T22:15:53.181Z",
-    "response_ms": 1362,
+    "time_change": "2026-06-24 22:25:26",
+    "last_status": 500,
+    "last_check": "2026-06-24T22:25:26.687Z",
+    "response_ms": 570,
     "ssl_expiry": "2026-09-02",
     "history": [
       {
@@ -110,6 +110,10 @@
       {
         "t": "2026-06-24T22:15:53.181Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-24T22:25:26.687Z",
+        "status": 500
       }
     ]
   },
@@ -286,10 +290,10 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-24 22:16:23",
-    "last_status": 403,
-    "last_check": "2026-06-24T22:16:23.426Z",
-    "response_ms": 19,
+    "time_change": "2026-06-24 22:26:00",
+    "last_status": 200,
+    "last_check": "2026-06-24T22:26:00.377Z",
+    "response_ms": 675,
     "ssl_expiry": "2026-09-14",
     "history": [
       {
@@ -407,15 +411,19 @@
       {
         "t": "2026-06-24T22:16:23.426Z",
         "status": 403
+      },
+      {
+        "t": "2026-06-24T22:26:00.377Z",
+        "status": 200
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-24 22:16:25",
-    "last_status": 403,
-    "last_check": "2026-06-24T22:16:25.211Z",
-    "response_ms": 26,
+    "time_change": "2026-06-24 22:26:02",
+    "last_status": 200,
+    "last_check": "2026-06-24T22:26:02.794Z",
+    "response_ms": 781,
     "ssl_expiry": "2026-08-25",
     "history": [
       {
@@ -513,6 +521,10 @@
       {
         "t": "2026-06-24T22:16:25.211Z",
         "status": 403
+      },
+      {
+        "t": "2026-06-24T22:26:02.794Z",
+        "status": 200
       }
     ]
   },
