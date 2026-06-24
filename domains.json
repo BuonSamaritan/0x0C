@@ -1,9 +1,9 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-06-24 08:45:54",
-    "last_status": 200,
-    "last_check": "2026-06-24T08:45:54.976Z"
+    "time_change": "2026-06-24 09:00:56",
+    "last_status": 403,
+    "last_check": "2026-06-24T09:00:55.639Z"
   },
   "animeunity": {
     "full_url": "https://www.animeunity.so/",
@@ -110,8 +110,8 @@
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
-    "time_change": "2026-06-24 08:46:33",
-    "last_status": 502,
-    "last_check": "2026-06-24T08:46:33.468Z"
+    "time_change": "2026-06-24 09:01:41",
+    "last_status": 200,
+    "last_check": "2026-06-24T09:01:41.073Z"
   }
 }
