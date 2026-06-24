@@ -252,10 +252,10 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-24 14:16:27",
-    "last_status": 200,
-    "last_check": "2026-06-24T14:16:27.297Z",
-    "response_ms": 691,
+    "time_change": "2026-06-24 15:01:26",
+    "last_status": 403,
+    "last_check": "2026-06-24T15:01:26.605Z",
+    "response_ms": 22,
     "ssl_expiry": "2026-08-25",
     "history": [
       {
@@ -309,6 +309,10 @@
       {
         "t": "2026-06-24T14:16:27.297Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-24T15:01:26.605Z",
+        "status": 403
       }
     ]
   },
