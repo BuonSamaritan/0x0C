@@ -1,9 +1,9 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-06-24 06:57:32",
-    "last_status": 200,
-    "last_check": "2026-06-24T06:57:32.171Z"
+    "time_change": "2026-06-24 07:30:53",
+    "last_status": 403,
+    "last_check": "2026-06-24T07:30:53.471Z"
   },
   "animeunity": {
     "full_url": "https://www.animeunity.so/",
@@ -104,9 +104,9 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-24 06:58:03",
-    "last_status": 403,
-    "last_check": "2026-06-24T06:58:03.724Z"
+    "time_change": "2026-06-24 07:31:26",
+    "last_status": 200,
+    "last_check": "2026-06-24T07:31:26.842Z"
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
