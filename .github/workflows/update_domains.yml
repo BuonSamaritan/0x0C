@@ -35,6 +35,7 @@ jobs:
           PYTHONIOENCODING: utf-8
 
       - name: Commit domains.json if changed
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -42,6 +43,7 @@ jobs:
           git add domains.json
           if git diff --cached --quiet; then
             echo "No changes detected"
+            echo "pushed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
 
@@ -52,6 +54,7 @@ jobs:
           for i in 1 2 3 4 5; do
             if git push; then
               echo "pushed"
+              echo "pushed=true" >> $GITHUB_OUTPUT
               exit 0
             fi
             echo "push respinto, rebase e riprovo ($i)..."
@@ -59,3 +62,10 @@ jobs:
           done
           echo "push fallito dopo 5 tentativi"
           exit 1
+
+      - name: Invalidate Worker cache
+        if: steps.commit.outputs.pushed == 'true'
+        run: |
+          curl -sf -X POST https://domains-tracker.server66.workers.dev/cache/invalidate \
+            -H "Authorization: Bearer ${{ secrets.WORKER_AUTH_TOKEN }}" \
+            || echo "Cache invalidation failed (non-fatal)"
