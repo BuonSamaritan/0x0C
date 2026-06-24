@@ -1,9 +1,9 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-06-24 09:00:56",
-    "last_status": 403,
-    "last_check": "2026-06-24T09:00:55.639Z"
+    "time_change": "2026-06-24 09:15:53",
+    "last_status": 200,
+    "last_check": "2026-06-24T09:15:53.545Z"
   },
   "animeunity": {
     "full_url": "https://www.animeunity.so/",
@@ -98,9 +98,9 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-24 08:46:29",
-    "last_status": 200,
-    "last_check": "2026-06-24T08:46:29.056Z"
+    "time_change": "2026-06-24 09:16:22",
+    "last_status": 403,
+    "last_check": "2026-06-24T09:16:22.755Z"
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
