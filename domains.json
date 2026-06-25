@@ -268,19 +268,31 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.tech/",
-    "time_change": "2026-06-24 06:15:29",
-    "last_status": 200,
-    "last_check": "2026-06-24T09:55:13.126Z",
+    "time_change": "2026-06-25 20:16:37",
+    "last_status": -1,
+    "last_check": "2026-06-25T20:16:23.399Z",
     "response_ms": 522,
-    "ssl_expiry": "2026-09-20"
+    "ssl_expiry": "2026-09-20",
+    "history": [
+      {
+        "t": "2026-06-25T20:16:23.399Z",
+        "status": -1
+      }
+    ]
   },
   "streamingcommunity_2": {
     "full_url": "https://streamingunity.dog/",
-    "time_change": "2026-06-23 17:28:08",
-    "last_status": 200,
-    "last_check": "2026-06-24T09:55:14.992Z",
-    "response_ms": 289,
-    "ssl_expiry": "2026-09-21"
+    "time_change": "2026-06-25 20:16:58",
+    "last_status": 522,
+    "last_check": "2026-06-25T20:16:58.804Z",
+    "response_ms": 19378,
+    "ssl_expiry": "2026-09-21",
+    "history": [
+      {
+        "t": "2026-06-25T20:16:58.804Z",
+        "status": 522
+      }
+    ]
   },
   "guardaplay": {
     "full_url": "https://guardaplay.xyz/",
@@ -406,16 +418,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-25 19:46:22",
-    "last_status": 403,
-    "last_check": "2026-06-25T19:46:22.415Z",
+    "time_change": "2026-06-25 20:17:33",
+    "last_status": -1,
+    "last_check": "2026-06-25T20:17:33.343Z",
     "response_ms": 45,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-06-24T13:31:30.356Z",
-        "status": 200
-      },
       {
         "t": "2026-06-24T13:46:26.901Z",
         "status": 403
@@ -611,6 +619,10 @@
       {
         "t": "2026-06-25T19:46:22.415Z",
         "status": 403
+      },
+      {
+        "t": "2026-06-25T20:17:33.343Z",
+        "status": -1
       }
     ]
   },
