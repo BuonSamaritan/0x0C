@@ -286,10 +286,10 @@
   },
   "streamingcommunity_2": {
     "full_url": "https://streamingunity.dog/",
-    "time_change": "2026-06-25 20:31:45",
-    "last_status": -1,
-    "last_check": "2026-06-25T20:31:30.468Z",
-    "response_ms": 19378,
+    "time_change": "2026-06-25 20:46:05",
+    "last_status": 200,
+    "last_check": "2026-06-25T20:46:05.019Z",
+    "response_ms": 1358,
     "ssl_expiry": "2026-09-21",
     "history": [
       {
@@ -299,6 +299,10 @@
       {
         "t": "2026-06-25T20:31:30.468Z",
         "status": -1
+      },
+      {
+        "t": "2026-06-25T20:46:05.019Z",
+        "status": 200
       }
     ]
   },
