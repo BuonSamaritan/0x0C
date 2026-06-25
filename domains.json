@@ -280,10 +280,10 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-06-25 14:16:15",
-    "last_status": 200,
-    "last_check": "2026-06-25T14:16:15.188Z",
-    "response_ms": 578,
+    "time_change": "2026-06-25 15:01:35",
+    "last_status": 502,
+    "last_check": "2026-06-25T15:01:35.070Z",
+    "response_ms": 17402,
     "ssl_expiry": "2026-09-01",
     "history": [
       {
@@ -341,6 +341,10 @@
       {
         "t": "2026-06-25T14:16:15.188Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-25T15:01:35.070Z",
+        "status": 502
       }
     ]
   },
