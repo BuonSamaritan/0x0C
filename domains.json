@@ -324,10 +324,10 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-06-26 08:01:44",
-    "last_status": -1,
-    "last_check": "2026-06-26T08:01:32.048Z",
-    "response_ms": 719,
+    "time_change": "2026-06-26 08:16:11",
+    "last_status": 200,
+    "last_check": "2026-06-26T08:16:11.238Z",
+    "response_ms": 1424,
     "ssl_expiry": "2026-09-01",
     "history": [
       {
@@ -413,6 +413,10 @@
       {
         "t": "2026-06-26T08:01:32.048Z",
         "status": -1
+      },
+      {
+        "t": "2026-06-26T08:16:11.238Z",
+        "status": 200
       }
     ]
   },
@@ -442,16 +446,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-26 07:46:20",
-    "last_status": 403,
-    "last_check": "2026-06-26T07:46:20.516Z",
-    "response_ms": 18,
+    "time_change": "2026-06-26 08:16:18",
+    "last_status": 200,
+    "last_check": "2026-06-26T08:16:18.402Z",
+    "response_ms": 472,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-06-24T17:31:27.541Z",
-        "status": 200
-      },
       {
         "t": "2026-06-24T17:46:30.997Z",
         "status": 403
@@ -647,6 +647,10 @@
       {
         "t": "2026-06-26T07:46:20.516Z",
         "status": 403
+      },
+      {
+        "t": "2026-06-26T08:16:18.402Z",
+        "status": 200
       }
     ]
   },
