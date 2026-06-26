@@ -236,11 +236,17 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.lol/",
-    "time_change": "2026-06-22 19:20:16",
-    "last_status": 200,
-    "last_check": "2026-06-24T09:55:05.894Z",
-    "response_ms": 694,
-    "ssl_expiry": "2026-07-29"
+    "time_change": "2026-06-26 18:30:57",
+    "last_status": 500,
+    "last_check": "2026-06-26T18:30:57.762Z",
+    "response_ms": 542,
+    "ssl_expiry": "2026-07-29",
+    "history": [
+      {
+        "t": "2026-06-26T18:30:57.762Z",
+        "status": 500
+      }
+    ]
   },
   "guardaserie": {
     "full_url": "https://altadefinizione.you/",
@@ -672,16 +678,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-26 17:46:22",
-    "last_status": 200,
-    "last_check": "2026-06-26T17:46:22.455Z",
-    "response_ms": 729,
+    "time_change": "2026-06-26 18:31:28",
+    "last_status": 403,
+    "last_check": "2026-06-26T18:31:27.627Z",
+    "response_ms": 67,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-06-25T09:01:35.733Z",
-        "status": 403
-      },
       {
         "t": "2026-06-25T09:16:19.188Z",
         "status": 200
@@ -877,6 +879,10 @@
       {
         "t": "2026-06-26T17:46:22.455Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-26T18:31:27.627Z",
+        "status": 403
       }
     ]
   },
