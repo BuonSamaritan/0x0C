@@ -334,9 +334,9 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-06-27 10:16:14",
-    "last_status": 200,
-    "last_check": "2026-06-27T10:16:14.094Z",
+    "time_change": "2026-06-27 12:01:44",
+    "last_status": -1,
+    "last_check": "2026-06-27T12:01:29.463Z",
     "response_ms": 1921,
     "ssl_expiry": "2026-09-01",
     "history": [
@@ -467,6 +467,10 @@
       {
         "t": "2026-06-27T10:16:14.094Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-27T12:01:29.463Z",
+        "status": -1
       }
     ]
   },
@@ -496,16 +500,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-27 11:46:18",
-    "last_status": 403,
-    "last_check": "2026-06-27T11:46:18.588Z",
-    "response_ms": 19,
+    "time_change": "2026-06-27 12:01:51",
+    "last_status": 200,
+    "last_check": "2026-06-27T12:01:51.876Z",
+    "response_ms": 658,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-06-25T16:16:21.549Z",
-        "status": 200
-      },
       {
         "t": "2026-06-25T16:31:23.704Z",
         "status": 403
@@ -701,21 +701,21 @@
       {
         "t": "2026-06-27T11:46:18.588Z",
         "status": 403
+      },
+      {
+        "t": "2026-06-27T12:01:51.876Z",
+        "status": 200
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-27 11:01:30",
-    "last_status": 200,
-    "last_check": "2026-06-27T11:01:30.344Z",
-    "response_ms": 865,
+    "time_change": "2026-06-27 12:01:53",
+    "last_status": 403,
+    "last_check": "2026-06-27T12:01:53.468Z",
+    "response_ms": 19,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-06-26T06:01:20.447Z",
-        "status": 403
-      },
       {
         "t": "2026-06-26T06:31:22.118Z",
         "status": 200
@@ -911,6 +911,10 @@
       {
         "t": "2026-06-27T11:01:30.344Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-27T12:01:53.468Z",
+        "status": 403
       }
     ]
   },
