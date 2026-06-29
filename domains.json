@@ -286,10 +286,10 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.tech/",
-    "time_change": "2026-06-25 20:31:08",
-    "last_status": 200,
-    "last_check": "2026-06-25T20:31:08.863Z",
-    "response_ms": 870,
+    "time_change": "2026-06-29 20:46:37",
+    "last_status": 522,
+    "last_check": "2026-06-29T20:46:37.885Z",
+    "response_ms": 19664,
     "ssl_expiry": "2026-09-20",
     "history": [
       {
@@ -299,6 +299,10 @@
       {
         "t": "2026-06-25T20:31:08.863Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-29T20:46:37.885Z",
+        "status": 522
       }
     ]
   },
@@ -778,16 +782,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-29 20:01:43",
-    "last_status": 200,
-    "last_check": "2026-06-29T20:01:43.548Z",
-    "response_ms": 1024,
+    "time_change": "2026-06-29 20:46:55",
+    "last_status": 403,
+    "last_check": "2026-06-29T20:46:55.644Z",
+    "response_ms": 20,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-06-28T12:16:31.641Z",
-        "status": 403
-      },
       {
         "t": "2026-06-28T12:57:52.045Z",
         "status": 200
@@ -983,6 +983,10 @@
       {
         "t": "2026-06-29T20:01:43.548Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-29T20:46:55.644Z",
+        "status": 403
       }
     ]
   },
