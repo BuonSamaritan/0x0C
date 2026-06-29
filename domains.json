@@ -230,17 +230,17 @@
     "old_domain": "live",
     "time_change": "2026-06-22 19:20:16",
     "last_status": 200,
-    "last_check": "2026-06-24T09:55:03.668Z",
-    "response_ms": 712,
-    "ssl_expiry": "2026-07-29"
+    "last_check": "2026-06-29T06:01:06.408Z",
+    "response_ms": 730,
+    "ssl_expiry": "2026-09-27"
   },
   "cb01_2": {
     "full_url": "https://cb01uno.lol/",
     "time_change": "2026-06-27 18:00:56",
     "last_status": 200,
-    "last_check": "2026-06-27T18:00:56.061Z",
-    "response_ms": 597,
-    "ssl_expiry": "2026-07-29",
+    "last_check": "2026-06-29T06:01:08.676Z",
+    "response_ms": 741,
+    "ssl_expiry": "2026-09-27",
     "history": [
       {
         "t": "2026-06-26T18:30:57.762Z",
@@ -544,16 +544,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-28 23:08:13",
-    "last_status": 200,
-    "last_check": "2026-06-28T23:08:13.257Z",
-    "response_ms": 831,
+    "time_change": "2026-06-29 06:01:30",
+    "last_status": 403,
+    "last_check": "2026-06-29T06:01:30.667Z",
+    "response_ms": 14,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-06-27T15:40:12.352Z",
-        "status": 403
-      },
       {
         "t": "2026-06-27T15:46:19.391Z",
         "status": 200
@@ -749,6 +745,10 @@
       {
         "t": "2026-06-28T23:08:13.257Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-29T06:01:30.667Z",
+        "status": 403
       }
     ]
   },
