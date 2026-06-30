@@ -304,9 +304,9 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.pl/",
-    "time_change": "2026-06-30 17:46:16",
-    "last_status": 200,
-    "last_check": "2026-06-30T17:46:16.201Z",
+    "time_change": "2026-06-30 22:46:52",
+    "last_status": -1,
+    "last_check": "2026-06-30T22:46:38.189Z",
     "response_ms": 541,
     "ssl_expiry": "2026-09-20",
     "history": [
@@ -325,6 +325,10 @@
       {
         "t": "2026-06-29T21:01:17.100Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-30T22:46:38.189Z",
+        "status": -1
       }
     ]
   },
@@ -602,16 +606,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-30 22:41:58",
-    "last_status": 403,
-    "last_check": "2026-06-30T22:41:55.912Z",
-    "response_ms": 83,
+    "time_change": "2026-06-30 22:47:07",
+    "last_status": 200,
+    "last_check": "2026-06-30T22:47:07.866Z",
+    "response_ms": 465,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-06-29T09:46:30.920Z",
-        "status": 403
-      },
       {
         "t": "2026-06-29T10:16:37.318Z",
         "status": 200
@@ -807,21 +807,21 @@
       {
         "t": "2026-06-30T22:41:55.912Z",
         "status": 403
+      },
+      {
+        "t": "2026-06-30T22:47:07.866Z",
+        "status": 200
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-06-30 22:16:34",
-    "last_status": 200,
-    "last_check": "2026-06-30T22:16:34.285Z",
-    "response_ms": 667,
+    "time_change": "2026-06-30 22:47:09",
+    "last_status": 403,
+    "last_check": "2026-06-30T22:47:09.434Z",
+    "response_ms": 17,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-06-29T16:31:33.639Z",
-        "status": 403
-      },
       {
         "t": "2026-06-29T16:46:36.230Z",
         "status": 200
@@ -1017,6 +1017,10 @@
       {
         "t": "2026-06-30T22:16:34.285Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-30T22:47:09.434Z",
+        "status": 403
       }
     ]
   },
