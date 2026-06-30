@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-06-30 18:16:02",
-    "last_status": 403,
-    "last_check": "2026-06-30T18:16:02.343Z",
-    "response_ms": 35,
+    "time_change": "2026-06-30 19:01:03",
+    "last_status": 200,
+    "last_check": "2026-06-30T19:01:03.416Z",
+    "response_ms": 1052,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-06-29T13:01:02.924Z",
-        "status": 403
-      },
       {
         "t": "2026-06-29T13:16:01.928Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-06-30T18:16:02.343Z",
         "status": 403
+      },
+      {
+        "t": "2026-06-30T19:01:03.416Z",
+        "status": 200
       }
     ]
   },
@@ -228,17 +228,23 @@
   "cb01new": {
     "full_url": "https://cb01uno.lol/",
     "old_domain": "live",
-    "time_change": "2026-06-22 19:20:16",
-    "last_status": 200,
-    "last_check": "2026-06-29T06:01:06.408Z",
+    "time_change": "2026-06-30 19:01:10",
+    "last_status": -1,
+    "last_check": "2026-06-30T19:01:09.951Z",
     "response_ms": 730,
-    "ssl_expiry": "2026-09-27"
+    "ssl_expiry": "2026-09-27",
+    "history": [
+      {
+        "t": "2026-06-30T19:01:09.951Z",
+        "status": -1
+      }
+    ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.lol/",
-    "time_change": "2026-06-27 18:00:56",
-    "last_status": 200,
-    "last_check": "2026-06-29T06:01:08.676Z",
+    "time_change": "2026-06-30 19:01:12",
+    "last_status": -1,
+    "last_check": "2026-06-30T19:01:12.009Z",
     "response_ms": 741,
     "ssl_expiry": "2026-09-27",
     "history": [
@@ -257,6 +263,10 @@
       {
         "t": "2026-06-27T18:00:56.061Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-30T19:01:12.009Z",
+        "status": -1
       }
     ]
   },
@@ -584,16 +594,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-06-30 17:08:47",
-    "last_status": 200,
-    "last_check": "2026-06-30T17:08:47.099Z",
-    "response_ms": 3291,
+    "time_change": "2026-06-30 19:01:38",
+    "last_status": 403,
+    "last_check": "2026-06-30T19:01:37.522Z",
+    "response_ms": 69,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-06-28T23:08:13.257Z",
-        "status": 200
-      },
       {
         "t": "2026-06-29T06:01:30.667Z",
         "status": 403
@@ -789,6 +795,10 @@
       {
         "t": "2026-06-30T17:08:47.099Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-30T19:01:37.522Z",
+        "status": 403
       }
     ]
   },
