@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-06-30 17:31:07",
-    "last_status": 200,
-    "last_check": "2026-06-30T17:31:07.182Z",
-    "response_ms": 1014,
+    "time_change": "2026-06-30 17:46:00",
+    "last_status": 403,
+    "last_check": "2026-06-30T17:46:00.221Z",
+    "response_ms": 19,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-06-29T11:01:04.265Z",
-        "status": 200
-      },
       {
         "t": "2026-06-29T12:01:01.481Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-06-30T17:31:07.182Z",
         "status": 200
+      },
+      {
+        "t": "2026-06-30T17:46:00.221Z",
+        "status": 403
       }
     ]
   },
@@ -285,11 +285,11 @@
     "ssl_expiry": "2026-09-17"
   },
   "streamingcommunity": {
-    "full_url": "https://streamingcommunityz.tech/",
-    "time_change": "2026-06-29 21:01:17",
+    "full_url": "https://streamingcommunityz.pl/",
+    "time_change": "2026-06-30 17:46:16",
     "last_status": 200,
-    "last_check": "2026-06-29T21:01:17.100Z",
-    "response_ms": 444,
+    "last_check": "2026-06-30T17:46:16.201Z",
+    "response_ms": 541,
     "ssl_expiry": "2026-09-20",
     "history": [
       {
