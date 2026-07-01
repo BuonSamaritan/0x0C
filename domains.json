@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-01 19:45:55",
-    "last_status": 200,
-    "last_check": "2026-07-01T19:45:55.776Z",
-    "response_ms": 900,
+    "time_change": "2026-07-01 20:30:59",
+    "last_status": 403,
+    "last_check": "2026-07-01T20:30:58.749Z",
+    "response_ms": 25,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-06-30T11:16:00.208Z",
-        "status": 200
-      },
       {
         "t": "2026-06-30T12:00:59.451Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-01T19:45:55.776Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-01T20:30:58.749Z",
+        "status": 403
       }
     ]
   },
@@ -830,16 +830,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-01 19:01:41",
-    "last_status": 200,
-    "last_check": "2026-07-01T19:01:41.698Z",
-    "response_ms": 660,
+    "time_change": "2026-07-01 20:31:35",
+    "last_status": 403,
+    "last_check": "2026-07-01T20:31:35.016Z",
+    "response_ms": 22,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-06-30T08:01:35.437Z",
-        "status": 403
-      },
       {
         "t": "2026-06-30T08:16:38.928Z",
         "status": 200
@@ -1035,6 +1031,10 @@
       {
         "t": "2026-07-01T19:01:41.698Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-01T20:31:35.016Z",
+        "status": 403
       }
     ]
   },
