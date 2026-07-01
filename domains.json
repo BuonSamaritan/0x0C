@@ -288,10 +288,10 @@
   },
   "guardoserie_2": {
     "full_url": "https://guardoserie.courses/",
-    "time_change": "2026-07-01 21:46:10",
-    "last_status": 403,
-    "last_check": "2026-07-01T21:46:10.589Z",
-    "response_ms": 18,
+    "time_change": "2026-07-01 22:01:23",
+    "last_status": 200,
+    "last_check": "2026-07-01T22:01:23.542Z",
+    "response_ms": 839,
     "ssl_expiry": "2026-09-20",
     "history": [
       {
@@ -309,6 +309,10 @@
       {
         "t": "2026-07-01T21:46:10.589Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-01T22:01:23.542Z",
+        "status": 200
       }
     ]
   },
@@ -322,10 +326,10 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.pl/",
-    "time_change": "2026-06-30 23:01:15",
-    "last_status": 200,
-    "last_check": "2026-06-30T23:01:15.391Z",
-    "response_ms": 328,
+    "time_change": "2026-07-01 22:01:46",
+    "last_status": 522,
+    "last_check": "2026-07-01T22:01:46.252Z",
+    "response_ms": 19408,
     "ssl_expiry": "2026-09-20",
     "history": [
       {
@@ -351,15 +355,19 @@
       {
         "t": "2026-06-30T23:01:15.391Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-01T22:01:46.252Z",
+        "status": 522
       }
     ]
   },
   "streamingcommunity_2": {
     "full_url": "https://streamingunity.dog/",
-    "time_change": "2026-06-25 20:46:05",
-    "last_status": 200,
-    "last_check": "2026-06-25T20:46:05.019Z",
-    "response_ms": 1358,
+    "time_change": "2026-07-01 22:02:07",
+    "last_status": 522,
+    "last_check": "2026-07-01T22:02:07.218Z",
+    "response_ms": 19373,
     "ssl_expiry": "2026-09-21",
     "history": [
       {
@@ -373,6 +381,10 @@
       {
         "t": "2026-06-25T20:46:05.019Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-01T22:02:07.218Z",
+        "status": 522
       }
     ]
   },
@@ -628,16 +640,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-07-01 21:31:57",
-    "last_status": 200,
-    "last_check": "2026-07-01T21:31:57.894Z",
-    "response_ms": 604,
+    "time_change": "2026-07-01 22:02:26",
+    "last_status": 403,
+    "last_check": "2026-07-01T22:02:24.992Z",
+    "response_ms": 20,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-06-30T15:31:32.514Z",
-        "status": 200
-      },
       {
         "t": "2026-06-30T16:16:32.370Z",
         "status": 403
@@ -833,6 +841,10 @@
       {
         "t": "2026-07-01T21:31:57.894Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-01T22:02:24.992Z",
+        "status": 403
       }
     ]
   },
