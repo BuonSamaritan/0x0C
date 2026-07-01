@@ -9,6 +9,14 @@ on:
 permissions:
   contents: write
 
+# Serializza tutte le esecuzioni (schedule + /run via workflow_dispatch): due run
+# non girano mai in parallelo, cosi' l'unica sorgente di push concorrente resta il
+# Worker (POST/PUT/DELETE /domains). cancel-in-progress: false -> il run in coda
+# aspetta invece di essere cancellato (non perdiamo un check).
+concurrency:
+  group: update-domains
+  cancel-in-progress: false
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -36,31 +44,41 @@ jobs:
 
       - name: Commit domains.json if changed
         id: commit
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add domains.json
-          if git diff --cached --quiet; then
-            echo "No changes detected"
-            echo "pushed=false" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-
-          git commit -m "chore: update domains [skip ci]"
-
-          # Il Worker (POST/PUT/DELETE /domains) puo' committare in parallelo: se il
-          # remote e' avanzato il push viene respinto -> rebase e riprova.
-          for i in 1 2 3 4 5; do
-            if git push; then
-              echo "pushed"
-              echo "pushed=true" >> $GITHUB_OUTPUT
+          # domains.json e' un file GENERATO: in caso di push respinto NON si fa
+          # rebase riga-per-riga (produrrebbe conflitti, come accaduto). Si riparte
+          # dal remote fresco e si RICALCOLA: check_domains.py legge l'intero dict,
+          # aggiorna solo le entry che controlla e riscrive tutto -> eventuali
+          # modifiche remote (Worker POST/PUT/DELETE) vengono preservate. Lo script
+          # e' quindi la funzione di merge corretta e il push converge senza conflitti.
+          for i in 1 2 3; do
+            git add domains.json
+            if git diff --cached --quiet; then
+              echo "No changes detected"
+              echo "pushed=false" >> "$GITHUB_OUTPUT"
               exit 0
             fi
-            echo "push respinto, rebase e riprovo ($i)..."
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || { echo "rebase fallito"; exit 1; }
+
+            git commit -m "chore: update domains [skip ci]"
+
+            if git push origin "HEAD:${BRANCH}"; then
+              echo "pushed"
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            echo "push respinto: riparto dal remote e ricalcolo ($i)..."
+            git fetch origin "${BRANCH}"
+            git reset --hard FETCH_HEAD
+            python check_domains.py
           done
-          echo "push fallito dopo 5 tentativi"
+
+          echo "push fallito dopo 3 tentativi"
           exit 1
 
       - name: Invalidate Worker cache
