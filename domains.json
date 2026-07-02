@@ -460,16 +460,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-07-02 10:01:49",
-    "last_status": -1,
-    "last_check": "2026-07-02T10:01:39.622Z",
-    "response_ms": 687,
+    "time_change": "2026-07-02 10:16:27",
+    "last_status": 200,
+    "last_check": "2026-07-02T10:16:27.914Z",
+    "response_ms": 641,
     "ssl_expiry": "2026-09-01",
     "history": [
-      {
-        "t": "2026-06-26T08:16:11.238Z",
-        "status": 200
-      },
       {
         "t": "2026-06-26T09:01:26.873Z",
         "status": 502
@@ -665,6 +661,10 @@
       {
         "t": "2026-07-02T10:01:39.622Z",
         "status": -1
+      },
+      {
+        "t": "2026-07-02T10:16:27.914Z",
+        "status": 200
       }
     ]
   },
@@ -677,12 +677,12 @@
     "ssl_expiry": "2026-09-16"
   },
   "tantifilm_2": {
-    "full_url": "https://tanti-film.yachts/",
-    "time_change": "2026-06-23 16:12:26",
+    "full_url": "https://tanti-film.study/",
+    "time_change": "2026-07-02 10:16:31",
     "last_status": 200,
-    "last_check": "2026-06-24T09:55:25.422Z",
-    "response_ms": 349,
-    "ssl_expiry": "2026-09-15"
+    "last_check": "2026-07-02T10:16:31.841Z",
+    "response_ms": 481,
+    "ssl_expiry": "2026-09-29"
   },
   "filmsenzalimite": {
     "full_url": "https://filmsenzalimite.one/",
