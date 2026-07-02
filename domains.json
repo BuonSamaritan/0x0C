@@ -219,25 +219,29 @@
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
-    "time_change": "2026-07-02 06:46:12",
-    "last_status": 520,
-    "last_check": "2026-07-02T06:46:12.509Z",
-    "response_ms": 9003,
+    "time_change": "2026-07-02 07:01:02",
+    "last_status": 200,
+    "last_check": "2026-07-02T07:01:02.459Z",
+    "response_ms": 573,
     "ssl_expiry": "2026-08-29",
     "history": [
       {
         "t": "2026-07-02T06:46:12.509Z",
         "status": 520
+      },
+      {
+        "t": "2026-07-02T07:01:02.459Z",
+        "status": 200
       }
     ]
   },
   "cb01new": {
     "full_url": "https://cb01uno.quest/",
     "old_domain": "live",
-    "time_change": "2026-07-02 06:46:48",
-    "last_status": -1,
-    "last_check": "2026-07-02T06:46:34.096Z",
-    "response_ms": 754,
+    "time_change": "2026-07-02 07:01:05",
+    "last_status": 200,
+    "last_check": "2026-07-02T07:01:05.078Z",
+    "response_ms": 948,
     "ssl_expiry": "2026-09-26",
     "history": [
       {
@@ -251,15 +255,19 @@
       {
         "t": "2026-07-02T06:46:34.096Z",
         "status": -1
+      },
+      {
+        "t": "2026-07-02T07:01:05.078Z",
+        "status": 200
       }
     ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.quest/",
-    "time_change": "2026-07-02 06:47:20",
-    "last_status": -1,
-    "last_check": "2026-07-02T06:47:10.126Z",
-    "response_ms": 460,
+    "time_change": "2026-07-02 07:01:07",
+    "last_status": 200,
+    "last_check": "2026-07-02T07:01:07.603Z",
+    "response_ms": 966,
     "ssl_expiry": "2026-09-26",
     "history": [
       {
@@ -289,6 +297,10 @@
       {
         "t": "2026-07-02T06:47:10.126Z",
         "status": -1
+      },
+      {
+        "t": "2026-07-02T07:01:07.603Z",
+        "status": 200
       }
     ]
   },
@@ -448,16 +460,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-07-01 21:46:30",
-    "last_status": 200,
-    "last_check": "2026-07-01T21:46:30.129Z",
-    "response_ms": 603,
+    "time_change": "2026-07-02 07:01:41",
+    "last_status": 502,
+    "last_check": "2026-07-02T07:01:41.242Z",
+    "response_ms": 16784,
     "ssl_expiry": "2026-09-01",
     "history": [
-      {
-        "t": "2026-06-25T23:01:32.723Z",
-        "status": -1
-      },
       {
         "t": "2026-06-25T23:16:15.757Z",
         "status": 200
@@ -653,6 +661,10 @@
       {
         "t": "2026-07-01T21:46:30.129Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-02T07:01:41.242Z",
+        "status": 502
       }
     ]
   },
@@ -682,16 +694,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-07-01 23:57:28",
-    "last_status": 200,
-    "last_check": "2026-07-01T23:57:28.831Z",
-    "response_ms": 1756,
+    "time_change": "2026-07-02 07:01:49",
+    "last_status": 403,
+    "last_check": "2026-07-02T07:01:48.650Z",
+    "response_ms": 67,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-06-30T17:01:54.297Z",
-        "status": 500
-      },
       {
         "t": "2026-06-30T17:08:47.099Z",
         "status": 200
@@ -887,6 +895,10 @@
       {
         "t": "2026-07-01T23:57:28.831Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-02T07:01:48.650Z",
+        "status": 403
       }
     ]
   },
