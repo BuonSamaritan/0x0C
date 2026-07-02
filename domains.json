@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-02 06:30:57",
-    "last_status": 403,
-    "last_check": "2026-07-02T06:30:56.867Z",
-    "response_ms": 64,
+    "time_change": "2026-07-02 06:46:00",
+    "last_status": 200,
+    "last_check": "2026-07-02T06:46:00.029Z",
+    "response_ms": 3197,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-06-30T16:00:58.997Z",
-        "status": 403
-      },
       {
         "t": "2026-06-30T16:16:01.558Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-02T06:30:56.867Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-02T06:46:00.029Z",
+        "status": 200
       }
     ]
   },
@@ -219,18 +219,24 @@
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
-    "time_change": "2026-05-20 17:49:58",
-    "last_status": 200,
-    "last_check": "2026-06-24T09:55:01.339Z",
-    "response_ms": 663,
-    "ssl_expiry": "2026-08-29"
+    "time_change": "2026-07-02 06:46:12",
+    "last_status": 520,
+    "last_check": "2026-07-02T06:46:12.509Z",
+    "response_ms": 9003,
+    "ssl_expiry": "2026-08-29",
+    "history": [
+      {
+        "t": "2026-07-02T06:46:12.509Z",
+        "status": 520
+      }
+    ]
   },
   "cb01new": {
     "full_url": "https://cb01uno.quest/",
     "old_domain": "live",
-    "time_change": "2026-06-30 19:06:16",
-    "last_status": 200,
-    "last_check": "2026-06-30T19:06:16.369Z",
+    "time_change": "2026-07-02 06:46:48",
+    "last_status": -1,
+    "last_check": "2026-07-02T06:46:34.096Z",
     "response_ms": 754,
     "ssl_expiry": "2026-09-26",
     "history": [
@@ -241,14 +247,18 @@
       {
         "t": "2026-06-30T19:06:16.369Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-02T06:46:34.096Z",
+        "status": -1
       }
     ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.quest/",
-    "time_change": "2026-06-30 19:06:18",
-    "last_status": 200,
-    "last_check": "2026-06-30T19:06:18.384Z",
+    "time_change": "2026-07-02 06:47:20",
+    "last_status": -1,
+    "last_check": "2026-07-02T06:47:10.126Z",
     "response_ms": 460,
     "ssl_expiry": "2026-09-26",
     "history": [
@@ -275,6 +285,10 @@
       {
         "t": "2026-06-30T19:06:18.384Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-02T06:47:10.126Z",
+        "status": -1
       }
     ]
   },
@@ -878,16 +892,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-02 06:31:35",
-    "last_status": 403,
-    "last_check": "2026-07-02T06:31:34.898Z",
-    "response_ms": 64,
+    "time_change": "2026-07-02 06:48:05",
+    "last_status": 200,
+    "last_check": "2026-07-02T06:48:05.060Z",
+    "response_ms": 1317,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-06-30T13:16:33.722Z",
-        "status": 200
-      },
       {
         "t": "2026-06-30T16:16:34.192Z",
         "status": 403
@@ -1083,6 +1093,10 @@
       {
         "t": "2026-07-02T06:31:34.898Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-02T06:48:05.060Z",
+        "status": 200
       }
     ]
   },
