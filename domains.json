@@ -288,10 +288,10 @@
   },
   "guardoserie_2": {
     "full_url": "https://guardoserie.courses/",
-    "time_change": "2026-07-01 23:46:09",
-    "last_status": 200,
-    "last_check": "2026-07-01T23:46:09.765Z",
-    "response_ms": 957,
+    "time_change": "2026-07-02 06:01:11",
+    "last_status": 403,
+    "last_check": "2026-07-02T06:01:11.560Z",
+    "response_ms": 59,
     "ssl_expiry": "2026-09-20",
     "history": [
       {
@@ -329,6 +329,10 @@
       {
         "t": "2026-07-01T23:46:09.765Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-02T06:01:11.560Z",
+        "status": 403
       }
     ]
   },
@@ -874,16 +878,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-01 23:57:30",
-    "last_status": 403,
-    "last_check": "2026-07-01T23:57:30.426Z",
-    "response_ms": 29,
+    "time_change": "2026-07-02 06:01:45",
+    "last_status": 200,
+    "last_check": "2026-07-02T06:01:45.057Z",
+    "response_ms": 856,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-06-30T12:16:34.441Z",
-        "status": 200
-      },
       {
         "t": "2026-06-30T13:01:33.332Z",
         "status": 403
@@ -1079,6 +1079,10 @@
       {
         "t": "2026-07-01T23:57:30.426Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-02T06:01:45.057Z",
+        "status": 200
       }
     ]
   },
