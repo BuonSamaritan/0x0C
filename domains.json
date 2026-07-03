@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-03 17:48:48",
-    "last_status": 200,
-    "last_check": "2026-07-03T17:48:48.095Z",
-    "response_ms": 1066,
+    "time_change": "2026-07-03 18:01:13",
+    "last_status": 403,
+    "last_check": "2026-07-03T18:01:12.514Z",
+    "response_ms": 15,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-07-02T06:30:56.867Z",
-        "status": 403
-      },
       {
         "t": "2026-07-02T06:46:00.029Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-03T17:48:48.095Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-03T18:01:12.514Z",
+        "status": 403
       }
     ]
   },
@@ -718,16 +718,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-07-03 17:49:25",
-    "last_status": 403,
-    "last_check": "2026-07-03T17:49:25.411Z",
-    "response_ms": 18,
+    "time_change": "2026-07-03 18:01:57",
+    "last_status": 200,
+    "last_check": "2026-07-03T18:01:57.162Z",
+    "response_ms": 11075,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-07-01T19:31:33.153Z",
-        "status": 200
-      },
       {
         "t": "2026-07-01T21:16:25.227Z",
         "status": 403
@@ -923,21 +919,21 @@
       {
         "t": "2026-07-03T17:49:25.411Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-03T18:01:57.162Z",
+        "status": 200
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-03 17:49:27",
-    "last_status": 403,
-    "last_check": "2026-07-03T17:49:27.273Z",
-    "response_ms": 19,
+    "time_change": "2026-07-03 18:01:59",
+    "last_status": 200,
+    "last_check": "2026-07-03T18:01:59.757Z",
+    "response_ms": 1027,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-07-02T11:01:35.476Z",
-        "status": 200
-      },
       {
         "t": "2026-07-02T11:16:33.911Z",
         "status": 403
@@ -1133,6 +1129,10 @@
       {
         "t": "2026-07-03T17:49:27.273Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-03T18:01:59.757Z",
+        "status": 200
       }
     ]
   },
