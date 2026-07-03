@@ -422,10 +422,10 @@
   },
   "streamingcommunity_2": {
     "full_url": "https://streamingunity.dog/",
-    "time_change": "2026-07-03 11:51:50",
-    "last_status": 502,
-    "last_check": "2026-07-03T11:51:50.532Z",
-    "response_ms": 34,
+    "time_change": "2026-07-03 12:01:00",
+    "last_status": 200,
+    "last_check": "2026-07-03T12:01:00.554Z",
+    "response_ms": 379,
     "ssl_expiry": "2026-09-21",
     "history": [
       {
@@ -459,6 +459,10 @@
       {
         "t": "2026-07-03T11:51:50.532Z",
         "status": 502
+      },
+      {
+        "t": "2026-07-03T12:01:00.554Z",
+        "status": 200
       }
     ]
   },
@@ -480,16 +484,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-07-03 11:51:57",
-    "last_status": 502,
-    "last_check": "2026-07-03T11:51:57.003Z",
-    "response_ms": 31,
+    "time_change": "2026-07-03 12:01:11",
+    "last_status": 200,
+    "last_check": "2026-07-03T12:01:11.392Z",
+    "response_ms": 4824,
     "ssl_expiry": "2026-09-01",
     "history": [
-      {
-        "t": "2026-06-26T19:05:07.574Z",
-        "status": 200
-      },
       {
         "t": "2026-06-26T22:01:27.850Z",
         "status": 502
@@ -685,6 +685,10 @@
       {
         "t": "2026-07-03T11:51:57.003Z",
         "status": 502
+      },
+      {
+        "t": "2026-07-03T12:01:11.392Z",
+        "status": 200
       }
     ]
   },
