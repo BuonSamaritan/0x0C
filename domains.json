@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-06 22:41:30",
-    "last_status": 403,
-    "last_check": "2026-07-06T22:41:30.348Z",
-    "response_ms": 17,
+    "time_change": "2026-07-06 22:45:45",
+    "last_status": 200,
+    "last_check": "2026-07-06T22:45:45.860Z",
+    "response_ms": 1001,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-07-05T09:01:12.251Z",
-        "status": 200
-      },
       {
         "t": "2026-07-05T10:01:12.996Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-06T22:41:30.348Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-06T22:45:45.860Z",
+        "status": 200
       }
     ]
   },
@@ -305,12 +305,12 @@
     ]
   },
   "guardaserie": {
-    "full_url": "https://altadefinizionegratis.website/",
-    "time_change": "2026-06-30 20:46:10",
+    "full_url": "https://altadefinizionegratis.win/",
+    "time_change": "2026-07-06 22:45:56",
     "last_status": 200,
-    "last_check": "2026-06-30T20:46:09.976Z",
-    "response_ms": 195,
-    "ssl_expiry": "2026-09-23"
+    "last_check": "2026-07-06T22:45:56.631Z",
+    "response_ms": 381,
+    "ssl_expiry": "2026-10-04"
   },
   "guardoserie_2": {
     "full_url": "https://guardoserie.courses/",
@@ -363,12 +363,12 @@
     ]
   },
   "altadefinizione": {
-    "full_url": "https://altadefinizionegratis.website/",
-    "time_change": "2026-06-30 20:46:13",
+    "full_url": "https://altadefinizionegratis.win/",
+    "time_change": "2026-07-06 22:46:00",
     "last_status": 200,
-    "last_check": "2026-06-30T20:46:13.766Z",
-    "response_ms": 373,
-    "ssl_expiry": "2026-09-23"
+    "last_check": "2026-07-06T22:46:00.270Z",
+    "response_ms": 190,
+    "ssl_expiry": "2026-10-04"
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.pizza/",
