@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-09 11:45:42",
-    "last_status": 200,
-    "last_check": "2026-07-09T11:45:41.972Z",
-    "response_ms": 1050,
+    "time_change": "2026-07-09 12:05:42",
+    "last_status": 403,
+    "last_check": "2026-07-09T12:05:42.245Z",
+    "response_ms": 78,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-07-07T19:27:06.841Z",
-        "status": 403
-      },
       {
         "t": "2026-07-07T19:30:49.215Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-09T11:45:41.972Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-09T12:05:42.245Z",
+        "status": 403
       }
     ]
   },
@@ -306,11 +306,17 @@
   },
   "guardaserie": {
     "full_url": "https://altadefinizionegratis.win/",
-    "time_change": "2026-07-06 22:45:56",
-    "last_status": 200,
-    "last_check": "2026-07-06T22:45:56.631Z",
-    "response_ms": 381,
-    "ssl_expiry": "2026-10-04"
+    "time_change": "2026-07-09 12:06:13",
+    "last_status": 522,
+    "last_check": "2026-07-09T12:06:13.524Z",
+    "response_ms": 19437,
+    "ssl_expiry": "2026-10-04",
+    "history": [
+      {
+        "t": "2026-07-09T12:06:13.524Z",
+        "status": 522
+      }
+    ]
   },
   "guardoserie_2": {
     "full_url": "https://guardoserie.courses/",
@@ -364,11 +370,17 @@
   },
   "altadefinizione": {
     "full_url": "https://altadefinizionegratis.win/",
-    "time_change": "2026-07-06 22:46:00",
-    "last_status": 200,
-    "last_check": "2026-07-06T22:46:00.270Z",
-    "response_ms": 190,
-    "ssl_expiry": "2026-10-04"
+    "time_change": "2026-07-09 12:06:37",
+    "last_status": 522,
+    "last_check": "2026-07-09T12:06:36.975Z",
+    "response_ms": 19644,
+    "ssl_expiry": "2026-10-04",
+    "history": [
+      {
+        "t": "2026-07-09T12:06:36.975Z",
+        "status": 522
+      }
+    ]
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.pizza/",
@@ -718,11 +730,17 @@
   },
   "filmsenzalimite": {
     "full_url": "https://filmsenzalimite.one/",
-    "time_change": "2026-06-23 18:45:47",
-    "last_status": 200,
-    "last_check": "2026-07-09T06:01:15.307Z",
-    "response_ms": 503,
-    "ssl_expiry": "2026-10-07"
+    "time_change": "2026-07-09 12:07:12",
+    "last_status": 522,
+    "last_check": "2026-07-09T12:07:12.879Z",
+    "response_ms": 19400,
+    "ssl_expiry": "2026-10-07",
+    "history": [
+      {
+        "t": "2026-07-09T12:07:12.879Z",
+        "status": 522
+      }
+    ]
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
