@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-08 23:53:20",
-    "last_status": 403,
-    "last_check": "2026-07-08T23:53:20.579Z",
-    "response_ms": 16,
+    "time_change": "2026-07-09 06:00:43",
+    "last_status": 200,
+    "last_check": "2026-07-09T06:00:43.214Z",
+    "response_ms": 1030,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-07-07T15:00:48.845Z",
-        "status": 200
-      },
       {
         "t": "2026-07-07T16:30:43.939Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-08T23:53:20.579Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-09T06:00:43.214Z",
+        "status": 200
       }
     ]
   },
@@ -720,9 +720,9 @@
     "full_url": "https://filmsenzalimite.one/",
     "time_change": "2026-06-23 18:45:47",
     "last_status": 200,
-    "last_check": "2026-06-24T09:55:27.344Z",
-    "response_ms": 347,
-    "ssl_expiry": "2026-08-09"
+    "last_check": "2026-07-09T06:01:15.307Z",
+    "response_ms": 503,
+    "ssl_expiry": "2026-10-07"
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
@@ -936,16 +936,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-08 23:53:55",
-    "last_status": 403,
-    "last_check": "2026-07-08T23:53:55.543Z",
-    "response_ms": 14,
+    "time_change": "2026-07-09 06:01:20",
+    "last_status": 200,
+    "last_check": "2026-07-09T06:01:20.131Z",
+    "response_ms": 1346,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-07-07T19:16:23.519Z",
-        "status": 200
-      },
       {
         "t": "2026-07-07T20:01:37.445Z",
         "status": 403
@@ -1141,6 +1137,10 @@
       {
         "t": "2026-07-08T23:53:55.543Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-09T06:01:20.131Z",
+        "status": 200
       }
     ]
   },
