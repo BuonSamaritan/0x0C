@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-10 16:30:55",
-    "last_status": 403,
-    "last_check": "2026-07-10T16:30:54.713Z",
-    "response_ms": 58,
+    "time_change": "2026-07-10 16:45:51",
+    "last_status": 200,
+    "last_check": "2026-07-10T16:45:51.191Z",
+    "response_ms": 1058,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-07-09T06:00:43.214Z",
-        "status": 200
-      },
       {
         "t": "2026-07-09T06:15:41.253Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-10T16:30:54.713Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-10T16:45:51.191Z",
+        "status": 200
       }
     ]
   },
@@ -314,10 +314,10 @@
   },
   "guardaserie": {
     "full_url": "https://altadefinizionegratis.win/",
-    "time_change": "2026-07-10 16:31:25",
-    "last_status": -1,
-    "last_check": "2026-07-10T16:31:25.163Z",
-    "response_ms": 311,
+    "time_change": "2026-07-10 16:46:02",
+    "last_status": 200,
+    "last_check": "2026-07-10T16:46:02.310Z",
+    "response_ms": 418,
     "ssl_expiry": "2026-10-04",
     "history": [
       {
@@ -331,6 +331,10 @@
       {
         "t": "2026-07-10T16:31:25.163Z",
         "status": -1
+      },
+      {
+        "t": "2026-07-10T16:46:02.310Z",
+        "status": 200
       }
     ]
   },
@@ -768,16 +772,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-07-10 16:32:15",
-    "last_status": -1,
-    "last_check": "2026-07-10T16:32:14.565Z",
-    "response_ms": 8950,
+    "time_change": "2026-07-10 16:46:25",
+    "last_status": 502,
+    "last_check": "2026-07-10T16:46:25.660Z",
+    "response_ms": 330,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-07-09T06:31:15.769Z",
-        "status": 200
-      },
       {
         "t": "2026-07-09T07:21:19.311Z",
         "status": 403
@@ -973,6 +973,10 @@
       {
         "t": "2026-07-10T16:32:14.565Z",
         "status": -1
+      },
+      {
+        "t": "2026-07-10T16:46:25.660Z",
+        "status": 502
       }
     ]
   },
