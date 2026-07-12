@@ -990,16 +990,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-12 12:39:46",
-    "last_status": 403,
-    "last_check": "2026-07-12T12:39:46.104Z",
-    "response_ms": 24,
+    "time_change": "2026-07-12 12:46:23",
+    "last_status": 200,
+    "last_check": "2026-07-12T12:46:23.765Z",
+    "response_ms": 909,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-07-11T09:46:31.960Z",
-        "status": 200
-      },
       {
         "t": "2026-07-11T09:49:51.793Z",
         "status": 403
@@ -1195,15 +1191,19 @@
       {
         "t": "2026-07-12T12:39:46.104Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-12T12:46:23.765Z",
+        "status": 200
       }
     ]
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
-    "time_change": "2026-07-12 12:31:30",
-    "last_status": 502,
-    "last_check": "2026-07-12T12:31:30.200Z",
-    "response_ms": 312,
+    "time_change": "2026-07-12 12:46:25",
+    "last_status": 200,
+    "last_check": "2026-07-12T12:46:25.548Z",
+    "response_ms": 213,
     "ssl_expiry": "2026-08-13",
     "history": [
       {
@@ -1237,6 +1237,10 @@
       {
         "t": "2026-07-12T12:31:30.200Z",
         "status": 502
+      },
+      {
+        "t": "2026-07-12T12:46:25.548Z",
+        "status": 200
       }
     ]
   }
