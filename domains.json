@@ -219,10 +219,10 @@
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
-    "time_change": "2026-07-12 12:16:12",
-    "last_status": 503,
-    "last_check": "2026-07-12T12:16:04.715Z",
-    "response_ms": 7558,
+    "time_change": "2026-07-12 12:30:57",
+    "last_status": 200,
+    "last_check": "2026-07-12T12:30:57.434Z",
+    "response_ms": 865,
     "ssl_expiry": "2026-08-29",
     "history": [
       {
@@ -244,6 +244,10 @@
       {
         "t": "2026-07-12T12:16:04.715Z",
         "status": 503
+      },
+      {
+        "t": "2026-07-12T12:30:57.434Z",
+        "status": 200
       }
     ]
   },
@@ -776,16 +780,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-07-12 12:01:28",
-    "last_status": 200,
-    "last_check": "2026-07-12T12:01:28.842Z",
-    "response_ms": 579,
+    "time_change": "2026-07-12 12:31:25",
+    "last_status": 403,
+    "last_check": "2026-07-12T12:31:25.579Z",
+    "response_ms": 15,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-07-11T06:01:30.361Z",
-        "status": 200
-      },
       {
         "t": "2026-07-11T07:01:28.725Z",
         "status": 403
@@ -981,6 +981,10 @@
       {
         "t": "2026-07-12T12:01:28.842Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-12T12:31:25.579Z",
+        "status": 403
       }
     ]
   },
@@ -1196,10 +1200,10 @@
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
-    "time_change": "2026-07-02 18:15:25",
-    "last_status": 200,
-    "last_check": "2026-07-02T18:15:25.121Z",
-    "response_ms": 205,
+    "time_change": "2026-07-12 12:31:30",
+    "last_status": 502,
+    "last_check": "2026-07-12T12:31:30.200Z",
+    "response_ms": 312,
     "ssl_expiry": "2026-08-13",
     "history": [
       {
@@ -1229,6 +1233,10 @@
       {
         "t": "2026-07-02T18:15:25.121Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-12T12:31:30.200Z",
+        "status": 502
       }
     ]
   }
