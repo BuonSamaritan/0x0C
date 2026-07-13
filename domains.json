@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-13 19:30:36",
-    "last_status": 200,
-    "last_check": "2026-07-13T19:30:36.882Z",
-    "response_ms": 1066,
+    "time_change": "2026-07-13 19:45:33",
+    "last_status": 403,
+    "last_check": "2026-07-13T19:45:33.466Z",
+    "response_ms": 27,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-07-12T16:30:49.316Z",
-        "status": 403
-      },
       {
         "t": "2026-07-12T16:36:27.764Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-13T19:30:36.882Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-13T19:45:33.466Z",
+        "status": 403
       }
     ]
   },
@@ -780,16 +780,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-07-13 19:31:13",
-    "last_status": 403,
-    "last_check": "2026-07-13T19:31:12.782Z",
-    "response_ms": 17,
+    "time_change": "2026-07-13 19:46:12",
+    "last_status": 200,
+    "last_check": "2026-07-13T19:46:12.403Z",
+    "response_ms": 7372,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-07-12T13:16:28.942Z",
-        "status": 200
-      },
       {
         "t": "2026-07-12T14:17:15.724Z",
         "status": 403
@@ -985,21 +981,21 @@
       {
         "t": "2026-07-13T19:31:12.782Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-13T19:46:12.403Z",
+        "status": 200
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-13 19:31:34",
-    "last_status": -1,
-    "last_check": "2026-07-13T19:31:34.650Z",
-    "response_ms": 840,
+    "time_change": "2026-07-13 19:46:14",
+    "last_status": 403,
+    "last_check": "2026-07-13T19:46:14.005Z",
+    "response_ms": 36,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-07-12T15:16:31.903Z",
-        "status": 200
-      },
       {
         "t": "2026-07-12T15:31:28.428Z",
         "status": 403
@@ -1195,15 +1191,19 @@
       {
         "t": "2026-07-13T19:31:34.650Z",
         "status": -1
+      },
+      {
+        "t": "2026-07-13T19:46:14.005Z",
+        "status": 403
       }
     ]
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
-    "time_change": "2026-07-13 19:32:10",
-    "last_status": -1,
-    "last_check": "2026-07-13T19:31:56.467Z",
-    "response_ms": 196,
+    "time_change": "2026-07-13 19:46:15",
+    "last_status": 200,
+    "last_check": "2026-07-13T19:46:15.936Z",
+    "response_ms": 172,
     "ssl_expiry": "2026-10-11",
     "history": [
       {
@@ -1245,6 +1245,10 @@
       {
         "t": "2026-07-13T19:31:56.467Z",
         "status": -1
+      },
+      {
+        "t": "2026-07-13T19:46:15.936Z",
+        "status": 200
       }
     ]
   }
