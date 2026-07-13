@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-13 16:00:37",
-    "last_status": 403,
-    "last_check": "2026-07-13T16:00:37.639Z",
-    "response_ms": 17,
+    "time_change": "2026-07-13 16:30:37",
+    "last_status": 200,
+    "last_check": "2026-07-13T16:30:37.419Z",
+    "response_ms": 885,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-07-12T11:32:14.642Z",
-        "status": 200
-      },
       {
         "t": "2026-07-12T13:00:51.224Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-13T16:00:37.639Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-13T16:30:37.419Z",
+        "status": 200
       }
     ]
   },
@@ -415,11 +415,11 @@
     ]
   },
   "streamingcommunity": {
-    "full_url": "https://streamingcommunityz.pizza/",
-    "time_change": "2026-07-07 11:16:03",
+    "full_url": "https://streamingcommunityz.plus/",
+    "time_change": "2026-07-13 16:30:52",
     "last_status": 200,
-    "last_check": "2026-07-07T11:16:03.496Z",
-    "response_ms": 715,
+    "last_check": "2026-07-13T16:30:52.951Z",
+    "response_ms": 381,
     "ssl_expiry": "2026-09-20",
     "history": [
       {
@@ -780,16 +780,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-07-13 16:16:09",
-    "last_status": 403,
-    "last_check": "2026-07-13T16:16:08.879Z",
-    "response_ms": 18,
+    "time_change": "2026-07-13 16:31:09",
+    "last_status": 200,
+    "last_check": "2026-07-13T16:31:09.384Z",
+    "response_ms": 1023,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-07-12T11:32:56.481Z",
-        "status": 200
-      },
       {
         "t": "2026-07-12T11:46:25.820Z",
         "status": 403
@@ -985,21 +981,21 @@
       {
         "t": "2026-07-13T16:16:08.879Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-13T16:31:09.384Z",
+        "status": 200
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-13 16:16:11",
-    "last_status": 200,
-    "last_check": "2026-07-13T16:16:11.663Z",
-    "response_ms": 997,
+    "time_change": "2026-07-13 16:31:11",
+    "last_status": 403,
+    "last_check": "2026-07-13T16:31:10.953Z",
+    "response_ms": 18,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-07-12T12:39:46.104Z",
-        "status": 403
-      },
       {
         "t": "2026-07-12T12:46:23.765Z",
         "status": 200
@@ -1195,6 +1191,10 @@
       {
         "t": "2026-07-13T16:16:11.663Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-13T16:31:10.953Z",
+        "status": 403
       }
     ]
   },
