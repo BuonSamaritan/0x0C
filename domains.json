@@ -416,9 +416,9 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.report/",
-    "time_change": "2026-07-15 17:21:12",
-    "last_status": 200,
-    "last_check": "2026-07-15T17:21:12.418Z",
+    "time_change": "2026-07-15 17:30:49",
+    "last_status": -1,
+    "last_check": "2026-07-15T17:30:49.372Z",
     "response_ms": 429,
     "ssl_expiry": "2026-09-20",
     "history": [
@@ -477,6 +477,10 @@
       {
         "t": "2026-07-15T17:21:12.418Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-15T17:30:49.372Z",
+        "status": -1
       }
     ]
   },
