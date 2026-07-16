@@ -252,13 +252,13 @@
     ]
   },
   "cb01new": {
-    "full_url": "https://cb01uno.fun/",
+    "full_url": "https://cb01uno.site/",
     "old_domain": "live",
-    "time_change": "2026-07-14 06:00:41",
+    "time_change": "2026-07-16 00:56:58",
     "last_status": 200,
-    "last_check": "2026-07-14T06:00:41.618Z",
-    "response_ms": 446,
-    "ssl_expiry": "2026-09-26",
+    "last_check": "2026-07-16T00:56:58.279Z",
+    "response_ms": 644,
+    "ssl_expiry": "2026-09-27",
     "history": [
       {
         "t": "2026-06-30T19:01:09.951Z",
@@ -279,12 +279,12 @@
     ]
   },
   "cb01_2": {
-    "full_url": "https://cb01uno.fun/",
-    "time_change": "2026-07-14 06:00:43",
+    "full_url": "https://cb01uno.site/",
+    "time_change": "2026-07-16 00:57:00",
     "last_status": 200,
-    "last_check": "2026-07-14T06:00:43.615Z",
-    "response_ms": 451,
-    "ssl_expiry": "2026-09-26",
+    "last_check": "2026-07-16T00:57:00.432Z",
+    "response_ms": 604,
+    "ssl_expiry": "2026-09-27",
     "history": [
       {
         "t": "2026-06-26T18:30:57.762Z",
@@ -1006,16 +1006,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-15 23:45:58",
-    "last_status": 403,
-    "last_check": "2026-07-15T23:45:57.986Z",
-    "response_ms": 51,
+    "time_change": "2026-07-16 00:57:28",
+    "last_status": 200,
+    "last_check": "2026-07-16T00:57:28.821Z",
+    "response_ms": 961,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-07-14T13:46:20.225Z",
-        "status": 200
-      },
       {
         "t": "2026-07-14T14:01:12.306Z",
         "status": 403
@@ -1211,6 +1207,10 @@
       {
         "t": "2026-07-15T23:45:57.986Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-16T00:57:28.821Z",
+        "status": 200
       }
     ]
   },
