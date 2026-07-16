@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-16 18:15:53",
-    "last_status": 403,
-    "last_check": "2026-07-16T18:15:53.482Z",
-    "response_ms": 19,
+    "time_change": "2026-07-16 18:30:54",
+    "last_status": 200,
+    "last_check": "2026-07-16T18:30:54.771Z",
+    "response_ms": 1002,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-07-15T06:15:18.446Z",
-        "status": 200
-      },
       {
         "t": "2026-07-15T07:15:16.741Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-16T18:15:53.482Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-16T18:30:54.771Z",
+        "status": 200
       }
     ]
   },
@@ -416,10 +416,10 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.report/",
-    "time_change": "2026-07-16 18:16:41",
-    "last_status": -1,
-    "last_check": "2026-07-16T18:16:30.379Z",
-    "response_ms": 401,
+    "time_change": "2026-07-16 18:31:12",
+    "last_status": 200,
+    "last_check": "2026-07-16T18:31:12.117Z",
+    "response_ms": 470,
     "ssl_expiry": "2026-09-20",
     "history": [
       {
@@ -497,6 +497,10 @@
       {
         "t": "2026-07-16T18:16:30.379Z",
         "status": -1
+      },
+      {
+        "t": "2026-07-16T18:31:12.117Z",
+        "status": 200
       }
     ]
   },
