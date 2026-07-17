@@ -1286,12 +1286,30 @@
   },
   "lucida": {
     "full_url": "https://lucida.to/",
-    "last_status": null,
-    "time_change": "2026-07-17 07:16:57"
+    "last_status": 403,
+    "time_change": "2026-07-17 07:31:37",
+    "last_check": "2026-07-17T07:31:36.961Z",
+    "response_ms": 62,
+    "ssl_expiry": "2026-09-04",
+    "history": [
+      {
+        "t": "2026-07-17T07:31:36.961Z",
+        "status": 403
+      }
+    ]
   },
   "monochrome": {
     "full_url": "https://monochrome.tf/",
-    "last_status": null,
-    "time_change": "2026-07-17 07:17:09"
+    "last_status": 200,
+    "time_change": "2026-07-17 07:31:39",
+    "last_check": "2026-07-17T07:31:39.174Z",
+    "response_ms": 124,
+    "ssl_expiry": "2026-09-26",
+    "history": [
+      {
+        "t": "2026-07-17T07:31:39.174Z",
+        "status": 200
+      }
+    ]
   }
 }
