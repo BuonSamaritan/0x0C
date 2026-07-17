@@ -1283,5 +1283,10 @@
         "status": 200
       }
     ]
+  },
+  "lucida": {
+    "full_url": "https://lucida.to/",
+    "last_status": null,
+    "time_change": "2026-07-17 07:16:57"
   }
 }
