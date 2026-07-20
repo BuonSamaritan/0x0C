@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-20 19:00:29",
-    "last_status": 200,
-    "last_check": "2026-07-20T19:00:29.121Z",
-    "response_ms": 950,
+    "time_change": "2026-07-20 19:30:27",
+    "last_status": 403,
+    "last_check": "2026-07-20T19:30:27.107Z",
+    "response_ms": 60,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-07-19T09:46:14.518Z",
-        "status": 403
-      },
       {
         "t": "2026-07-19T10:01:09.226Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-20T19:00:29.121Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-20T19:30:27.107Z",
+        "status": 403
       }
     ]
   },
@@ -252,12 +252,12 @@
     ]
   },
   "cb01new": {
-    "full_url": "https://cb01uno.site/",
+    "full_url": "https://cb01uno.xyz/",
     "old_domain": "live",
-    "time_change": "2026-07-16 00:56:58",
+    "time_change": "2026-07-20 19:30:34",
     "last_status": 200,
-    "last_check": "2026-07-16T00:56:58.279Z",
-    "response_ms": 644,
+    "last_check": "2026-07-20T19:30:34.179Z",
+    "response_ms": 587,
     "ssl_expiry": "2026-09-27",
     "history": [
       {
@@ -279,11 +279,11 @@
     ]
   },
   "cb01_2": {
-    "full_url": "https://cb01uno.site/",
-    "time_change": "2026-07-16 00:57:00",
+    "full_url": "https://cb01uno.xyz/",
+    "time_change": "2026-07-20 19:30:36",
     "last_status": 200,
-    "last_check": "2026-07-16T00:57:00.432Z",
-    "response_ms": 604,
+    "last_check": "2026-07-20T19:30:36.374Z",
+    "response_ms": 601,
     "ssl_expiry": "2026-09-27",
     "history": [
       {
