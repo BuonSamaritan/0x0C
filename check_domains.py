@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""
-Controlla lo stato dei domini in domains.json e aggiorna il file.
-
-- HTTP con curl_cffi (impersona Chrome → bypassa la maggior parte dei blocchi
-  403 / Cloudflare che fermavano la vecchia versione basata su httpx).
-- Risoluzione DNS via Google DNS-over-HTTPS (https://dns.google/resolve):
-  l'IP ottenuto da Google viene forzato sulla connessione tramite
-  CURLOPT_RESOLVE, così il check non dipende dal resolver del runner né da
-  eventuali DNS poisoning.
-
-Usato dalla GitHub Action, gira identico anche in locale.
-"""
 
 import json
 import os
@@ -26,26 +14,20 @@ from urllib.parse import urlparse, quote
 from curl_cffi import requests as cffi
 from curl_cffi import CurlOpt
 
-# Console UTF-8 anche su Windows (in CI Ubuntu è già utf-8).
 try:
     sys.stdout.reconfigure(encoding="utf-8")
     sys.stderr.reconfigure(encoding="utf-8")
 except Exception:
     pass
 
-# ── Configurazioni ─────────────────────────────────────────────────────────────
-TIMEOUT_S         = 20      # secondi per richiesta diretta
-TRANSLATE_TIMEOUT = 40      # secondi per Google Translate
-DELAY_BETWEEN     = 1.5     # pausa tra un dominio e l'altro
+TIMEOUT_S         = 20
+TRANSLATE_TIMEOUT = 40
+DELAY_BETWEEN     = 1.5
 MAX_REDIRECTS     = 10
 GOOGLE_DOH        = "https://dns.google/resolve"
-SSL_TIMEOUT_S     = 7       # secondi per la lettura del certificato TLS
-HISTORY_CAP       = 50      # numero massimo di punti di transizione per dominio
+SSL_TIMEOUT_S     = 7
+HISTORY_CAP       = 50
 
-# Gli header (User-Agent, sec-ch-ua, Accept, Accept-Language, ecc.) sono generati
-# da curl_cffi in base al browser impersonato: sono coerenti con il fingerprint
-# TLS, quindi molto più affidabili di header scritti a mano. Ruotiamo tra diversi
-# browser reali: cambia insieme sia il TLS che il set di header.
 IMPERSONATE_POOL = [
     "chrome146", "chrome145", "chrome142", "chrome136",
     "firefox147", "safari184", "edge101",
@@ -59,9 +41,6 @@ def pick_impersonate() -> str:
 DOMAINS_FILE = os.environ.get("DOMAINS_FILE", "domains.json")
 
 
-# Pagine "anti-VPN"/interstitial: alcuni siti (es. mapple) reindirizzano gli IP
-# datacenter/VPN/proxy a una pagina tipo disablevpn.* . Non va mai salvata come
-# nuovo dominio, e su questi siti il proxy va EVITATO (peggiora le cose).
 INTERSTITIAL_MARKERS = ("disablevpn", "disable-vpn", "vpncheck", "vpn-check", "blockvpn")
 
 
@@ -78,12 +57,10 @@ def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
 
 
-# ── Google DNS (DoH) ────────────────────────────────────────────────────────────
 _dns_cache: dict[str, str | None] = {}
 
 
 def resolve_google(host: str) -> str | None:
-    """Risolve un hostname via Google DNS-over-HTTPS. Ritorna un IPv4 o None."""
     if host in _dns_cache:
         return _dns_cache[host]
     ip = None
@@ -105,7 +82,6 @@ def resolve_google(host: str) -> str | None:
 
 
 def apply_google_dns(session: cffi.Session, url: str) -> None:
-    """Forza sulla sessione l'IP Google per l'host dell'URL (CURLOPT_RESOLVE)."""
     host = urlparse(url).hostname
     if not host:
         return
@@ -119,12 +95,7 @@ def apply_google_dns(session: cffi.Session, url: str) -> None:
         print(f"  ⚠️  RESOLVE setopt fallito per {host}: {e}")
 
 
-# ── Scadenza certificato TLS (best-effort) ──────────────────────────────────────
 def get_ssl_expiry(url: str) -> str | None:
-    """Data di scadenza (YYYY-MM-DD) del certificato TLS dell'host. None su errore.
-
-    Usa l'IP risolto da Google (coerente col check HTTP) ma tiene l'SNI corretto.
-    """
     host = urlparse(url).hostname
     if not host:
         return None
@@ -136,7 +107,7 @@ def get_ssl_expiry(url: str) -> str | None:
                 cert = ss.getpeercert()
         if not cert or "notAfter" not in cert:
             return None
-        na = str(cert["notAfter"])  # 'Jun 24 12:00:00 2026 GMT'
+        na = str(cert["notAfter"])
         dt = datetime.strptime(na, "%b %d %H:%M:%S %Y %Z").replace(tzinfo=timezone.utc)
         return dt.date().isoformat()
     except Exception as e:
@@ -144,7 +115,6 @@ def get_ssl_expiry(url: str) -> str | None:
         return None
 
 
-# ── Check diretto con follow redirect manuale ───────────────────────────────────
 def direct_check(session: cffi.Session, url: str, imp: str) -> dict:
     current_url = url
     visited = []
@@ -160,7 +130,7 @@ def direct_check(session: cffi.Session, url: str, imp: str) -> dict:
                 timeout=TIMEOUT_S,
                 impersonate=imp,
             )
-            response_ms = round((time.perf_counter() - t0) * 1000)  # ultima richiesta misurata
+            response_ms = round((time.perf_counter() - t0) * 1000)
             status_code = res.status_code
             location = res.headers.get("location", "")
 
@@ -190,7 +160,6 @@ def direct_check(session: cffi.Session, url: str, imp: str) -> dict:
     return {"status": final_status, "final_url": final_url, "response_ms": response_ms}
 
 
-# ── Bypass Google Translate (ultima spiaggia) ───────────────────────────────────
 def extract_new_url(html: str, original_url: str) -> str | None:
     m = re.search(r'<base[^>]+href=["\']([^"\']+)["\']', html, re.I)
     if m:
@@ -241,17 +210,8 @@ def google_translate_proxy(session: cffi.Session, url: str, imp: str) -> dict:
         return {"success": False, "error": str(e)}
 
 
-# ── Costruzione update entry (centralizza i campi nuovi + history) ───────────────
 def make_update(config: dict, *, status: int, checked: str, response_ms,
                 ssl_exp, full_url=None, status_changed: bool, url_changed: bool) -> dict:
-    """Ritorna la nuova config con i campi aggiornati.
-
-    - response_ms / ssl_expiry: scritti solo quando c'è già una scrittura (campi "freschi"
-      al momento del cambio); non forzano commit da soli (vedi process_site).
-    - time_change: solo su cambio status o URL.
-    - history: punto di transizione aggiunto solo al cambio di status (sparkline a
-      transizioni), capato agli ultimi HISTORY_CAP.
-    """
     new = dict(config)
     if full_url is not None:
         new["full_url"] = full_url
@@ -270,7 +230,6 @@ def make_update(config: dict, *, status: int, checked: str, response_ms,
     return new
 
 
-# ── Processa un singolo sito ────────────────────────────────────────────────────
 def process_site(session: cffi.Session, name: str, config: dict) -> dict | None:
     url = config.get("full_url", "")
     if not url:
@@ -284,21 +243,17 @@ def process_site(session: cffi.Session, name: str, config: dict) -> dict | None:
     response_ms = result.get("response_ms")
     checked = now_iso()
 
-    target_url = url        # URL da salvare: cambia solo su redirect/translate validi
+    target_url = url
     url_changed = False
 
     if is_interstitial(final_url):
-        # Pagina anti-VPN (es. mapple → disablevpn.*): tieni l'URL originale e
-        # registra solo lo status, senza salvare quella pagina come nuovo dominio.
         print(f"  🛡️  Pagina anti-VPN ({final_url}) → mantengo {url}")
     elif final_url != url and status == 200:
-        # Redirect risolto: URL cambiato
         print(f"  ↳ Redirect a: {final_url}")
         target_url, url_changed = final_url, True
     elif status == 200:
         pass
     elif status in (403, 503, 429, -1):
-        # Blocco → prova Google Translate
         print(f"  ⚠️  Blocco (status {status}), provo Google Translate...")
         bypass = google_translate_proxy(session, url, imp)
         if bypass["success"]:
@@ -308,13 +263,11 @@ def process_site(session: cffi.Session, name: str, config: dict) -> dict | None:
         else:
             print(f"  ❌ Bypass fallito: {bypass['error']}")
 
-    # SSL best-effort sull'host effettivo (salta se la connessione è fallita).
     ssl_exp = None if status == -1 else get_ssl_expiry(target_url)
 
     status_changed = config.get("last_status") != status
     ssl_changed = ssl_exp is not None and ssl_exp != config.get("ssl_expiry")
 
-    # Scrive (→ commit) solo se cambia status, URL o scadenza SSL: cadenza invariata.
     if status_changed or url_changed or ssl_changed:
         return make_update(
             config,
@@ -330,7 +283,6 @@ def process_site(session: cffi.Session, name: str, config: dict) -> dict | None:
     return None
 
 
-# ── Main ────────────────────────────────────────────────────────────────────────
 def main():
     if not os.path.exists(DOMAINS_FILE):
         print(f"❌ File non trovato: {DOMAINS_FILE}", file=sys.stderr)

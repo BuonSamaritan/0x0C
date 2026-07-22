@@ -2,17 +2,12 @@ name: Update Domains
 
 on:
   schedule:
-    # Ogni 15 minuti dalle 06:00 alle 23:59 UTC
     - cron: "*/15 6-23 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# Serializza tutte le esecuzioni (schedule + /run via workflow_dispatch): due run
-# non girano mai in parallelo, cosi' l'unica sorgente di push concorrente resta il
-# Worker (POST/PUT/DELETE /domains). cancel-in-progress: false -> il run in coda
-# aspetta invece di essere cancellato (non perdiamo un check).
 concurrency:
   group: update-domains
   cancel-in-progress: false
@@ -50,12 +45,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # domains.json e' un file GENERATO: in caso di push respinto NON si fa
-          # rebase riga-per-riga (produrrebbe conflitti, come accaduto). Si riparte
-          # dal remote fresco e si RICALCOLA: check_domains.py legge l'intero dict,
-          # aggiorna solo le entry che controlla e riscrive tutto -> eventuali
-          # modifiche remote (Worker POST/PUT/DELETE) vengono preservate. Lo script
-          # e' quindi la funzione di merge corretta e il push converge senza conflitti.
           for i in 1 2 3; do
             git add domains.json
             if git diff --cached --quiet; then
