@@ -1321,10 +1321,5 @@
         "status": 200
       }
     ]
-  },
-  "claudetest_1784725734": {
-    "full_url": "https://example-test-domain-changed.invalid/",
-    "last_status": null,
-    "time_change": "2026-07-22 13:09:09"
   }
 }
