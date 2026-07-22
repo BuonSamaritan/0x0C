@@ -568,16 +568,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-07-22 16:00:49",
-    "last_status": 502,
-    "last_check": "2026-07-22T16:00:49.328Z",
-    "response_ms": 679,
+    "time_change": "2026-07-22 16:08:36",
+    "last_status": 200,
+    "last_check": "2026-07-22T16:08:36.862Z",
+    "response_ms": 678,
     "ssl_expiry": "2026-09-01",
     "history": [
-      {
-        "t": "2026-07-01T20:16:20.137Z",
-        "status": 200
-      },
       {
         "t": "2026-07-01T21:01:41.735Z",
         "status": -1
@@ -773,6 +769,10 @@
       {
         "t": "2026-07-22T16:00:49.328Z",
         "status": 502
+      },
+      {
+        "t": "2026-07-22T16:08:36.862Z",
+        "status": 200
       }
     ]
   },
@@ -1032,16 +1032,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-22 15:01:03",
-    "last_status": 200,
-    "last_check": "2026-07-22T15:01:03.963Z",
-    "response_ms": 945,
+    "time_change": "2026-07-22 16:08:47",
+    "last_status": 403,
+    "last_check": "2026-07-22T16:08:47.379Z",
+    "response_ms": 31,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-07-19T14:30:57.890Z",
-        "status": 403
-      },
       {
         "t": "2026-07-19T14:45:58.542Z",
         "status": 200
@@ -1237,6 +1233,10 @@
       {
         "t": "2026-07-22T15:01:03.963Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-22T16:08:47.379Z",
+        "status": 403
       }
     ]
   },
