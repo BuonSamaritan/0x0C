@@ -398,10 +398,10 @@
   },
   "altadefinizione": {
     "full_url": "https://altadefinizionegratis.motorcycles/",
-    "time_change": "2026-07-23 01:17:05",
-    "last_status": 200,
-    "last_check": "2026-07-23T01:17:05.713Z",
-    "response_ms": 174,
+    "time_change": "2026-07-25 06:15:51",
+    "last_status": 522,
+    "last_check": "2026-07-25T06:15:51.802Z",
+    "response_ms": 19461,
     "ssl_expiry": "2026-10-20",
     "history": [
       {
@@ -411,6 +411,10 @@
       {
         "t": "2026-07-09T12:16:01.110Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-25T06:15:51.802Z",
+        "status": 522
       }
     ]
   },
@@ -786,10 +790,10 @@
   },
   "tantifilm_2": {
     "full_url": "https://tanti-film.top/",
-    "time_change": "2026-07-23 16:30:52",
-    "last_status": 200,
-    "last_check": "2026-07-23T16:30:52.617Z",
-    "response_ms": 27,
+    "time_change": "2026-07-25 06:16:26",
+    "last_status": 522,
+    "last_check": "2026-07-25T06:16:26.183Z",
+    "response_ms": 19755,
     "ssl_expiry": "2026-10-21",
     "history": [
       {
@@ -799,6 +803,10 @@
       {
         "t": "2026-07-20T20:10:15.245Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-25T06:16:26.183Z",
+        "status": 522
       }
     ]
   },
@@ -1032,16 +1040,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-24 23:15:50",
-    "last_status": 200,
-    "last_check": "2026-07-24T23:15:50.073Z",
-    "response_ms": 649,
+    "time_change": "2026-07-25 06:16:32",
+    "last_status": 403,
+    "last_check": "2026-07-25T06:16:31.796Z",
+    "response_ms": 39,
     "ssl_expiry": "2026-08-25",
     "history": [
-      {
-        "t": "2026-07-23T16:17:33.078Z",
-        "status": 403
-      },
       {
         "t": "2026-07-23T16:31:02.895Z",
         "status": 200
@@ -1237,6 +1241,10 @@
       {
         "t": "2026-07-24T23:15:50.073Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-25T06:16:31.796Z",
+        "status": 403
       }
     ]
   },
