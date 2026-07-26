@@ -1316,24 +1316,6 @@
       }
     ]
   },
-  "lucida": {
-    "full_url": "https://lucida.to/",
-    "last_status": 200,
-    "time_change": "2026-07-24 11:15:58",
-    "last_check": "2026-07-24T11:15:58.501Z",
-    "response_ms": 469,
-    "ssl_expiry": "2026-09-04",
-    "history": [
-      {
-        "t": "2026-07-17T07:31:36.961Z",
-        "status": 403
-      },
-      {
-        "t": "2026-07-24T11:15:58.501Z",
-        "status": 200
-      }
-    ]
-  },
   "monochrome": {
     "full_url": "https://monochrome.tf/",
     "last_status": 200,
