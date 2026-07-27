@@ -423,12 +423,12 @@
     ]
   },
   "streamingcommunity": {
-    "full_url": "https://streamingcommunityz.today/",
-    "time_change": "2026-07-26 17:00:36",
+    "full_url": "https://streamingcommunityz.vin/",
+    "time_change": "2026-07-27 11:45:44",
     "last_status": 200,
-    "last_check": "2026-07-26T17:00:36.670Z",
-    "response_ms": 354,
-    "ssl_expiry": "2026-09-20",
+    "last_check": "2026-07-27T11:45:44.164Z",
+    "response_ms": 551,
+    "ssl_expiry": "2026-10-21",
     "history": [
       {
         "t": "2026-06-25T20:16:23.399Z",
