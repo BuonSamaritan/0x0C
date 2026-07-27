@@ -252,12 +252,12 @@
     ]
   },
   "cb01new": {
-    "full_url": "https://cb01uno.skin/",
+    "full_url": "https://cb01uno.bond/",
     "old_domain": "live",
-    "time_change": "2026-07-24 06:00:29",
+    "time_change": "2026-07-27 16:45:27",
     "last_status": 200,
-    "last_check": "2026-07-24T06:00:29.868Z",
-    "response_ms": 977,
+    "last_check": "2026-07-27T16:45:27.926Z",
+    "response_ms": 419,
     "ssl_expiry": "2026-09-26",
     "history": [
       {
@@ -279,11 +279,11 @@
     ]
   },
   "cb01_2": {
-    "full_url": "https://cb01uno.skin/",
-    "time_change": "2026-07-24 06:00:32",
+    "full_url": "https://cb01uno.bond/",
+    "time_change": "2026-07-27 16:45:29",
     "last_status": 200,
-    "last_check": "2026-07-24T06:00:32.526Z",
-    "response_ms": 1093,
+    "last_check": "2026-07-27T16:45:29.752Z",
+    "response_ms": 285,
     "ssl_expiry": "2026-09-26",
     "history": [
       {
