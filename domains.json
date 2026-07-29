@@ -221,9 +221,9 @@
     "full_url": "https://www.animeworld.ac/",
     "time_change": "2026-07-12 12:30:57",
     "last_status": 200,
-    "last_check": "2026-07-12T12:30:57.434Z",
-    "response_ms": 865,
-    "ssl_expiry": "2026-08-29",
+    "last_check": "2026-07-29T21:00:08.261Z",
+    "response_ms": 693,
+    "ssl_expiry": "2026-10-27",
     "history": [
       {
         "t": "2026-07-02T06:46:12.509Z",
@@ -598,16 +598,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-07-29 20:15:55",
-    "last_status": 200,
-    "last_check": "2026-07-29T20:15:55.752Z",
+    "time_change": "2026-07-29 21:01:01",
+    "last_status": -1,
+    "last_check": "2026-07-29T21:00:46.970Z",
     "response_ms": 747,
     "ssl_expiry": "2026-09-01",
     "history": [
-      {
-        "t": "2026-07-18T07:16:16.882Z",
-        "status": 200
-      },
       {
         "t": "2026-07-19T09:01:37.021Z",
         "status": 502
@@ -803,6 +799,10 @@
       {
         "t": "2026-07-29T20:15:55.752Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-29T21:00:46.970Z",
+        "status": -1
       }
     ]
   },
@@ -860,16 +860,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-07-29 20:31:04",
-    "last_status": 200,
-    "last_check": "2026-07-29T20:31:04.187Z",
-    "response_ms": 552,
+    "time_change": "2026-07-29 21:01:08",
+    "last_status": 403,
+    "last_check": "2026-07-29T21:01:08.336Z",
+    "response_ms": 34,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-07-28T14:31:02.592Z",
-        "status": 403
-      },
       {
         "t": "2026-07-28T14:46:01.539Z",
         "status": 200
@@ -1065,21 +1061,21 @@
       {
         "t": "2026-07-29T20:31:04.187Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-29T21:01:08.336Z",
+        "status": 403
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-29 19:47:39",
-    "last_status": 200,
-    "last_check": "2026-07-29T19:47:39.650Z",
-    "response_ms": 944,
+    "time_change": "2026-07-29 21:01:10",
+    "last_status": 403,
+    "last_check": "2026-07-29T21:01:10.244Z",
+    "response_ms": 27,
     "ssl_expiry": "2026-10-23",
     "history": [
-      {
-        "t": "2026-07-28T09:01:09.244Z",
-        "status": 403
-      },
       {
         "t": "2026-07-28T09:16:08.807Z",
         "status": 200
@@ -1275,6 +1271,10 @@
       {
         "t": "2026-07-29T19:47:39.650Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-29T21:01:10.244Z",
+        "status": 403
       }
     ]
   },
