@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-07-30 15:15:57",
-    "last_status": 200,
-    "last_check": "2026-07-30T15:15:57.854Z",
-    "response_ms": 752,
+    "time_change": "2026-07-30 15:45:54",
+    "last_status": 403,
+    "last_check": "2026-07-30T15:45:53.875Z",
+    "response_ms": 14,
     "ssl_expiry": "2026-09-02",
     "history": [
-      {
-        "t": "2026-07-29T07:15:23.521Z",
-        "status": 403
-      },
       {
         "t": "2026-07-29T07:30:27.740Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-07-30T15:15:57.854Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-30T15:45:53.875Z",
+        "status": 403
       }
     ]
   },
@@ -1296,9 +1296,9 @@
   },
   "cinezo": {
     "full_url": "https://www.cinezo.net/",
-    "time_change": "2026-07-28 09:46:15",
-    "last_status": 200,
-    "last_check": "2026-07-28T09:46:15.042Z",
+    "time_change": "2026-07-30 15:46:33",
+    "last_status": -1,
+    "last_check": "2026-07-30T15:46:32.978Z",
     "response_ms": 452,
     "ssl_expiry": "2026-10-11",
     "history": [
@@ -1353,6 +1353,10 @@
       {
         "t": "2026-07-28T09:46:15.042Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-30T15:46:32.978Z",
+        "status": -1
       }
     ]
   },
