@@ -576,10 +576,10 @@
   },
   "eurostreaming": {
     "full_url": "https://eurostream.live/",
-    "time_change": "2026-07-29 09:30:44",
-    "last_status": 200,
-    "last_check": "2026-07-29T09:30:44.522Z",
-    "response_ms": 616,
+    "time_change": "2026-07-30 06:01:08",
+    "last_status": 522,
+    "last_check": "2026-07-30T06:01:08.516Z",
+    "response_ms": 19670,
     "ssl_expiry": "2026-10-23",
     "history": [
       {
@@ -593,6 +593,10 @@
       {
         "t": "2026-07-29T09:30:44.522Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-30T06:01:08.516Z",
+        "status": 522
       }
     ]
   },
