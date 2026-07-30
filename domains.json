@@ -424,9 +424,9 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.team/",
-    "time_change": "2026-07-29 10:30:48",
-    "last_status": 200,
-    "last_check": "2026-07-29T10:30:48.185Z",
+    "time_change": "2026-07-30 06:46:01",
+    "last_status": -1,
+    "last_check": "2026-07-30T06:46:00.337Z",
     "response_ms": 535,
     "ssl_expiry": "2026-10-21",
     "history": [
@@ -517,6 +517,10 @@
       {
         "t": "2026-07-26T17:00:36.670Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-30T06:46:00.337Z",
+        "status": -1
       }
     ]
   },
@@ -868,16 +872,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-07-29 23:30:54",
-    "last_status": 200,
-    "last_check": "2026-07-29T23:30:54.480Z",
-    "response_ms": 833,
+    "time_change": "2026-07-30 06:46:17",
+    "last_status": 403,
+    "last_check": "2026-07-30T06:46:16.756Z",
+    "response_ms": 21,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-07-28T17:16:10.060Z",
-        "status": 403
-      },
       {
         "t": "2026-07-28T17:46:08.398Z",
         "status": 200
@@ -1073,6 +1073,10 @@
       {
         "t": "2026-07-29T23:30:54.480Z",
         "status": 200
+      },
+      {
+        "t": "2026-07-30T06:46:16.756Z",
+        "status": 403
       }
     ]
   },
