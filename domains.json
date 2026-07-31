@@ -839,12 +839,12 @@
     "ssl_expiry": "2026-09-16"
   },
   "tantifilm_2": {
-    "full_url": "https://tanti-film.top/",
-    "time_change": "2026-07-25 06:30:43",
+    "full_url": "https://tanti-film.shop/",
+    "time_change": "2026-07-31 23:31:21",
     "last_status": 200,
-    "last_check": "2026-07-25T06:30:43.571Z",
-    "response_ms": 406,
-    "ssl_expiry": "2026-10-21",
+    "last_check": "2026-07-31T23:31:21.109Z",
+    "response_ms": 25,
+    "ssl_expiry": "2026-10-29",
     "history": [
       {
         "t": "2026-07-20T20:01:58.057Z",
@@ -1094,16 +1094,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-31 23:16:26",
-    "last_status": 403,
-    "last_check": "2026-07-31T23:16:26.495Z",
-    "response_ms": 17,
+    "time_change": "2026-07-31 23:31:27",
+    "last_status": 200,
+    "last_check": "2026-07-31T23:31:26.975Z",
+    "response_ms": 658,
     "ssl_expiry": "2026-10-23",
     "history": [
-      {
-        "t": "2026-07-30T15:01:22.470Z",
-        "status": 200
-      },
       {
         "t": "2026-07-30T15:16:33.203Z",
         "status": 403
@@ -1299,6 +1295,10 @@
       {
         "t": "2026-07-31T23:16:26.495Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-31T23:31:26.975Z",
+        "status": 200
       }
     ]
   },
