@@ -321,12 +321,12 @@
     ]
   },
   "guardaserie": {
-    "full_url": "https://altadefinizionegratis.trade/",
-    "time_change": "2026-07-27 13:30:39",
+    "full_url": "https://altadefinizionegratis.co/",
+    "time_change": "2026-07-31 20:45:57",
     "last_status": 200,
-    "last_check": "2026-07-27T13:30:39.257Z",
-    "response_ms": 400,
-    "ssl_expiry": "2026-10-24",
+    "last_check": "2026-07-31T20:45:57.750Z",
+    "response_ms": 177,
+    "ssl_expiry": "2026-10-29",
     "history": [
       {
         "t": "2026-07-09T12:06:13.524Z",
@@ -348,9 +348,9 @@
   },
   "guardoserie_2": {
     "full_url": "https://guardoserie.courses/",
-    "time_change": "2026-07-02 06:01:11",
-    "last_status": 403,
-    "last_check": "2026-07-02T06:01:11.560Z",
+    "time_change": "2026-07-31 20:46:19",
+    "last_status": -1,
+    "last_check": "2026-07-31T20:46:19.305Z",
     "response_ms": 59,
     "ssl_expiry": "2026-09-20",
     "history": [
@@ -393,16 +393,20 @@
       {
         "t": "2026-07-02T06:01:11.560Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-31T20:46:19.305Z",
+        "status": -1
       }
     ]
   },
   "altadefinizione": {
-    "full_url": "https://altadefinizionegratis.trade/",
-    "time_change": "2026-07-27 13:30:43",
+    "full_url": "https://altadefinizionegratis.co/",
+    "time_change": "2026-07-31 20:46:21",
     "last_status": 200,
-    "last_check": "2026-07-27T13:30:43.320Z",
-    "response_ms": 314,
-    "ssl_expiry": "2026-10-24",
+    "last_check": "2026-07-31T20:46:21.185Z",
+    "response_ms": 169,
+    "ssl_expiry": "2026-10-29",
     "history": [
       {
         "t": "2026-07-09T12:06:36.975Z",
@@ -1086,16 +1090,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-07-31 20:31:31",
-    "last_status": 403,
-    "last_check": "2026-07-31T20:31:30.910Z",
-    "response_ms": 45,
+    "time_change": "2026-07-31 20:46:41",
+    "last_status": 200,
+    "last_check": "2026-07-31T20:46:41.755Z",
+    "response_ms": 686,
     "ssl_expiry": "2026-10-23",
     "history": [
-      {
-        "t": "2026-07-30T10:30:59.389Z",
-        "status": 403
-      },
       {
         "t": "2026-07-30T10:46:02.573Z",
         "status": 200
@@ -1291,6 +1291,10 @@
       {
         "t": "2026-07-31T20:31:30.910Z",
         "status": 403
+      },
+      {
+        "t": "2026-07-31T20:46:41.755Z",
+        "status": 200
       }
     ]
   },
