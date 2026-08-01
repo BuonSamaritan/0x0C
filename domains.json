@@ -624,9 +624,9 @@
     "full_url": "https://filmpertutti.garden/",
     "time_change": "2026-07-31 21:16:26",
     "last_status": 200,
-    "last_check": "2026-07-31T21:16:26.209Z",
-    "response_ms": 723,
-    "ssl_expiry": "2026-09-01",
+    "last_check": "2026-08-01T17:16:12.477Z",
+    "response_ms": 555,
+    "ssl_expiry": "2026-10-30",
     "history": [
       {
         "t": "2026-07-23T21:15:45.052Z",
@@ -884,16 +884,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-01 17:01:52",
-    "last_status": 403,
-    "last_check": "2026-08-01T17:01:52.119Z",
-    "response_ms": 23,
+    "time_change": "2026-08-01 17:16:38",
+    "last_status": 522,
+    "last_check": "2026-08-01T17:16:38.328Z",
+    "response_ms": 19360,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-07-30T22:46:21.551Z",
-        "status": 200
-      },
       {
         "t": "2026-07-30T23:31:19.087Z",
         "status": 403
@@ -1089,6 +1085,10 @@
       {
         "t": "2026-08-01T17:01:52.119Z",
         "status": 403
+      },
+      {
+        "t": "2026-08-01T17:16:38.328Z",
+        "status": 522
       }
     ]
   },
@@ -1304,10 +1304,10 @@
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-07-30 16:16:28",
-    "last_status": 200,
-    "last_check": "2026-07-30T16:16:28.738Z",
-    "response_ms": 367,
+    "time_change": "2026-08-01 17:17:02",
+    "last_status": 522,
+    "last_check": "2026-08-01T17:17:02.010Z",
+    "response_ms": 19725,
     "ssl_expiry": "2026-10-28",
     "history": [
       {
@@ -1369,6 +1369,10 @@
       {
         "t": "2026-07-30T16:01:28.493Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-01T17:17:02.010Z",
+        "status": 522
       }
     ]
   },
