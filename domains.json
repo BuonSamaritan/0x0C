@@ -586,9 +586,9 @@
     "full_url": "https://guardaplay.xyz/",
     "time_change": "2026-06-23 16:30:12",
     "last_status": 403,
-    "last_check": "2026-06-24T09:55:16.620Z",
-    "response_ms": 22,
-    "ssl_expiry": "2026-09-01"
+    "last_check": "2026-08-01T16:31:09.948Z",
+    "response_ms": 29,
+    "ssl_expiry": "2026-10-30"
   },
   "eurostreaming": {
     "full_url": "https://eurostream.live/",
