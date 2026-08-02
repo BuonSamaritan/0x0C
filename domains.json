@@ -3,9 +3,9 @@
     "full_url": "https://toonitalia.xyz/",
     "time_change": "2026-08-02 00:14:35",
     "last_status": 200,
-    "last_check": "2026-08-02T00:14:35.633Z",
-    "response_ms": 1173,
-    "ssl_expiry": "2026-09-02",
+    "last_check": "2026-08-02T06:00:48.723Z",
+    "response_ms": 1032,
+    "ssl_expiry": "2026-10-31",
     "history": [
       {
         "t": "2026-07-31T18:00:52.951Z",
