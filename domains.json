@@ -599,12 +599,12 @@
     "ssl_expiry": "2026-10-30"
   },
   "eurostreaming": {
-    "full_url": "https://eurostream.live/",
-    "time_change": "2026-07-30 06:15:42",
+    "full_url": "https://eurostream.click/",
+    "time_change": "2026-08-03 13:01:15",
     "last_status": 200,
-    "last_check": "2026-07-30T06:15:42.441Z",
-    "response_ms": 590,
-    "ssl_expiry": "2026-10-23",
+    "last_check": "2026-08-03T13:01:15.120Z",
+    "response_ms": 567,
+    "ssl_expiry": "2026-11-01",
     "history": [
       {
         "t": "2026-07-26T08:45:37.333Z",
