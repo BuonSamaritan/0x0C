@@ -545,12 +545,12 @@
     ]
   },
   "streamingcommunity_2": {
-    "full_url": "https://streamingunity.cc/",
-    "time_change": "2026-07-25 06:00:36",
+    "full_url": "https://streamingunity.vip/",
+    "time_change": "2026-08-03 12:56:36",
     "last_status": 200,
-    "last_check": "2026-07-25T06:00:36.251Z",
-    "response_ms": 260,
-    "ssl_expiry": "2026-09-21",
+    "last_check": "2026-08-03T12:56:36.792Z",
+    "response_ms": 249,
+    "ssl_expiry": "2026-10-29",
     "history": [
       {
         "t": "2026-06-25T20:16:58.804Z",
