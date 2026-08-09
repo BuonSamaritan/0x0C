@@ -262,10 +262,10 @@
   "cb01new": {
     "full_url": "https://cb01uno.website/",
     "old_domain": "live",
-    "time_change": "2026-08-09 06:01:31",
-    "last_status": -1,
-    "last_check": "2026-08-09T06:01:17.047Z",
-    "response_ms": 973,
+    "time_change": "2026-08-09 06:30:55",
+    "last_status": 200,
+    "last_check": "2026-08-09T06:30:55.814Z",
+    "response_ms": 978,
     "ssl_expiry": "2026-09-27",
     "history": [
       {
@@ -287,15 +287,19 @@
       {
         "t": "2026-08-09T06:01:17.047Z",
         "status": -1
+      },
+      {
+        "t": "2026-08-09T06:30:55.814Z",
+        "status": 200
       }
     ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.website/",
-    "time_change": "2026-08-09 06:17:04",
-    "last_status": -1,
-    "last_check": "2026-08-09T06:16:49.623Z",
-    "response_ms": 903,
+    "time_change": "2026-08-09 06:30:57",
+    "last_status": 200,
+    "last_check": "2026-08-09T06:30:57.925Z",
+    "response_ms": 590,
     "ssl_expiry": "2026-09-27",
     "history": [
       {
@@ -333,6 +337,10 @@
       {
         "t": "2026-08-09T06:16:49.623Z",
         "status": -1
+      },
+      {
+        "t": "2026-08-09T06:30:57.925Z",
+        "status": 200
       }
     ]
   },
@@ -926,16 +934,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-09 06:02:00",
-    "last_status": 200,
-    "last_check": "2026-08-09T06:02:00.287Z",
-    "response_ms": 1146,
+    "time_change": "2026-08-09 06:31:20",
+    "last_status": 403,
+    "last_check": "2026-08-09T06:31:20.702Z",
+    "response_ms": 18,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-08-08T06:46:23.315Z",
-        "status": 403
-      },
       {
         "t": "2026-08-08T06:59:50.690Z",
         "status": 200
@@ -1131,6 +1135,10 @@
       {
         "t": "2026-08-09T06:02:00.287Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-09T06:31:20.702Z",
+        "status": 403
       }
     ]
   },
