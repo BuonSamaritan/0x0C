@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-08-10 16:00:48",
-    "last_status": 403,
-    "last_check": "2026-08-10T16:00:45.541Z",
-    "response_ms": 16,
+    "time_change": "2026-08-10 16:30:54",
+    "last_status": 200,
+    "last_check": "2026-08-10T16:30:54.459Z",
+    "response_ms": 927,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-08-08T23:30:49.583Z",
-        "status": 200
-      },
       {
         "t": "2026-08-08T23:47:21.017Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-08-10T16:00:45.541Z",
         "status": 403
+      },
+      {
+        "t": "2026-08-10T16:30:54.459Z",
+        "status": 200
       }
     ]
   },
@@ -345,12 +345,12 @@
     ]
   },
   "guardaserie": {
-    "full_url": "https://altadefinizionegratis.download/",
-    "time_change": "2026-08-07 12:46:06",
+    "full_url": "https://altadefinizionegratis.kaufen/",
+    "time_change": "2026-08-10 16:31:05",
     "last_status": 200,
-    "last_check": "2026-08-07T12:46:06.837Z",
-    "response_ms": 86,
-    "ssl_expiry": "2026-11-04",
+    "last_check": "2026-08-10T16:31:05.156Z",
+    "response_ms": 371,
+    "ssl_expiry": "2026-11-08",
     "history": [
       {
         "t": "2026-07-09T12:06:13.524Z",
@@ -429,12 +429,12 @@
     ]
   },
   "altadefinizione": {
-    "full_url": "https://altadefinizionegratis.download/",
-    "time_change": "2026-08-07 12:46:10",
+    "full_url": "https://altadefinizionegratis.kaufen/",
+    "time_change": "2026-08-10 16:31:08",
     "last_status": 200,
-    "last_check": "2026-08-07T12:46:10.741Z",
-    "response_ms": 64,
-    "ssl_expiry": "2026-11-04",
+    "last_check": "2026-08-10T16:31:08.744Z",
+    "response_ms": 196,
+    "ssl_expiry": "2026-11-08",
     "history": [
       {
         "t": "2026-07-09T12:06:36.975Z",
@@ -942,16 +942,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-10 15:46:31",
-    "last_status": 200,
-    "last_check": "2026-08-10T15:46:31.262Z",
-    "response_ms": 2551,
+    "time_change": "2026-08-10 16:31:25",
+    "last_status": 403,
+    "last_check": "2026-08-10T16:31:25.663Z",
+    "response_ms": 23,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-08-09T18:00:04.491Z",
-        "status": 200
-      },
       {
         "t": "2026-08-09T18:16:45.469Z",
         "status": -1
@@ -1147,6 +1143,10 @@
       {
         "t": "2026-08-10T15:46:31.262Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-10T16:31:25.663Z",
+        "status": 403
       }
     ]
   },
