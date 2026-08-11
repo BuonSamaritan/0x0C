@@ -942,16 +942,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-11 16:25:26",
-    "last_status": 200,
-    "last_check": "2026-08-11T16:25:26.456Z",
-    "response_ms": 1313,
+    "time_change": "2026-08-11 17:16:46",
+    "last_status": 403,
+    "last_check": "2026-08-11T17:16:45.980Z",
+    "response_ms": 24,
     "ssl_expiry": "2026-09-14",
     "history": [
-      {
-        "t": "2026-08-10T14:46:38.128Z",
-        "status": -1
-      },
       {
         "t": "2026-08-10T15:01:38.449Z",
         "status": 200
@@ -1147,21 +1143,21 @@
       {
         "t": "2026-08-11T16:25:26.456Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-11T17:16:45.980Z",
+        "status": 403
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ru/",
-    "time_change": "2026-08-11 16:46:59",
-    "last_status": 403,
-    "last_check": "2026-08-11T16:46:59.087Z",
-    "response_ms": 18,
+    "time_change": "2026-08-11 17:16:48",
+    "last_status": 200,
+    "last_check": "2026-08-11T17:16:48.831Z",
+    "response_ms": 1017,
     "ssl_expiry": "2026-10-23",
     "history": [
-      {
-        "t": "2026-08-10T15:18:04.772Z",
-        "status": 200
-      },
       {
         "t": "2026-08-10T15:46:32.855Z",
         "status": 403
@@ -1357,15 +1353,19 @@
       {
         "t": "2026-08-11T16:46:59.087Z",
         "status": 403
+      },
+      {
+        "t": "2026-08-11T17:16:48.831Z",
+        "status": 200
       }
     ]
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-08-11 17:02:20",
-    "last_status": 522,
-    "last_check": "2026-08-11T17:02:20.680Z",
-    "response_ms": 19417,
+    "time_change": "2026-08-11 17:16:50",
+    "last_status": 200,
+    "last_check": "2026-08-11T17:16:50.578Z",
+    "response_ms": 181,
     "ssl_expiry": "2026-10-28",
     "history": [
       {
@@ -1447,6 +1447,10 @@
       {
         "t": "2026-08-11T17:02:20.680Z",
         "status": 522
+      },
+      {
+        "t": "2026-08-11T17:16:50.578Z",
+        "status": 200
       }
     ]
   },
