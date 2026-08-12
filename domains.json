@@ -640,9 +640,9 @@
   },
   "eurostreaming": {
     "full_url": "https://eurostream.ink/",
-    "time_change": "2026-08-10 18:31:08",
-    "last_status": 200,
-    "last_check": "2026-08-10T18:31:08.724Z",
+    "time_change": "2026-08-12 14:32:13",
+    "last_status": -1,
+    "last_check": "2026-08-12T14:32:07.470Z",
     "response_ms": 612,
     "ssl_expiry": "2026-11-01",
     "history": [
@@ -665,6 +665,10 @@
       {
         "t": "2026-07-30T06:15:42.441Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-12T14:32:07.470Z",
+        "status": -1
       }
     ]
   },
