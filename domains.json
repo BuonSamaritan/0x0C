@@ -361,12 +361,12 @@
     ]
   },
   "guardaserie": {
-    "full_url": "https://altadefinizione-gratis.sbs/",
-    "time_change": "2026-08-12 15:46:31",
+    "full_url": "https://altadefiniziones.uno/",
+    "time_change": "2026-08-17 17:01:15",
     "last_status": 200,
-    "last_check": "2026-08-12T15:46:31.143Z",
-    "response_ms": 759,
-    "ssl_expiry": "2026-11-10",
+    "last_check": "2026-08-17T17:01:15.883Z",
+    "response_ms": 756,
+    "ssl_expiry": "2026-11-15",
     "history": [
       {
         "t": "2026-07-09T12:06:13.524Z",
@@ -445,12 +445,12 @@
     ]
   },
   "altadefinizione": {
-    "full_url": "https://altadefinizione-gratis.sbs/",
-    "time_change": "2026-08-12 15:46:35",
+    "full_url": "https://altadefiniziones.uno/",
+    "time_change": "2026-08-17 17:01:20",
     "last_status": 200,
-    "last_check": "2026-08-12T15:46:35.474Z",
-    "response_ms": 194,
-    "ssl_expiry": "2026-11-10",
+    "last_check": "2026-08-17T17:01:20.150Z",
+    "response_ms": 752,
+    "ssl_expiry": "2026-11-15",
     "history": [
       {
         "t": "2026-07-09T12:06:36.975Z",
@@ -931,12 +931,12 @@
     ]
   },
   "tantifilm_2": {
-    "full_url": "https://tanti-film.wiki/",
-    "time_change": "2026-08-14 20:01:32",
+    "full_url": "https://tanti-film.mom/",
+    "time_change": "2026-08-17 17:01:39",
     "last_status": 200,
-    "last_check": "2026-08-14T20:01:32.854Z",
-    "response_ms": 31,
-    "ssl_expiry": "2026-11-12",
+    "last_check": "2026-08-17T17:01:39.425Z",
+    "response_ms": 368,
+    "ssl_expiry": "2026-11-15",
     "history": [
       {
         "t": "2026-07-20T20:01:58.057Z",
