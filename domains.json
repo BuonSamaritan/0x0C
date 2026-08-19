@@ -931,12 +931,12 @@
     ]
   },
   "tantifilm_2": {
-    "full_url": "https://tanti-film.mom/",
-    "time_change": "2026-08-17 17:01:39",
+    "full_url": "https://tanti-film.motorcycles/",
+    "time_change": "2026-08-19 12:16:34",
     "last_status": 200,
-    "last_check": "2026-08-17T17:01:39.425Z",
-    "response_ms": 368,
-    "ssl_expiry": "2026-11-15",
+    "last_check": "2026-08-19T12:16:34.117Z",
+    "response_ms": 31,
+    "ssl_expiry": "2026-11-17",
     "history": [
       {
         "t": "2026-07-20T20:01:58.057Z",
@@ -976,16 +976,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-19 11:46:38",
-    "last_status": 200,
-    "last_check": "2026-08-19T11:46:38.385Z",
-    "response_ms": 360,
+    "time_change": "2026-08-19 12:16:37",
+    "last_status": 403,
+    "last_check": "2026-08-19T12:16:37.295Z",
+    "response_ms": 16,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-08-18T13:16:35.700Z",
-        "status": 403
-      },
       {
         "t": "2026-08-18T14:01:33.244Z",
         "status": 200
@@ -1181,6 +1177,10 @@
       {
         "t": "2026-08-19T11:46:38.385Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-19T12:16:37.295Z",
+        "status": 403
       }
     ]
   },
