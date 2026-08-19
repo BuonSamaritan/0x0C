@@ -666,10 +666,10 @@
   },
   "eurostreaming": {
     "full_url": "https://eurostream.ink/",
-    "time_change": "2026-08-12 14:46:35",
-    "last_status": 200,
-    "last_check": "2026-08-12T14:46:35.672Z",
-    "response_ms": 585,
+    "time_change": "2026-08-19 13:16:43",
+    "last_status": 522,
+    "last_check": "2026-08-19T13:16:42.985Z",
+    "response_ms": 19468,
     "ssl_expiry": "2026-11-01",
     "history": [
       {
@@ -699,6 +699,10 @@
       {
         "t": "2026-08-12T14:46:35.672Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-19T13:16:42.985Z",
+        "status": 522
       }
     ]
   },
@@ -976,16 +980,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-19 13:10:40",
-    "last_status": 200,
-    "last_check": "2026-08-19T13:10:40.892Z",
-    "response_ms": 378,
+    "time_change": "2026-08-19 13:17:03",
+    "last_status": 403,
+    "last_check": "2026-08-19T13:17:03.604Z",
+    "response_ms": 41,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-08-18T15:14:40.822Z",
-        "status": 403
-      },
       {
         "t": "2026-08-18T15:16:39.442Z",
         "status": 200
@@ -1181,21 +1181,21 @@
       {
         "t": "2026-08-19T13:10:40.892Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-19T13:17:03.604Z",
+        "status": 403
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-08-19 13:01:42",
-    "last_status": 403,
-    "last_check": "2026-08-19T13:01:42.070Z",
-    "response_ms": 12,
+    "time_change": "2026-08-19 13:17:06",
+    "last_status": 200,
+    "last_check": "2026-08-19T13:17:06.404Z",
+    "response_ms": 911,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-08-18T10:31:38.197Z",
-        "status": 200
-      },
       {
         "t": "2026-08-18T10:33:08.619Z",
         "status": 403
@@ -1391,6 +1391,10 @@
       {
         "t": "2026-08-19T13:01:42.070Z",
         "status": 403
+      },
+      {
+        "t": "2026-08-19T13:17:06.404Z",
+        "status": 200
       }
     ]
   },
