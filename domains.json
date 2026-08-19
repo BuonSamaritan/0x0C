@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-08-19 09:46:03",
-    "last_status": 200,
-    "last_check": "2026-08-19T09:46:03.262Z",
-    "response_ms": 933,
+    "time_change": "2026-08-19 10:46:01",
+    "last_status": 403,
+    "last_check": "2026-08-19T10:46:01.492Z",
+    "response_ms": 17,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-08-17T20:31:01.284Z",
-        "status": 403
-      },
       {
         "t": "2026-08-17T20:46:05.109Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-08-19T09:46:03.262Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-19T10:46:01.492Z",
+        "status": 403
       }
     ]
   },
@@ -471,11 +471,11 @@
     ]
   },
   "streamingcommunity": {
-    "full_url": "https://streamingcommunityz.repair/",
-    "time_change": "2026-08-17 10:46:19",
+    "full_url": "https://streamingcommunityz.partners/",
+    "time_change": "2026-08-19 10:46:17",
     "last_status": 200,
-    "last_check": "2026-08-17T10:46:19.139Z",
-    "response_ms": 348,
+    "last_check": "2026-08-19T10:46:17.544Z",
+    "response_ms": 482,
     "ssl_expiry": "2026-11-01",
     "history": [
       {
@@ -1186,16 +1186,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-08-19 08:18:25",
-    "last_status": 200,
-    "last_check": "2026-08-19T08:18:25.220Z",
-    "response_ms": 1008,
+    "time_change": "2026-08-19 10:46:34",
+    "last_status": 403,
+    "last_check": "2026-08-19T10:46:33.874Z",
+    "response_ms": 15,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-08-18T07:31:37.787Z",
-        "status": 403
-      },
       {
         "t": "2026-08-18T07:46:45.261Z",
         "status": 200
@@ -1391,6 +1387,10 @@
       {
         "t": "2026-08-19T08:18:25.220Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-19T10:46:33.874Z",
+        "status": 403
       }
     ]
   },
