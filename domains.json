@@ -268,13 +268,13 @@
     ]
   },
   "cb01new": {
-    "full_url": "https://cb01uno.cfd/",
+    "full_url": "https://cb01uno.cam/",
     "old_domain": "live",
-    "time_change": "2026-08-18 15:01:10",
+    "time_change": "2026-08-20 15:38:03",
     "last_status": 200,
-    "last_check": "2026-08-18T15:01:10.288Z",
-    "response_ms": 690,
-    "ssl_expiry": "2026-09-26",
+    "last_check": "2026-08-20T15:38:03.816Z",
+    "response_ms": 995,
+    "ssl_expiry": "2026-09-27",
     "history": [
       {
         "t": "2026-06-30T19:01:09.951Z",
@@ -311,12 +311,12 @@
     ]
   },
   "cb01_2": {
-    "full_url": "https://cb01uno.cfd/",
-    "time_change": "2026-08-18 15:01:12",
+    "full_url": "https://cb01uno.cam/",
+    "time_change": "2026-08-20 15:38:05",
     "last_status": 200,
-    "last_check": "2026-08-18T15:01:12.332Z",
-    "response_ms": 480,
-    "ssl_expiry": "2026-09-26",
+    "last_check": "2026-08-20T15:38:05.949Z",
+    "response_ms": 586,
+    "ssl_expiry": "2026-09-27",
     "history": [
       {
         "t": "2026-06-26T18:30:57.762Z",
@@ -1024,16 +1024,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-20 15:16:38",
-    "last_status": 403,
-    "last_check": "2026-08-20T15:16:38.028Z",
-    "response_ms": 79,
+    "time_change": "2026-08-20 15:38:29",
+    "last_status": 200,
+    "last_check": "2026-08-20T15:38:29.499Z",
+    "response_ms": 456,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-08-19T12:31:32.436Z",
-        "status": 200
-      },
       {
         "t": "2026-08-19T13:01:40.166Z",
         "status": 403
@@ -1229,21 +1225,21 @@
       {
         "t": "2026-08-20T15:16:38.028Z",
         "status": 403
+      },
+      {
+        "t": "2026-08-20T15:38:29.499Z",
+        "status": 200
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-08-20 14:16:38",
-    "last_status": 200,
-    "last_check": "2026-08-20T14:16:38.050Z",
-    "response_ms": 666,
+    "time_change": "2026-08-20 15:38:31",
+    "last_status": 403,
+    "last_check": "2026-08-20T15:38:31.093Z",
+    "response_ms": 24,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-08-19T11:42:14.114Z",
-        "status": 403
-      },
       {
         "t": "2026-08-19T12:01:42.178Z",
         "status": 200
@@ -1439,6 +1435,10 @@
       {
         "t": "2026-08-20T14:16:38.050Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-20T15:38:31.093Z",
+        "status": 403
       }
     ]
   },
