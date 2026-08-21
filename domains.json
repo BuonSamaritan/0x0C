@@ -361,12 +361,12 @@
     ]
   },
   "guardaserie": {
-    "full_url": "https://altadefinizionex.club/",
-    "time_change": "2026-08-20 15:16:16",
+    "full_url": "https://altadefiniziones.uno/",
+    "time_change": "2026-08-21 10:01:14",
     "last_status": 200,
-    "last_check": "2026-08-20T15:16:16.273Z",
-    "response_ms": 142,
-    "ssl_expiry": "2026-11-17",
+    "last_check": "2026-08-21T10:01:14.688Z",
+    "response_ms": 1204,
+    "ssl_expiry": "2026-11-15",
     "history": [
       {
         "t": "2026-07-09T12:06:13.524Z",
@@ -477,12 +477,12 @@
     ]
   },
   "altadefinizione": {
-    "full_url": "https://altadefinizionex.club/",
-    "time_change": "2026-08-19 17:31:17",
+    "full_url": "https://altadefiniziones.uno/",
+    "time_change": "2026-08-21 10:01:19",
     "last_status": 200,
-    "last_check": "2026-08-19T17:31:16.992Z",
-    "response_ms": 112,
-    "ssl_expiry": "2026-11-17",
+    "last_check": "2026-08-21T10:01:19.738Z",
+    "response_ms": 1326,
+    "ssl_expiry": "2026-11-15",
     "history": [
       {
         "t": "2026-07-09T12:06:36.975Z",
@@ -752,16 +752,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-08-21 09:47:07",
-    "last_status": -1,
-    "last_check": "2026-08-21T09:46:53.212Z",
-    "response_ms": 19300,
+    "time_change": "2026-08-21 10:01:49",
+    "last_status": 522,
+    "last_check": "2026-08-21T10:01:49.500Z",
+    "response_ms": 19670,
     "ssl_expiry": "2026-10-30",
     "history": [
-      {
-        "t": "2026-08-03T19:16:17.350Z",
-        "status": 200
-      },
       {
         "t": "2026-08-03T20:01:35.144Z",
         "status": -1
@@ -957,6 +953,10 @@
       {
         "t": "2026-08-21T09:46:53.212Z",
         "status": -1
+      },
+      {
+        "t": "2026-08-21T10:01:49.500Z",
+        "status": 522
       }
     ]
   },
@@ -1024,16 +1024,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-21 09:02:04",
-    "last_status": 200,
-    "last_check": "2026-08-21T09:02:04.959Z",
-    "response_ms": 218,
+    "time_change": "2026-08-21 10:01:56",
+    "last_status": 403,
+    "last_check": "2026-08-21T10:01:56.312Z",
+    "response_ms": 43,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-08-20T06:31:30.296Z",
-        "status": 403
-      },
       {
         "t": "2026-08-20T06:46:35.076Z",
         "status": 200
@@ -1229,6 +1225,10 @@
       {
         "t": "2026-08-21T09:02:04.959Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-21T10:01:56.312Z",
+        "status": 403
       }
     ]
   },
