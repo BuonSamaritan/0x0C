@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-08-22 06:47:27",
-    "last_status": 403,
-    "last_check": "2026-08-22T06:47:27.793Z",
-    "response_ms": 14,
+    "time_change": "2026-08-22 07:01:04",
+    "last_status": 200,
+    "last_check": "2026-08-22T07:01:04.445Z",
+    "response_ms": 971,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-08-20T22:01:03.813Z",
-        "status": 200
-      },
       {
         "t": "2026-08-20T22:09:45.803Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-08-22T06:47:27.793Z",
         "status": 403
+      },
+      {
+        "t": "2026-08-22T07:01:04.445Z",
+        "status": 200
       }
     ]
   },
