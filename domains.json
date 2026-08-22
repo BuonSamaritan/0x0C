@@ -362,10 +362,10 @@
   },
   "guardaserie": {
     "full_url": "https://altadefinizionex.one/",
-    "time_change": "2026-08-22 08:46:14",
-    "last_status": 502,
-    "last_check": "2026-08-22T08:46:14.320Z",
-    "response_ms": 318,
+    "time_change": "2026-08-22 08:49:01",
+    "last_status": 200,
+    "last_check": "2026-08-22T08:49:01.507Z",
+    "response_ms": 57,
     "ssl_expiry": "2026-11-16",
     "history": [
       {
@@ -435,6 +435,10 @@
       {
         "t": "2026-08-22T08:46:14.320Z",
         "status": 502
+      },
+      {
+        "t": "2026-08-22T08:49:01.507Z",
+        "status": 200
       }
     ]
   },
@@ -1254,16 +1258,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-08-22 08:16:57",
-    "last_status": 200,
-    "last_check": "2026-08-22T08:16:57.389Z",
-    "response_ms": 801,
+    "time_change": "2026-08-22 08:49:44",
+    "last_status": 403,
+    "last_check": "2026-08-22T08:49:44.187Z",
+    "response_ms": 29,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-08-20T17:46:46.601Z",
-        "status": 403
-      },
       {
         "t": "2026-08-20T18:01:48.394Z",
         "status": 200
@@ -1459,6 +1459,10 @@
       {
         "t": "2026-08-22T08:16:57.389Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-22T08:49:44.187Z",
+        "status": 403
       }
     ]
   },
