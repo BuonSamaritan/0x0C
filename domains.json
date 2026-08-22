@@ -268,12 +268,12 @@
     ]
   },
   "cb01new": {
-    "full_url": "https://cb01uno.cam/",
+    "full_url": "https://cb01uno.monster/",
     "old_domain": "live",
-    "time_change": "2026-08-20 15:38:03",
+    "time_change": "2026-08-22 14:16:09",
     "last_status": 200,
-    "last_check": "2026-08-20T15:38:03.816Z",
-    "response_ms": 995,
+    "last_check": "2026-08-22T14:16:09.092Z",
+    "response_ms": 474,
     "ssl_expiry": "2026-09-27",
     "history": [
       {
@@ -311,11 +311,11 @@
     ]
   },
   "cb01_2": {
-    "full_url": "https://cb01uno.cam/",
-    "time_change": "2026-08-20 15:38:05",
+    "full_url": "https://cb01uno.monster/",
+    "time_change": "2026-08-22 14:16:11",
     "last_status": 200,
-    "last_check": "2026-08-20T15:38:05.949Z",
-    "response_ms": 586,
+    "last_check": "2026-08-22T14:16:11.472Z",
+    "response_ms": 767,
     "ssl_expiry": "2026-09-27",
     "history": [
       {
@@ -776,16 +776,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-08-22 13:31:45",
-    "last_status": 522,
-    "last_check": "2026-08-22T13:31:45.487Z",
+    "time_change": "2026-08-22 14:17:01",
+    "last_status": -1,
+    "last_check": "2026-08-22T14:16:47.132Z",
     "response_ms": 19611,
     "ssl_expiry": "2026-10-30",
     "history": [
-      {
-        "t": "2026-08-21T10:01:49.500Z",
-        "status": 522
-      },
       {
         "t": "2026-08-21T10:04:15.645Z",
         "status": -1
@@ -981,6 +977,10 @@
       {
         "t": "2026-08-22T13:31:45.487Z",
         "status": 522
+      },
+      {
+        "t": "2026-08-22T14:16:47.132Z",
+        "status": -1
       }
     ]
   },
@@ -1048,16 +1048,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-22 14:01:50",
-    "last_status": 403,
-    "last_check": "2026-08-22T14:01:50.057Z",
-    "response_ms": 22,
+    "time_change": "2026-08-22 14:17:09",
+    "last_status": 200,
+    "last_check": "2026-08-22T14:17:09.904Z",
+    "response_ms": 254,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-08-21T09:02:04.959Z",
-        "status": 200
-      },
       {
         "t": "2026-08-21T10:01:56.312Z",
         "status": 403
@@ -1253,6 +1249,10 @@
       {
         "t": "2026-08-22T14:01:50.057Z",
         "status": 403
+      },
+      {
+        "t": "2026-08-22T14:17:09.904Z",
+        "status": 200
       }
     ]
   },
