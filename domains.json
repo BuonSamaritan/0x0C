@@ -730,9 +730,9 @@
   },
   "eurostreaming": {
     "full_url": "https://eurostream.art/",
-    "time_change": "2026-08-19 15:31:29",
-    "last_status": 200,
-    "last_check": "2026-08-19T15:31:29.906Z",
+    "time_change": "2026-08-23 19:16:45",
+    "last_status": -1,
+    "last_check": "2026-08-23T19:16:44.539Z",
     "response_ms": 805,
     "ssl_expiry": "2026-11-01",
     "history": [
@@ -771,6 +771,10 @@
       {
         "t": "2026-08-19T13:46:28.648Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-23T19:16:44.539Z",
+        "status": -1
       }
     ]
   },
@@ -1258,16 +1262,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-08-23 18:16:36",
-    "last_status": 200,
-    "last_check": "2026-08-23T18:16:36.392Z",
-    "response_ms": 669,
+    "time_change": "2026-08-23 19:16:56",
+    "last_status": 403,
+    "last_check": "2026-08-23T19:16:56.475Z",
+    "response_ms": 21,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-08-22T14:47:10.337Z",
-        "status": 200
-      },
       {
         "t": "2026-08-22T15:16:58.553Z",
         "status": 403
@@ -1463,6 +1463,10 @@
       {
         "t": "2026-08-23T18:16:36.392Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-23T19:16:56.475Z",
+        "status": 403
       }
     ]
   },
