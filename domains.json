@@ -1468,10 +1468,10 @@
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-08-20 10:16:45",
-    "last_status": 200,
-    "last_check": "2026-08-20T10:16:45.005Z",
-    "response_ms": 2340,
+    "time_change": "2026-08-23 15:32:02",
+    "last_status": 522,
+    "last_check": "2026-08-23T15:32:02.605Z",
+    "response_ms": 19753,
     "ssl_expiry": "2026-10-28",
     "history": [
       {
@@ -1573,6 +1573,10 @@
       {
         "t": "2026-08-20T10:16:45.005Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-23T15:32:02.605Z",
+        "status": 522
       }
     ]
   },
