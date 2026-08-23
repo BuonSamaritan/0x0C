@@ -1048,16 +1048,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-23 16:31:35",
-    "last_status": 200,
-    "last_check": "2026-08-23T16:31:35.270Z",
-    "response_ms": 295,
+    "time_change": "2026-08-23 16:46:34",
+    "last_status": 403,
+    "last_check": "2026-08-23T16:46:34.237Z",
+    "response_ms": 18,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-08-22T14:01:50.057Z",
-        "status": 403
-      },
       {
         "t": "2026-08-22T14:17:09.904Z",
         "status": 200
@@ -1253,6 +1249,10 @@
       {
         "t": "2026-08-23T16:31:35.270Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-23T16:46:34.237Z",
+        "status": 403
       }
     ]
   },
@@ -1468,10 +1468,10 @@
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-08-23 16:37:02",
-    "last_status": 522,
-    "last_check": "2026-08-23T16:37:02.567Z",
-    "response_ms": 19638,
+    "time_change": "2026-08-23 16:46:39",
+    "last_status": 200,
+    "last_check": "2026-08-23T16:46:39.557Z",
+    "response_ms": 727,
     "ssl_expiry": "2026-10-28",
     "history": [
       {
@@ -1585,6 +1585,10 @@
       {
         "t": "2026-08-23T16:37:02.567Z",
         "status": 522
+      },
+      {
+        "t": "2026-08-23T16:46:39.557Z",
+        "status": 200
       }
     ]
   },
