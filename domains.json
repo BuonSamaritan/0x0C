@@ -535,11 +535,11 @@
     ]
   },
   "streamingcommunity": {
-    "full_url": "https://streamingcommunityz.rodeo/",
-    "time_change": "2026-08-21 12:58:41",
+    "full_url": "https://streamingcommunityz.review/",
+    "time_change": "2026-08-24 11:01:23",
     "last_status": 200,
-    "last_check": "2026-08-21T12:58:41.547Z",
-    "response_ms": 545,
+    "last_check": "2026-08-24T11:01:23.816Z",
+    "response_ms": 864,
     "ssl_expiry": "2026-11-01",
     "history": [
       {
@@ -1266,16 +1266,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-08-24 10:01:34",
-    "last_status": 200,
-    "last_check": "2026-08-24T10:01:34.499Z",
-    "response_ms": 651,
+    "time_change": "2026-08-24 11:01:42",
+    "last_status": 403,
+    "last_check": "2026-08-24T11:01:42.038Z",
+    "response_ms": 54,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-08-22T22:46:34.190Z",
-        "status": 200
-      },
       {
         "t": "2026-08-22T23:16:40.517Z",
         "status": 403
@@ -1471,6 +1467,10 @@
       {
         "t": "2026-08-24T10:01:34.499Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-24T11:01:42.038Z",
+        "status": 403
       }
     ]
   },
