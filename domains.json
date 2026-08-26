@@ -784,16 +784,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-08-26 19:01:45",
-    "last_status": 522,
-    "last_check": "2026-08-26T19:01:45.012Z",
+    "time_change": "2026-08-26 19:47:06",
+    "last_status": -1,
+    "last_check": "2026-08-26T19:46:51.945Z",
     "response_ms": 19682,
     "ssl_expiry": "2026-10-30",
     "history": [
-      {
-        "t": "2026-08-22T17:58:57.098Z",
-        "status": -1
-      },
       {
         "t": "2026-08-22T18:01:57.286Z",
         "status": 522
@@ -989,6 +985,10 @@
       {
         "t": "2026-08-26T19:01:45.012Z",
         "status": 522
+      },
+      {
+        "t": "2026-08-26T19:46:51.945Z",
+        "status": -1
       }
     ]
   },
