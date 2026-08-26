@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-08-26 18:46:02",
-    "last_status": 200,
-    "last_check": "2026-08-26T18:46:02.651Z",
-    "response_ms": 918,
+    "time_change": "2026-08-26 19:01:02",
+    "last_status": 403,
+    "last_check": "2026-08-26T19:01:02.268Z",
+    "response_ms": 29,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-08-24T23:46:03.054Z",
-        "status": 403
-      },
       {
         "t": "2026-08-24T23:48:25.943Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-08-26T18:46:02.651Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-26T19:01:02.268Z",
+        "status": 403
       }
     ]
   },
@@ -784,16 +784,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-08-26 18:32:02",
-    "last_status": -1,
-    "last_check": "2026-08-26T18:31:47.867Z",
-    "response_ms": 19707,
+    "time_change": "2026-08-26 19:01:45",
+    "last_status": 522,
+    "last_check": "2026-08-26T19:01:45.012Z",
+    "response_ms": 19682,
     "ssl_expiry": "2026-10-30",
     "history": [
-      {
-        "t": "2026-08-22T17:37:20.576Z",
-        "status": 522
-      },
       {
         "t": "2026-08-22T17:58:57.098Z",
         "status": -1
@@ -989,6 +985,10 @@
       {
         "t": "2026-08-26T18:31:47.867Z",
         "status": -1
+      },
+      {
+        "t": "2026-08-26T19:01:45.012Z",
+        "status": 522
       }
     ]
   },
