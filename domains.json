@@ -362,10 +362,10 @@
   },
   "guardaserie": {
     "full_url": "https://altadefinizionex.best/",
-    "time_change": "2026-08-27 07:16:14",
-    "last_status": 521,
-    "last_check": "2026-08-27T07:16:14.579Z",
-    "response_ms": 224,
+    "time_change": "2026-08-27 07:31:11",
+    "last_status": 200,
+    "last_check": "2026-08-27T07:31:11.004Z",
+    "response_ms": 45,
     "ssl_expiry": "2026-11-24",
     "history": [
       {
@@ -443,6 +443,10 @@
       {
         "t": "2026-08-27T07:16:14.579Z",
         "status": 521
+      },
+      {
+        "t": "2026-08-27T07:31:11.004Z",
+        "status": 200
       }
     ]
   },
@@ -506,10 +510,10 @@
   },
   "altadefinizione": {
     "full_url": "https://altadefinizionex.best/",
-    "time_change": "2026-08-27 07:16:18",
-    "last_status": 521,
-    "last_check": "2026-08-27T07:16:18.328Z",
-    "response_ms": 226,
+    "time_change": "2026-08-27 07:31:14",
+    "last_status": 200,
+    "last_check": "2026-08-27T07:31:14.459Z",
+    "response_ms": 40,
     "ssl_expiry": "2026-11-24",
     "history": [
       {
@@ -539,6 +543,10 @@
       {
         "t": "2026-08-27T07:16:18.328Z",
         "status": 521
+      },
+      {
+        "t": "2026-08-27T07:31:14.459Z",
+        "status": 200
       }
     ]
   },
@@ -1064,16 +1072,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-27 07:16:36",
-    "last_status": 200,
-    "last_check": "2026-08-27T07:16:36.447Z",
-    "response_ms": 329,
+    "time_change": "2026-08-27 07:31:31",
+    "last_status": 403,
+    "last_check": "2026-08-27T07:31:31.278Z",
+    "response_ms": 32,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-08-25T17:46:57.859Z",
-        "status": 403
-      },
       {
         "t": "2026-08-25T18:01:59.977Z",
         "status": 200
@@ -1269,6 +1273,10 @@
       {
         "t": "2026-08-27T07:16:36.447Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-27T07:31:31.278Z",
+        "status": 403
       }
     ]
   },
