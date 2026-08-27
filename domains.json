@@ -746,10 +746,10 @@
   },
   "eurostreaming": {
     "full_url": "https://eurostream.art/",
-    "time_change": "2026-08-27 10:01:47",
-    "last_status": 522,
-    "last_check": "2026-08-27T10:01:47.224Z",
-    "response_ms": 19831,
+    "time_change": "2026-08-27 10:16:29",
+    "last_status": 200,
+    "last_check": "2026-08-27T10:16:29.832Z",
+    "response_ms": 798,
     "ssl_expiry": "2026-11-01",
     "history": [
       {
@@ -799,6 +799,10 @@
       {
         "t": "2026-08-27T10:01:47.224Z",
         "status": 522
+      },
+      {
+        "t": "2026-08-27T10:16:29.832Z",
+        "status": 200
       }
     ]
   },
