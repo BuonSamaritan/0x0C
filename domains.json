@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-08-29 11:31:11",
-    "last_status": 200,
-    "last_check": "2026-08-29T11:31:11.890Z",
-    "response_ms": 951,
+    "time_change": "2026-08-29 11:46:10",
+    "last_status": 403,
+    "last_check": "2026-08-29T11:46:10.225Z",
+    "response_ms": 46,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-08-27T20:31:01.480Z",
-        "status": 403
-      },
       {
         "t": "2026-08-27T21:01:09.348Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-08-29T11:31:11.890Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-29T11:46:10.225Z",
+        "status": 403
       }
     ]
   },
@@ -765,12 +765,12 @@
     ]
   },
   "eurostreaming": {
-    "full_url": "https://eurostream.art/",
-    "time_change": "2026-08-27 20:31:26",
+    "full_url": "https://eurostream.lol/",
+    "time_change": "2026-08-29 11:46:36",
     "last_status": 200,
-    "last_check": "2026-08-27T20:31:26.898Z",
-    "response_ms": 999,
-    "ssl_expiry": "2026-11-01",
+    "last_check": "2026-08-29T11:46:35.976Z",
+    "response_ms": 632,
+    "ssl_expiry": "2026-11-27",
     "history": [
       {
         "t": "2026-07-26T08:45:37.333Z",
@@ -1108,16 +1108,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-29 10:46:39",
-    "last_status": 403,
-    "last_check": "2026-08-29T10:46:38.882Z",
-    "response_ms": 18,
+    "time_change": "2026-08-29 11:46:46",
+    "last_status": 200,
+    "last_check": "2026-08-29T11:46:46.294Z",
+    "response_ms": 259,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-08-27T11:46:37.218Z",
-        "status": 200
-      },
       {
         "t": "2026-08-27T13:16:36.127Z",
         "status": 403
@@ -1313,6 +1309,10 @@
       {
         "t": "2026-08-29T10:46:38.882Z",
         "status": 403
+      },
+      {
+        "t": "2026-08-29T11:46:46.294Z",
+        "status": 200
       }
     ]
   },
