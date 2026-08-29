@@ -280,12 +280,12 @@
     ]
   },
   "cb01new": {
-    "full_url": "https://cb01uno.blog/",
+    "full_url": "https://cb01uno.lat/",
     "old_domain": "live",
-    "time_change": "2026-08-25 21:46:15",
+    "time_change": "2026-08-29 14:01:20",
     "last_status": 200,
-    "last_check": "2026-08-27T06:01:11.521Z",
-    "response_ms": 961,
+    "last_check": "2026-08-29T14:01:20.885Z",
+    "response_ms": 646,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -323,11 +323,11 @@
     ]
   },
   "cb01_2": {
-    "full_url": "https://cb01uno.blog/",
-    "time_change": "2026-08-25 21:46:17",
+    "full_url": "https://cb01uno.lat/",
+    "time_change": "2026-08-29 14:01:23",
     "last_status": 200,
-    "last_check": "2026-08-27T06:01:13.998Z",
-    "response_ms": 935,
+    "last_check": "2026-08-29T14:01:23.123Z",
+    "response_ms": 618,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
