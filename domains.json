@@ -1108,16 +1108,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-08-30 15:29:08",
-    "last_status": 200,
-    "last_check": "2026-08-30T15:29:08.324Z",
-    "response_ms": 519,
+    "time_change": "2026-08-30 15:31:47",
+    "last_status": 403,
+    "last_check": "2026-08-30T15:31:47.451Z",
+    "response_ms": 27,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-08-29T10:46:38.882Z",
-        "status": 403
-      },
       {
         "t": "2026-08-29T11:46:46.294Z",
         "status": 200
@@ -1313,21 +1309,21 @@
       {
         "t": "2026-08-30T15:29:08.324Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-30T15:31:47.451Z",
+        "status": 403
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-08-30 15:29:10",
-    "last_status": 403,
-    "last_check": "2026-08-30T15:29:09.989Z",
-    "response_ms": 63,
+    "time_change": "2026-08-30 15:31:51",
+    "last_status": 200,
+    "last_check": "2026-08-30T15:31:51.068Z",
+    "response_ms": 1738,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-08-28T22:46:33.490Z",
-        "status": 200
-      },
       {
         "t": "2026-08-29T07:01:51.824Z",
         "status": 403
@@ -1523,14 +1519,18 @@
       {
         "t": "2026-08-30T15:29:09.989Z",
         "status": 403
+      },
+      {
+        "t": "2026-08-30T15:31:51.068Z",
+        "status": 200
       }
     ]
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-08-28 20:46:45",
-    "last_status": 200,
-    "last_check": "2026-08-28T20:46:45.391Z",
+    "time_change": "2026-08-30 15:32:20",
+    "last_status": -1,
+    "last_check": "2026-08-30T15:32:12.690Z",
     "response_ms": 652,
     "ssl_expiry": "2026-10-28",
     "history": [
@@ -1673,6 +1673,10 @@
       {
         "t": "2026-08-28T20:46:45.391Z",
         "status": 200
+      },
+      {
+        "t": "2026-08-30T15:32:12.690Z",
+        "status": -1
       }
     ]
   },
