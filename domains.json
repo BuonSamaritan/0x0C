@@ -324,10 +324,10 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.lat/",
-    "time_change": "2026-08-31 18:46:18",
-    "last_status": -1,
-    "last_check": "2026-08-31T18:46:18.038Z",
-    "response_ms": 618,
+    "time_change": "2026-08-31 19:01:21",
+    "last_status": 200,
+    "last_check": "2026-08-31T19:01:20.874Z",
+    "response_ms": 747,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -373,6 +373,10 @@
       {
         "t": "2026-08-31T18:46:18.038Z",
         "status": -1
+      },
+      {
+        "t": "2026-08-31T19:01:20.874Z",
+        "status": 200
       }
     ]
   },
