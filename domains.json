@@ -1086,9 +1086,9 @@
   },
   "tantifilm": {
     "full_url": "https://tantifilm.online/",
-    "time_change": "2026-08-01 18:31:19",
-    "last_status": 200,
-    "last_check": "2026-08-16T21:28:53.542Z",
+    "time_change": "2026-09-02 01:26:25",
+    "last_status": -1,
+    "last_check": "2026-09-02T01:26:24.616Z",
     "response_ms": 121,
     "ssl_expiry": "2026-11-14",
     "history": [
@@ -1099,6 +1099,10 @@
       {
         "t": "2026-08-01T18:31:19.602Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-02T01:26:24.616Z",
+        "status": -1
       }
     ]
   },
@@ -1148,16 +1152,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-01 23:46:44",
-    "last_status": 403,
-    "last_check": "2026-09-01T23:46:43.920Z",
-    "response_ms": 68,
+    "time_change": "2026-09-02 01:26:31",
+    "last_status": 200,
+    "last_check": "2026-09-02T01:26:31.008Z",
+    "response_ms": 426,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-08-31T17:46:45.010Z",
-        "status": 200
-      },
       {
         "t": "2026-08-31T18:16:42.952Z",
         "status": 403
@@ -1353,6 +1353,10 @@
       {
         "t": "2026-09-01T23:46:43.920Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-02T01:26:31.008Z",
+        "status": 200
       }
     ]
   },
