@@ -798,9 +798,9 @@
   },
   "eurostreaming": {
     "full_url": "https://eurostream.lol/",
-    "time_change": "2026-08-31 09:46:35",
-    "last_status": 200,
-    "last_check": "2026-08-31T09:46:35.822Z",
+    "time_change": "2026-09-02 07:31:58",
+    "last_status": -1,
+    "last_check": "2026-09-02T07:31:57.306Z",
     "response_ms": 764,
     "ssl_expiry": "2026-11-27",
     "history": [
@@ -871,6 +871,10 @@
       {
         "t": "2026-08-31T09:46:35.822Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-02T07:31:57.306Z",
+        "status": -1
       }
     ]
   },
