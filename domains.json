@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-09-04 18:30:48",
-    "last_status": 403,
-    "last_check": "2026-09-04T18:30:48.645Z",
-    "response_ms": 40,
+    "time_change": "2026-09-04 19:00:47",
+    "last_status": 200,
+    "last_check": "2026-09-04T19:00:47.175Z",
+    "response_ms": 1124,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-09-03T07:01:12.299Z",
-        "status": 200
-      },
       {
         "t": "2026-09-03T07:17:06.886Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-09-04T18:30:48.645Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-04T19:00:47.175Z",
+        "status": 200
       }
     ]
   },
@@ -1446,16 +1446,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-04 18:31:21",
-    "last_status": 403,
-    "last_check": "2026-09-04T18:31:20.916Z",
-    "response_ms": 51,
+    "time_change": "2026-09-04 19:01:26",
+    "last_status": 200,
+    "last_check": "2026-09-04T19:01:26.113Z",
+    "response_ms": 839,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-03T10:02:04.363Z",
-        "status": 200
-      },
       {
         "t": "2026-09-03T10:31:51.864Z",
         "status": 403
@@ -1651,14 +1647,18 @@
       {
         "t": "2026-09-04T18:31:20.916Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-04T19:01:26.113Z",
+        "status": 200
       }
     ]
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-09-02 20:31:48",
-    "last_status": 200,
-    "last_check": "2026-09-02T20:31:48.622Z",
+    "time_change": "2026-09-04 19:01:48",
+    "last_status": -1,
+    "last_check": "2026-09-04T19:01:47.790Z",
     "response_ms": 330,
     "ssl_expiry": "2026-10-28",
     "history": [
@@ -1817,6 +1817,10 @@
       {
         "t": "2026-09-02T20:31:48.622Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-04T19:01:47.790Z",
+        "status": -1
       }
     ]
   },
