@@ -952,16 +952,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-09-02 22:31:48",
-    "last_status": 200,
-    "last_check": "2026-09-02T22:31:48.803Z",
+    "time_change": "2026-09-04 15:01:33",
+    "last_status": -1,
+    "last_check": "2026-09-04T15:01:30.119Z",
     "response_ms": 648,
     "ssl_expiry": "2026-10-30",
     "history": [
-      {
-        "t": "2026-08-22T19:46:45.234Z",
-        "status": 522
-      },
       {
         "t": "2026-08-22T19:58:18.658Z",
         "status": 200
@@ -1157,6 +1153,10 @@
       {
         "t": "2026-09-02T22:31:48.803Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-04T15:01:30.119Z",
+        "status": -1
       }
     ]
   },
@@ -1184,9 +1184,9 @@
   },
   "tantifilm_2": {
     "full_url": "https://tanti-film.hair/",
-    "time_change": "2026-08-31 15:01:50",
-    "last_status": 200,
-    "last_check": "2026-08-31T15:01:49.691Z",
+    "time_change": "2026-09-04 15:01:37",
+    "last_status": -1,
+    "last_check": "2026-09-04T15:01:37.232Z",
     "response_ms": 734,
     "ssl_expiry": "2026-11-29",
     "history": [
@@ -1205,6 +1205,10 @@
       {
         "t": "2026-07-25T06:30:43.571Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-04T15:01:37.232Z",
+        "status": -1
       }
     ]
   },
@@ -1228,16 +1232,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-04 14:16:31",
-    "last_status": 403,
-    "last_check": "2026-09-04T14:16:31.225Z",
-    "response_ms": 67,
+    "time_change": "2026-09-04 15:01:41",
+    "last_status": 200,
+    "last_check": "2026-09-04T15:01:41.360Z",
+    "response_ms": 326,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-03T07:46:49.248Z",
-        "status": 200
-      },
       {
         "t": "2026-09-03T08:01:48.050Z",
         "status": 403
@@ -1433,6 +1433,10 @@
       {
         "t": "2026-09-04T14:16:31.225Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-04T15:01:41.360Z",
+        "status": 200
       }
     ]
   },
