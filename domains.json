@@ -398,9 +398,9 @@
   },
   "guardaserie": {
     "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-09-04 06:46:21",
-    "last_status": 500,
-    "last_check": "2026-09-04T06:46:21.688Z",
+    "time_change": "2026-09-04 07:01:43",
+    "last_status": -1,
+    "last_check": "2026-09-04T07:01:28.521Z",
     "response_ms": 18091,
     "ssl_expiry": "2026-11-26",
     "history": [
@@ -499,6 +499,10 @@
       {
         "t": "2026-09-04T06:46:21.688Z",
         "status": 500
+      },
+      {
+        "t": "2026-09-04T07:01:28.521Z",
+        "status": -1
       }
     ]
   },
