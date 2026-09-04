@@ -398,9 +398,9 @@
   },
   "guardaserie": {
     "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-09-04 06:16:22",
-    "last_status": 500,
-    "last_check": "2026-09-04T06:16:22.914Z",
+    "time_change": "2026-09-04 06:31:42",
+    "last_status": -1,
+    "last_check": "2026-09-04T06:31:27.742Z",
     "response_ms": 18079,
     "ssl_expiry": "2026-11-26",
     "history": [
@@ -491,6 +491,10 @@
       {
         "t": "2026-09-04T06:16:22.914Z",
         "status": 500
+      },
+      {
+        "t": "2026-09-04T06:31:27.742Z",
+        "status": -1
       }
     ]
   },
@@ -1192,16 +1196,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-04 06:02:07",
-    "last_status": 200,
-    "last_check": "2026-09-04T06:02:07.281Z",
-    "response_ms": 344,
+    "time_change": "2026-09-04 06:32:38",
+    "last_status": 403,
+    "last_check": "2026-09-04T06:32:37.968Z",
+    "response_ms": 18,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-02T19:31:43.168Z",
-        "status": 403
-      },
       {
         "t": "2026-09-02T20:01:55.956Z",
         "status": 200
@@ -1397,6 +1397,10 @@
       {
         "t": "2026-09-04T06:02:07.281Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-04T06:32:37.968Z",
+        "status": 403
       }
     ]
   },
