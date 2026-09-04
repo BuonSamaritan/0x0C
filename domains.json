@@ -398,9 +398,9 @@
   },
   "guardaserie": {
     "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-08-28 14:01:15",
-    "last_status": 200,
-    "last_check": "2026-08-28T14:01:15.312Z",
+    "time_change": "2026-09-04 06:01:28",
+    "last_status": -1,
+    "last_check": "2026-09-04T06:01:27.804Z",
     "response_ms": 1162,
     "ssl_expiry": "2026-11-26",
     "history": [
@@ -483,6 +483,10 @@
       {
         "t": "2026-08-27T07:31:11.004Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-04T06:01:27.804Z",
+        "status": -1
       }
     ]
   },
@@ -546,10 +550,10 @@
   },
   "altadefinizione": {
     "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-09-03 16:16:26",
-    "last_status": 200,
-    "last_check": "2026-09-03T16:16:26.379Z",
-    "response_ms": 179,
+    "time_change": "2026-09-04 06:01:49",
+    "last_status": 500,
+    "last_check": "2026-09-04T06:01:49.424Z",
+    "response_ms": 17879,
     "ssl_expiry": "2026-11-26",
     "history": [
       {
@@ -591,6 +595,10 @@
       {
         "t": "2026-09-03T16:16:26.379Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-04T06:01:49.424Z",
+        "status": 500
       }
     ]
   },
@@ -1176,16 +1184,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-04 01:12:36",
-    "last_status": 403,
-    "last_check": "2026-09-04T01:12:35.481Z",
-    "response_ms": 126,
+    "time_change": "2026-09-04 06:02:07",
+    "last_status": 200,
+    "last_check": "2026-09-04T06:02:07.281Z",
+    "response_ms": 344,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-02T18:44:38.041Z",
-        "status": 200
-      },
       {
         "t": "2026-09-02T19:31:43.168Z",
         "status": 403
@@ -1381,6 +1385,10 @@
       {
         "t": "2026-09-04T01:12:35.481Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-04T06:02:07.281Z",
+        "status": 200
       }
     ]
   },
