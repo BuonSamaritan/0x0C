@@ -1183,12 +1183,12 @@
     ]
   },
   "tantifilm_2": {
-    "full_url": "https://tanti-film.hair/",
-    "time_change": "2026-09-04 15:16:17",
+    "full_url": "https://tanti-film.makeup/",
+    "time_change": "2026-09-07 15:01:38",
     "last_status": 200,
-    "last_check": "2026-09-04T15:16:17.420Z",
-    "response_ms": 490,
-    "ssl_expiry": "2026-11-29",
+    "last_check": "2026-09-07T15:01:38.230Z",
+    "response_ms": 44,
+    "ssl_expiry": "2026-12-01",
     "history": [
       {
         "t": "2026-07-20T20:01:58.057Z",
@@ -1446,16 +1446,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-07 14:46:29",
-    "last_status": 200,
-    "last_check": "2026-09-07T14:46:29.021Z",
-    "response_ms": 666,
+    "time_change": "2026-09-07 15:01:43",
+    "last_status": 403,
+    "last_check": "2026-09-07T15:01:43.318Z",
+    "response_ms": 25,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-05T22:01:46.000Z",
-        "status": 403
-      },
       {
         "t": "2026-09-05T22:20:38.985Z",
         "status": 200
@@ -1651,6 +1647,10 @@
       {
         "t": "2026-09-07T14:46:29.021Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-07T15:01:43.318Z",
+        "status": 403
       }
     ]
   },
