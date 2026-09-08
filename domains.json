@@ -288,12 +288,12 @@
     ]
   },
   "cb01new": {
-    "full_url": "https://cb01uno.baby/",
+    "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-02 14:01:18",
+    "time_change": "2026-09-08 14:00:58",
     "last_status": 200,
-    "last_check": "2026-09-02T14:01:18.305Z",
-    "response_ms": 712,
+    "last_check": "2026-09-08T14:00:58.315Z",
+    "response_ms": 1348,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -331,11 +331,11 @@
     ]
   },
   "cb01_2": {
-    "full_url": "https://cb01uno.baby/",
-    "time_change": "2026-09-02 14:01:20",
+    "full_url": "https://cb01uno.homes/",
+    "time_change": "2026-09-08 14:01:00",
     "last_status": 200,
-    "last_check": "2026-09-02T14:01:20.868Z",
-    "response_ms": 925,
+    "last_check": "2026-09-08T14:01:00.852Z",
+    "response_ms": 949,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
