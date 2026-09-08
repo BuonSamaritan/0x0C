@@ -850,10 +850,10 @@
   },
   "eurostreaming": {
     "full_url": "https://eurostream.cfd/",
-    "time_change": "2026-09-08 10:31:50",
-    "last_status": 522,
-    "last_check": "2026-09-08T10:31:49.966Z",
-    "response_ms": 19582,
+    "time_change": "2026-09-08 10:46:24",
+    "last_status": 200,
+    "last_check": "2026-09-08T10:46:24.173Z",
+    "response_ms": 653,
     "ssl_expiry": "2026-11-27",
     "history": [
       {
@@ -951,6 +951,10 @@
       {
         "t": "2026-09-08T10:31:49.966Z",
         "status": 522
+      },
+      {
+        "t": "2026-09-08T10:46:24.173Z",
+        "status": 200
       }
     ]
   },
@@ -1240,16 +1244,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-08 10:31:59",
-    "last_status": 403,
-    "last_check": "2026-09-08T10:31:59.555Z",
-    "response_ms": 39,
+    "time_change": "2026-09-08 10:46:34",
+    "last_status": 200,
+    "last_check": "2026-09-08T10:46:34.255Z",
+    "response_ms": 386,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-06T23:01:57.535Z",
-        "status": 403
-      },
       {
         "t": "2026-09-06T23:16:46.640Z",
         "status": 200
@@ -1445,6 +1445,10 @@
       {
         "t": "2026-09-08T10:31:59.555Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-08T10:46:34.255Z",
+        "status": 200
       }
     ]
   },
