@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-09-08 16:30:48",
-    "last_status": 403,
-    "last_check": "2026-09-08T16:30:48.205Z",
-    "response_ms": 22,
+    "time_change": "2026-09-08 16:45:43",
+    "last_status": 200,
+    "last_check": "2026-09-08T16:45:43.841Z",
+    "response_ms": 1138,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-09-06T21:46:08.756Z",
-        "status": 403
-      },
       {
         "t": "2026-09-06T22:01:15.410Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-09-08T16:30:48.205Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-08T16:45:43.841Z",
+        "status": 200
       }
     ]
   },
@@ -1260,16 +1260,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-08 16:16:16",
-    "last_status": 200,
-    "last_check": "2026-09-08T16:16:16.224Z",
-    "response_ms": 317,
+    "time_change": "2026-09-08 16:46:17",
+    "last_status": 403,
+    "last_check": "2026-09-08T16:46:17.617Z",
+    "response_ms": 24,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-07T09:31:30.933Z",
-        "status": 200
-      },
       {
         "t": "2026-09-07T12:01:40.444Z",
         "status": 403
@@ -1465,6 +1461,10 @@
       {
         "t": "2026-09-08T16:16:16.224Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-08T16:46:17.617Z",
+        "status": 403
       }
     ]
   },
