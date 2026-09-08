@@ -340,10 +340,10 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-08 22:46:20",
-    "last_status": 403,
-    "last_check": "2026-09-08T22:46:20.068Z",
-    "response_ms": 34,
+    "time_change": "2026-09-08 23:01:33",
+    "last_status": 200,
+    "last_check": "2026-09-08T23:01:33.569Z",
+    "response_ms": 413,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -421,6 +421,10 @@
       {
         "t": "2026-09-08T22:46:20.068Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-08T23:01:33.569Z",
+        "status": 200
       }
     ]
   },
@@ -1506,16 +1510,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-08 21:46:19",
-    "last_status": 200,
-    "last_check": "2026-09-08T21:46:19.357Z",
-    "response_ms": 850,
+    "time_change": "2026-09-08 23:01:57",
+    "last_status": 403,
+    "last_check": "2026-09-08T23:01:56.923Z",
+    "response_ms": 15,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-07T13:16:34.045Z",
-        "status": 403
-      },
       {
         "t": "2026-09-07T13:46:32.550Z",
         "status": 200
@@ -1711,6 +1711,10 @@
       {
         "t": "2026-09-08T21:46:19.357Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-08T23:01:56.923Z",
+        "status": 403
       }
     ]
   },
