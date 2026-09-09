@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-09-09 08:15:48",
-    "last_status": 200,
-    "last_check": "2026-09-09T08:15:48.045Z",
-    "response_ms": 1257,
+    "time_change": "2026-09-09 09:01:01",
+    "last_status": 403,
+    "last_check": "2026-09-09T09:01:01.241Z",
+    "response_ms": 51,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-09-07T16:01:14.683Z",
-        "status": 500
-      },
       {
         "t": "2026-09-07T16:15:58.349Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-09-09T08:15:48.045Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-09T09:01:01.241Z",
+        "status": 403
       }
     ]
   },
@@ -290,10 +290,10 @@
   "cb01new": {
     "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-09 08:45:52",
-    "last_status": 403,
-    "last_check": "2026-09-09T08:45:51.835Z",
-    "response_ms": 60,
+    "time_change": "2026-09-09 09:01:09",
+    "last_status": 200,
+    "last_check": "2026-09-09T09:01:09.249Z",
+    "response_ms": 899,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -363,15 +363,19 @@
       {
         "t": "2026-09-09T08:45:51.835Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-09T09:01:09.249Z",
+        "status": 200
       }
     ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-09 08:31:00",
-    "last_status": 403,
-    "last_check": "2026-09-09T08:31:00.052Z",
-    "response_ms": 12,
+    "time_change": "2026-09-09 09:01:11",
+    "last_status": 200,
+    "last_check": "2026-09-09T09:01:11.398Z",
+    "response_ms": 593,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -489,6 +493,10 @@
       {
         "t": "2026-09-09T08:31:00.052Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-09T09:01:11.398Z",
+        "status": 200
       }
     ]
   },
@@ -736,9 +744,9 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.taxi/",
-    "time_change": "2026-09-06 16:01:32",
-    "last_status": 200,
-    "last_check": "2026-09-06T16:01:32.381Z",
+    "time_change": "2026-09-09 09:01:38",
+    "last_status": -1,
+    "last_check": "2026-09-09T09:01:38.450Z",
     "response_ms": 381,
     "ssl_expiry": "2026-11-14",
     "history": [
@@ -861,6 +869,10 @@
       {
         "t": "2026-08-29T07:31:27.961Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-09T09:01:38.450Z",
+        "status": -1
       }
     ]
   },
@@ -1574,16 +1586,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-09 08:46:20",
-    "last_status": 403,
-    "last_check": "2026-09-09T08:46:20.512Z",
-    "response_ms": 64,
+    "time_change": "2026-09-09 09:02:02",
+    "last_status": 200,
+    "last_check": "2026-09-09T09:02:02.770Z",
+    "response_ms": 861,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-07T17:01:37.945Z",
-        "status": 200
-      },
       {
         "t": "2026-09-07T17:16:27.388Z",
         "status": 403
@@ -1779,6 +1787,10 @@
       {
         "t": "2026-09-09T08:46:20.512Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-09T09:02:02.770Z",
+        "status": 200
       }
     ]
   },
