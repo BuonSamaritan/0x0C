@@ -436,10 +436,10 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-09 21:45:54",
-    "last_status": 403,
-    "last_check": "2026-09-09T21:45:54.191Z",
-    "response_ms": 38,
+    "time_change": "2026-09-09 22:15:58",
+    "last_status": 200,
+    "last_check": "2026-09-09T22:15:58.882Z",
+    "response_ms": 449,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -597,6 +597,10 @@
       {
         "t": "2026-09-09T21:45:54.191Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-09T22:15:58.882Z",
+        "status": 200
       }
     ]
   },
@@ -1496,16 +1500,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-09 17:32:08",
-    "last_status": 200,
-    "last_check": "2026-09-09T17:32:08.892Z",
-    "response_ms": 5506,
+    "time_change": "2026-09-09 22:16:20",
+    "last_status": 403,
+    "last_check": "2026-09-09T22:16:20.696Z",
+    "response_ms": 25,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-08T10:31:59.555Z",
-        "status": 403
-      },
       {
         "t": "2026-09-08T10:46:34.255Z",
         "status": 200
@@ -1701,21 +1701,21 @@
       {
         "t": "2026-09-09T17:32:08.892Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-09T22:16:20.696Z",
+        "status": 403
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-09 21:14:24",
-    "last_status": 200,
-    "last_check": "2026-09-09T21:14:24.127Z",
-    "response_ms": 779,
+    "time_change": "2026-09-09 22:16:22",
+    "last_status": 403,
+    "last_check": "2026-09-09T22:16:22.455Z",
+    "response_ms": 21,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-08T12:46:17.973Z",
-        "status": 403
-      },
       {
         "t": "2026-09-08T13:16:26.837Z",
         "status": 200
@@ -1911,6 +1911,10 @@
       {
         "t": "2026-09-09T21:14:24.127Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-09T22:16:22.455Z",
+        "status": 403
       }
     ]
   },
