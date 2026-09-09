@@ -219,10 +219,10 @@
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
-    "time_change": "2026-09-09 17:02:01",
-    "last_status": 520,
-    "last_check": "2026-09-09T17:02:01.001Z",
-    "response_ms": 18268,
+    "time_change": "2026-09-09 17:16:22",
+    "last_status": 200,
+    "last_check": "2026-09-09T17:16:22.089Z",
+    "response_ms": 733,
     "ssl_expiry": "2026-10-27",
     "history": [
       {
@@ -288,6 +288,10 @@
       {
         "t": "2026-09-09T17:02:01.001Z",
         "status": 520
+      },
+      {
+        "t": "2026-09-09T17:16:22.089Z",
+        "status": 200
       }
     ]
   },
@@ -424,10 +428,10 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-09 16:31:28",
-    "last_status": 403,
-    "last_check": "2026-09-09T16:31:27.726Z",
-    "response_ms": 93,
+    "time_change": "2026-09-09 17:16:26",
+    "last_status": 200,
+    "last_check": "2026-09-09T17:16:26.454Z",
+    "response_ms": 445,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -569,6 +573,10 @@
       {
         "t": "2026-09-09T16:31:27.726Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-09T17:16:26.454Z",
+        "status": 200
       }
     ]
   },
@@ -746,10 +754,10 @@
   },
   "altadefinizione": {
     "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-09-09 17:02:24",
-    "last_status": -1,
-    "last_check": "2026-09-09T17:02:23.495Z",
-    "response_ms": 33,
+    "time_change": "2026-09-09 17:16:31",
+    "last_status": 200,
+    "last_check": "2026-09-09T17:16:31.724Z",
+    "response_ms": 56,
     "ssl_expiry": "2026-11-26",
     "history": [
       {
@@ -815,6 +823,10 @@
       {
         "t": "2026-09-09T17:02:23.495Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-09T17:16:31.724Z",
+        "status": 200
       }
     ]
   },
@@ -1404,10 +1416,10 @@
   },
   "tantifilm_2": {
     "full_url": "https://tanti-film.makeup/",
-    "time_change": "2026-09-09 17:02:59",
-    "last_status": -1,
-    "last_check": "2026-09-09T17:02:59.268Z",
-    "response_ms": 44,
+    "time_change": "2026-09-09 17:16:46",
+    "last_status": 200,
+    "last_check": "2026-09-09T17:16:45.994Z",
+    "response_ms": 34,
     "ssl_expiry": "2026-12-01",
     "history": [
       {
@@ -1437,6 +1449,10 @@
       {
         "t": "2026-09-09T17:02:59.268Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-09T17:16:45.994Z",
+        "status": 200
       }
     ]
   },
@@ -1670,16 +1686,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-09 16:31:56",
-    "last_status": 200,
-    "last_check": "2026-09-09T16:31:56.437Z",
-    "response_ms": 726,
+    "time_change": "2026-09-09 17:16:53",
+    "last_status": 403,
+    "last_check": "2026-09-09T17:16:53.170Z",
+    "response_ms": 15,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-08T07:46:34.590Z",
-        "status": 403
-      },
       {
         "t": "2026-09-08T08:31:35.258Z",
         "status": 200
@@ -1875,6 +1887,10 @@
       {
         "t": "2026-09-09T16:31:56.437Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-09T17:16:53.170Z",
+        "status": 403
       }
     ]
   },
