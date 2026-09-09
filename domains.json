@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-09-09 16:46:19",
-    "last_status": 403,
-    "last_check": "2026-09-09T16:46:18.158Z",
-    "response_ms": 189,
+    "time_change": "2026-09-09 17:01:26",
+    "last_status": 200,
+    "last_check": "2026-09-09T17:01:26.416Z",
+    "response_ms": 1196,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-09-08T13:15:43.239Z",
-        "status": 200
-      },
       {
         "t": "2026-09-08T14:15:49.899Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-09-09T16:46:18.158Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-09T17:01:26.416Z",
+        "status": 200
       }
     ]
   },
@@ -219,10 +219,10 @@
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
-    "time_change": "2026-09-01 19:16:20",
-    "last_status": 200,
-    "last_check": "2026-09-01T19:16:20.693Z",
-    "response_ms": 1030,
+    "time_change": "2026-09-09 17:02:01",
+    "last_status": 520,
+    "last_check": "2026-09-09T17:02:01.001Z",
+    "response_ms": 18268,
     "ssl_expiry": "2026-10-27",
     "history": [
       {
@@ -284,6 +284,10 @@
       {
         "t": "2026-09-01T19:16:20.693Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-09T17:02:01.001Z",
+        "status": 520
       }
     ]
   },
@@ -742,9 +746,9 @@
   },
   "altadefinizione": {
     "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-09-04 07:46:09",
-    "last_status": 200,
-    "last_check": "2026-09-04T07:46:09.028Z",
+    "time_change": "2026-09-09 17:02:24",
+    "last_status": -1,
+    "last_check": "2026-09-09T17:02:23.495Z",
     "response_ms": 33,
     "ssl_expiry": "2026-11-26",
     "history": [
@@ -807,6 +811,10 @@
       {
         "t": "2026-09-04T07:46:09.028Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-09T17:02:23.495Z",
+        "status": -1
       }
     ]
   },
@@ -1396,9 +1404,9 @@
   },
   "tantifilm_2": {
     "full_url": "https://tanti-film.makeup/",
-    "time_change": "2026-09-07 15:01:38",
-    "last_status": 200,
-    "last_check": "2026-09-07T15:01:38.230Z",
+    "time_change": "2026-09-09 17:02:59",
+    "last_status": -1,
+    "last_check": "2026-09-09T17:02:59.268Z",
     "response_ms": 44,
     "ssl_expiry": "2026-12-01",
     "history": [
@@ -1425,6 +1433,10 @@
       {
         "t": "2026-09-04T15:16:17.420Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-09T17:02:59.268Z",
+        "status": -1
       }
     ]
   },
@@ -1448,16 +1460,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-09 16:16:51",
-    "last_status": 200,
-    "last_check": "2026-09-09T16:16:51.183Z",
-    "response_ms": 305,
+    "time_change": "2026-09-09 17:03:04",
+    "last_status": 403,
+    "last_check": "2026-09-09T17:03:03.538Z",
+    "response_ms": 113,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-08T10:01:38.374Z",
-        "status": 403
-      },
       {
         "t": "2026-09-08T10:16:35.609Z",
         "status": 200
@@ -1653,6 +1661,10 @@
       {
         "t": "2026-09-09T16:16:51.183Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-09T17:03:03.538Z",
+        "status": 403
       }
     ]
   },
