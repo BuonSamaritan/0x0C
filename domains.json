@@ -444,10 +444,10 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-10 07:30:55",
-    "last_status": 403,
-    "last_check": "2026-09-10T07:30:55.692Z",
-    "response_ms": 32,
+    "time_change": "2026-09-10 07:46:00",
+    "last_status": 200,
+    "last_check": "2026-09-10T07:46:00.517Z",
+    "response_ms": 995,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -645,6 +645,10 @@
       {
         "t": "2026-09-10T07:30:55.692Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-10T07:46:00.517Z",
+        "status": 200
       }
     ]
   },
@@ -1252,16 +1256,12 @@
   },
   "filmpertutti": {
     "full_url": "https://filmpertutti.garden/",
-    "time_change": "2026-09-08 20:31:15",
-    "last_status": 200,
-    "last_check": "2026-09-08T20:31:15.135Z",
+    "time_change": "2026-09-10 07:46:36",
+    "last_status": -1,
+    "last_check": "2026-09-10T07:46:35.515Z",
     "response_ms": 720,
     "ssl_expiry": "2026-10-30",
     "history": [
-      {
-        "t": "2026-08-25T15:31:46.064Z",
-        "status": 522
-      },
       {
         "t": "2026-08-25T15:46:52.349Z",
         "status": -1
@@ -1457,6 +1457,10 @@
       {
         "t": "2026-09-08T20:31:15.135Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-10T07:46:35.515Z",
+        "status": -1
       }
     ]
   },
@@ -1544,16 +1548,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-10 07:01:44",
-    "last_status": 200,
-    "last_check": "2026-09-10T07:01:43.986Z",
-    "response_ms": 299,
+    "time_change": "2026-09-10 07:46:43",
+    "last_status": 403,
+    "last_check": "2026-09-10T07:46:42.996Z",
+    "response_ms": 37,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-08T13:31:19.765Z",
-        "status": 403
-      },
       {
         "t": "2026-09-08T13:46:23.273Z",
         "status": 200
@@ -1749,6 +1749,10 @@
       {
         "t": "2026-09-10T07:01:43.986Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-10T07:46:42.996Z",
+        "status": 403
       }
     ]
   },
