@@ -298,16 +298,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-10 21:01:03",
-    "last_status": 403,
-    "last_check": "2026-09-10T21:01:03.250Z",
-    "response_ms": 21,
+    "time_change": "2026-09-10 21:15:55",
+    "last_status": 200,
+    "last_check": "2026-09-10T21:15:55.490Z",
+    "response_ms": 962,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-09T06:00:54.394Z",
-        "status": 200
-      },
       {
         "t": "2026-09-09T07:30:31.865Z",
         "status": 403
@@ -503,21 +499,21 @@
       {
         "t": "2026-09-10T21:01:03.250Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-10T21:15:55.490Z",
+        "status": 200
       }
     ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-10 21:05:56",
-    "last_status": 403,
-    "last_check": "2026-09-10T21:05:56.218Z",
-    "response_ms": 56,
+    "time_change": "2026-09-10 21:15:57",
+    "last_status": 200,
+    "last_check": "2026-09-10T21:15:57.603Z",
+    "response_ms": 585,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-08T23:01:33.569Z",
-        "status": 200
-      },
       {
         "t": "2026-09-08T23:46:19.192Z",
         "status": 403
@@ -713,6 +709,10 @@
       {
         "t": "2026-09-10T21:05:56.218Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-10T21:15:57.603Z",
+        "status": 200
       }
     ]
   },
