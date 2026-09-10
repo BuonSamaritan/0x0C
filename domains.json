@@ -1168,10 +1168,10 @@
   },
   "guardaplay": {
     "full_url": "https://guardaplay.online/",
-    "time_change": "2026-09-10 15:01:32",
-    "last_status": 200,
-    "last_check": "2026-09-10T15:01:32.886Z",
-    "response_ms": 1776,
+    "time_change": "2026-09-10 15:16:19",
+    "last_status": 403,
+    "last_check": "2026-09-10T15:16:18.720Z",
+    "response_ms": 370,
     "ssl_expiry": "2026-10-27",
     "history": [
       {
@@ -1193,6 +1193,10 @@
       {
         "t": "2026-09-10T15:01:32.886Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-10T15:16:18.720Z",
+        "status": 403
       }
     ]
   },
@@ -1616,16 +1620,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-10 15:01:46",
-    "last_status": 403,
-    "last_check": "2026-09-10T15:01:46.391Z",
-    "response_ms": 23,
+    "time_change": "2026-09-10 15:16:30",
+    "last_status": 200,
+    "last_check": "2026-09-10T15:16:30.898Z",
+    "response_ms": 260,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-08T21:31:18.912Z",
-        "status": 200
-      },
       {
         "t": "2026-09-08T22:16:08.755Z",
         "status": 403
@@ -1821,6 +1821,10 @@
       {
         "t": "2026-09-10T15:01:46.391Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-10T15:16:30.898Z",
+        "status": 200
       }
     ]
   },
