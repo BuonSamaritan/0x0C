@@ -298,10 +298,10 @@
   "cb01new": {
     "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-10 11:15:52",
-    "last_status": 403,
-    "last_check": "2026-09-10T11:15:52.439Z",
-    "response_ms": 18,
+    "time_change": "2026-09-10 11:30:59",
+    "last_status": 200,
+    "last_check": "2026-09-10T11:30:59.218Z",
+    "response_ms": 725,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -467,21 +467,21 @@
       {
         "t": "2026-09-10T11:15:52.439Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-10T11:30:59.218Z",
+        "status": 200
       }
     ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-10 10:56:36",
-    "last_status": 200,
-    "last_check": "2026-09-10T10:56:36.853Z",
-    "response_ms": 973,
+    "time_change": "2026-09-10 11:31:00",
+    "last_status": 403,
+    "last_check": "2026-09-10T11:31:00.769Z",
+    "response_ms": 21,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-06-30T19:01:12.009Z",
-        "status": -1
-      },
       {
         "t": "2026-06-30T19:06:18.384Z",
         "status": 200
@@ -677,6 +677,10 @@
       {
         "t": "2026-09-10T10:56:36.853Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-10T11:31:00.769Z",
+        "status": 403
       }
     ]
   },
@@ -1576,16 +1580,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-10 11:16:16",
-    "last_status": 403,
-    "last_check": "2026-09-10T11:16:16.233Z",
-    "response_ms": 23,
+    "time_change": "2026-09-10 11:31:27",
+    "last_status": 200,
+    "last_check": "2026-09-10T11:31:27.714Z",
+    "response_ms": 376,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-08T18:34:12.114Z",
-        "status": 200
-      },
       {
         "t": "2026-09-08T19:16:25.116Z",
         "status": 403
@@ -1781,6 +1781,10 @@
       {
         "t": "2026-09-10T11:16:16.233Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-10T11:31:27.714Z",
+        "status": 200
       }
     ]
   },
