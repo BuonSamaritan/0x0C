@@ -314,16 +314,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-11 23:15:36",
-    "last_status": 200,
-    "last_check": "2026-09-11T23:15:36.047Z",
-    "response_ms": 458,
+    "time_change": "2026-09-11 23:16:53",
+    "last_status": 403,
+    "last_check": "2026-09-11T23:16:53.509Z",
+    "response_ms": 20,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-10T15:45:53.895Z",
-        "status": 403
-      },
       {
         "t": "2026-09-10T16:15:56.772Z",
         "status": 200
@@ -519,6 +515,10 @@
       {
         "t": "2026-09-11T23:15:36.047Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-11T23:16:53.509Z",
+        "status": 403
       }
     ]
   },
@@ -1658,10 +1658,10 @@
   },
   "filmsenzalimite": {
     "full_url": "https://filmsenzalimiti.study/",
-    "time_change": "2026-09-11 23:16:19",
-    "last_status": -1,
-    "last_check": "2026-09-11T23:16:19.228Z",
-    "response_ms": 499,
+    "time_change": "2026-09-11 23:17:17",
+    "last_status": 200,
+    "last_check": "2026-09-11T23:17:17.312Z",
+    "response_ms": 49,
     "ssl_expiry": "2026-11-19",
     "history": [
       {
@@ -1675,6 +1675,10 @@
       {
         "t": "2026-09-11T23:16:19.228Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-11T23:17:17.312Z",
+        "status": 200
       }
     ]
   },
