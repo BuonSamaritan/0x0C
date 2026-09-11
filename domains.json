@@ -219,10 +219,10 @@
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
-    "time_change": "2026-09-11 15:16:31",
-    "last_status": 520,
-    "last_check": "2026-09-11T15:16:31.430Z",
-    "response_ms": 8504,
+    "time_change": "2026-09-11 15:31:18",
+    "last_status": 200,
+    "last_check": "2026-09-11T15:31:18.756Z",
+    "response_ms": 994,
     "ssl_expiry": "2026-10-27",
     "history": [
       {
@@ -296,22 +296,22 @@
       {
         "t": "2026-09-11T15:16:31.430Z",
         "status": 520
+      },
+      {
+        "t": "2026-09-11T15:31:18.756Z",
+        "status": 200
       }
     ]
   },
   "cb01new": {
     "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-11 14:01:23",
-    "last_status": 200,
-    "last_check": "2026-09-11T14:01:23.968Z",
-    "response_ms": 704,
+    "time_change": "2026-09-11 15:31:20",
+    "last_status": 403,
+    "last_check": "2026-09-11T15:31:20.502Z",
+    "response_ms": 68,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-10T11:15:52.439Z",
-        "status": 403
-      },
       {
         "t": "2026-09-10T11:30:59.218Z",
         "status": 200
@@ -507,6 +507,10 @@
       {
         "t": "2026-09-11T14:01:23.968Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-11T15:31:20.502Z",
+        "status": 403
       }
     ]
   },
@@ -1648,16 +1652,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-11 15:02:08",
-    "last_status": 200,
-    "last_check": "2026-09-11T15:02:08.246Z",
-    "response_ms": 926,
+    "time_change": "2026-09-11 15:31:49",
+    "last_status": 403,
+    "last_check": "2026-09-11T15:31:49.582Z",
+    "response_ms": 77,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-10T07:46:42.996Z",
-        "status": 403
-      },
       {
         "t": "2026-09-10T08:01:46.272Z",
         "status": 200
@@ -1853,6 +1853,10 @@
       {
         "t": "2026-09-11T15:02:08.246Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-11T15:31:49.582Z",
+        "status": 403
       }
     ]
   },
