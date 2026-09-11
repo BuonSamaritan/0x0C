@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-09-11 18:45:31",
-    "last_status": 403,
-    "last_check": "2026-09-11T18:45:31.075Z",
-    "response_ms": 131,
+    "time_change": "2026-09-11 19:00:33",
+    "last_status": 200,
+    "last_check": "2026-09-11T19:00:33.119Z",
+    "response_ms": 2090,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-09-10T08:45:48.177Z",
-        "status": 200
-      },
       {
         "t": "2026-09-10T10:00:55.148Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-09-11T18:45:31.075Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-11T19:00:33.119Z",
+        "status": 200
       }
     ]
   },
@@ -306,16 +306,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-11 18:45:38",
-    "last_status": 403,
-    "last_check": "2026-09-11T18:45:37.999Z",
-    "response_ms": 129,
+    "time_change": "2026-09-11 19:00:46",
+    "last_status": 200,
+    "last_check": "2026-09-11T19:00:46.139Z",
+    "response_ms": 1003,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-10T13:01:01.068Z",
-        "status": 200
-      },
       {
         "t": "2026-09-10T13:15:55.461Z",
         "status": 403
@@ -511,21 +507,21 @@
       {
         "t": "2026-09-11T18:45:37.999Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-11T19:00:46.139Z",
+        "status": 200
       }
     ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-11 18:30:50",
-    "last_status": 403,
-    "last_check": "2026-09-11T18:30:49.074Z",
-    "response_ms": 171,
+    "time_change": "2026-09-11 19:00:48",
+    "last_status": 200,
+    "last_check": "2026-09-11T19:00:48.642Z",
+    "response_ms": 974,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-10T13:15:58.130Z",
-        "status": 200
-      },
       {
         "t": "2026-09-10T14:01:04.582Z",
         "status": 403
@@ -721,6 +717,10 @@
       {
         "t": "2026-09-11T18:30:49.074Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-11T19:00:48.642Z",
+        "status": 200
       }
     ]
   },
@@ -1862,16 +1862,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-11 18:16:14",
-    "last_status": 200,
-    "last_check": "2026-09-11T18:16:14.316Z",
-    "response_ms": 1022,
+    "time_change": "2026-09-11 19:01:29",
+    "last_status": 403,
+    "last_check": "2026-09-11T19:01:29.239Z",
+    "response_ms": 25,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-10T10:46:24.811Z",
-        "status": 403
-      },
       {
         "t": "2026-09-10T10:57:10.006Z",
         "status": 200
@@ -2067,14 +2063,18 @@
       {
         "t": "2026-09-11T18:16:14.316Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-11T19:01:29.239Z",
+        "status": 403
       }
     ]
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-09-09 21:46:28",
-    "last_status": 200,
-    "last_check": "2026-09-09T21:46:28.024Z",
+    "time_change": "2026-09-11 19:02:04",
+    "last_status": -1,
+    "last_check": "2026-09-11T19:01:51.185Z",
     "response_ms": 326,
     "ssl_expiry": "2026-10-28",
     "history": [
@@ -2257,6 +2257,10 @@
       {
         "t": "2026-09-09T21:46:28.024Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-11T19:01:51.185Z",
+        "status": -1
       }
     ]
   },
