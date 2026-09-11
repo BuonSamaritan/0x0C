@@ -508,16 +508,12 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-11 14:01:26",
-    "last_status": 200,
-    "last_check": "2026-09-11T14:01:26.242Z",
-    "response_ms": 747,
+    "time_change": "2026-09-11 14:16:26",
+    "last_status": 403,
+    "last_check": "2026-09-11T14:16:25.668Z",
+    "response_ms": 72,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-10T07:30:55.692Z",
-        "status": 403
-      },
       {
         "t": "2026-09-10T07:46:00.517Z",
         "status": 200
@@ -713,6 +709,10 @@
       {
         "t": "2026-09-11T14:01:26.242Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-11T14:16:25.668Z",
+        "status": 403
       }
     ]
   },
@@ -1217,11 +1217,11 @@
     ]
   },
   "eurostreaming": {
-    "full_url": "https://eurostream.cfd/",
-    "time_change": "2026-09-10 18:18:05",
+    "full_url": "https://eurostream.mom/",
+    "time_change": "2026-09-11 14:16:42",
     "last_status": 200,
-    "last_check": "2026-09-10T18:18:04.981Z",
-    "response_ms": 687,
+    "last_check": "2026-09-11T14:16:42.060Z",
+    "response_ms": 743,
     "ssl_expiry": "2026-11-27",
     "history": [
       {
@@ -1644,16 +1644,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-11 13:46:35",
-    "last_status": 403,
-    "last_check": "2026-09-11T13:46:35.139Z",
-    "response_ms": 30,
+    "time_change": "2026-09-11 14:16:52",
+    "last_status": 200,
+    "last_check": "2026-09-11T14:16:52.704Z",
+    "response_ms": 360,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-09T23:31:34.108Z",
-        "status": 200
-      },
       {
         "t": "2026-09-10T06:46:21.374Z",
         "status": 403
@@ -1849,6 +1845,10 @@
       {
         "t": "2026-09-11T13:46:35.139Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-11T14:16:52.704Z",
+        "status": 200
       }
     ]
   },
