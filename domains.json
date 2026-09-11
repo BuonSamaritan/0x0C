@@ -306,16 +306,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-11 19:00:46",
-    "last_status": 200,
-    "last_check": "2026-09-11T19:00:46.139Z",
-    "response_ms": 1003,
+    "time_change": "2026-09-11 20:15:38",
+    "last_status": 403,
+    "last_check": "2026-09-11T20:15:38.370Z",
+    "response_ms": 46,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-10T13:15:55.461Z",
-        "status": 403
-      },
       {
         "t": "2026-09-10T13:31:04.264Z",
         "status": 200
@@ -511,6 +507,10 @@
       {
         "t": "2026-09-11T19:00:46.139Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-11T20:15:38.370Z",
+        "status": 403
       }
     ]
   },
@@ -906,10 +906,10 @@
   },
   "altadefinizione": {
     "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-09-11 20:01:08",
-    "last_status": -1,
-    "last_check": "2026-09-11T20:01:07.378Z",
-    "response_ms": 67,
+    "time_change": "2026-09-11 20:15:46",
+    "last_status": 200,
+    "last_check": "2026-09-11T20:15:46.262Z",
+    "response_ms": 26,
     "ssl_expiry": "2026-11-26",
     "history": [
       {
@@ -991,6 +991,10 @@
       {
         "t": "2026-09-11T20:01:07.378Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-11T20:15:46.262Z",
+        "status": 200
       }
     ]
   },
