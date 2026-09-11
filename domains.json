@@ -306,16 +306,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-11 21:10:03",
-    "last_status": 403,
-    "last_check": "2026-09-11T21:10:03.362Z",
-    "response_ms": 46,
+    "time_change": "2026-09-11 21:15:48",
+    "last_status": 200,
+    "last_check": "2026-09-11T21:15:48.866Z",
+    "response_ms": 969,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-10T14:01:02.960Z",
-        "status": 200
-      },
       {
         "t": "2026-09-10T14:31:05.618Z",
         "status": 403
@@ -511,21 +507,21 @@
       {
         "t": "2026-09-11T21:10:03.362Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-11T21:15:48.866Z",
+        "status": 200
       }
     ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-11 19:30:36",
-    "last_status": 200,
-    "last_check": "2026-09-11T19:30:36.396Z",
-    "response_ms": 722,
+    "time_change": "2026-09-11 21:15:50",
+    "last_status": 403,
+    "last_check": "2026-09-11T21:15:50.421Z",
+    "response_ms": 25,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-10T14:46:02.717Z",
-        "status": 403
-      },
       {
         "t": "2026-09-10T14:56:22.882Z",
         "status": 200
@@ -721,6 +717,10 @@
       {
         "t": "2026-09-11T19:30:36.396Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-11T21:15:50.421Z",
+        "status": 403
       }
     ]
   },
@@ -1664,16 +1664,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-11 21:10:53",
-    "last_status": 200,
-    "last_check": "2026-09-11T21:10:53.850Z",
-    "response_ms": 1459,
+    "time_change": "2026-09-11 21:16:34",
+    "last_status": 403,
+    "last_check": "2026-09-11T21:16:33.848Z",
+    "response_ms": 24,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-10T14:46:31.839Z",
-        "status": 403
-      },
       {
         "t": "2026-09-10T14:57:03.241Z",
         "status": 200
@@ -1869,6 +1865,10 @@
       {
         "t": "2026-09-11T21:10:53.850Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-11T21:16:33.848Z",
+        "status": 403
       }
     ]
   },
@@ -2084,9 +2084,9 @@
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-09-11 19:16:16",
-    "last_status": 200,
-    "last_check": "2026-09-11T19:16:16.435Z",
+    "time_change": "2026-09-11 21:17:12",
+    "last_status": -1,
+    "last_check": "2026-09-11T21:16:58.442Z",
     "response_ms": 493,
     "ssl_expiry": "2026-10-28",
     "history": [
@@ -2277,6 +2277,10 @@
       {
         "t": "2026-09-11T19:16:16.435Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-11T21:16:58.442Z",
+        "status": -1
       }
     ]
   },
