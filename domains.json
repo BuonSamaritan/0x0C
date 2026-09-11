@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-09-11 22:00:28",
-    "last_status": 403,
-    "last_check": "2026-09-11T22:00:28.046Z",
-    "response_ms": 18,
+    "time_change": "2026-09-11 22:15:30",
+    "last_status": 200,
+    "last_check": "2026-09-11T22:15:30.501Z",
+    "response_ms": 1895,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-09-10T13:15:50.177Z",
-        "status": 200
-      },
       {
         "t": "2026-09-10T14:00:56.216Z",
         "status": 403
@@ -206,6 +202,10 @@
       {
         "t": "2026-09-11T22:00:28.046Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-11T22:15:30.501Z",
+        "status": 200
       }
     ]
   },
@@ -219,10 +219,10 @@
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
-    "time_change": "2026-09-11 22:01:06",
-    "last_status": -1,
-    "last_check": "2026-09-11T22:00:51.883Z",
-    "response_ms": 994,
+    "time_change": "2026-09-11 22:15:34",
+    "last_status": 200,
+    "last_check": "2026-09-11T22:15:34.803Z",
+    "response_ms": 424,
     "ssl_expiry": "2026-10-27",
     "history": [
       {
@@ -304,6 +304,10 @@
       {
         "t": "2026-09-11T22:00:51.883Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-11T22:15:34.803Z",
+        "status": 200
       }
     ]
   },
@@ -1672,16 +1676,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-11 21:46:01",
-    "last_status": 403,
-    "last_check": "2026-09-11T21:46:01.722Z",
+    "time_change": "2026-09-11 22:16:24",
+    "last_status": -1,
+    "last_check": "2026-09-11T22:16:24.180Z",
     "response_ms": 21,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-10T15:16:30.898Z",
-        "status": 200
-      },
       {
         "t": "2026-09-10T15:32:08.642Z",
         "status": 403
@@ -1877,21 +1877,21 @@
       {
         "t": "2026-09-11T21:46:01.722Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-11T22:16:24.180Z",
+        "status": -1
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-11 21:46:03",
-    "last_status": 403,
-    "last_check": "2026-09-11T21:46:03.496Z",
-    "response_ms": 20,
+    "time_change": "2026-09-11 22:16:27",
+    "last_status": 200,
+    "last_check": "2026-09-11T22:16:26.960Z",
+    "response_ms": 791,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-10T13:31:33.762Z",
-        "status": 200
-      },
       {
         "t": "2026-09-10T14:16:46.968Z",
         "status": 403
@@ -2087,6 +2087,10 @@
       {
         "t": "2026-09-11T21:46:03.496Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-11T22:16:26.960Z",
+        "status": 200
       }
     ]
   },
