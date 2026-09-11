@@ -1000,10 +1000,10 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.taxi/",
-    "time_change": "2026-09-11 21:10:33",
-    "last_status": -1,
-    "last_check": "2026-09-11T21:10:32.955Z",
-    "response_ms": 499,
+    "time_change": "2026-09-11 21:30:43",
+    "last_status": 200,
+    "last_check": "2026-09-11T21:30:43.039Z",
+    "response_ms": 388,
     "ssl_expiry": "2026-11-14",
     "history": [
       {
@@ -1137,6 +1137,10 @@
       {
         "t": "2026-09-11T21:10:32.955Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-11T21:30:43.039Z",
+        "status": 200
       }
     ]
   },
@@ -1664,16 +1668,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-11 21:16:34",
-    "last_status": 403,
-    "last_check": "2026-09-11T21:16:33.848Z",
-    "response_ms": 24,
+    "time_change": "2026-09-11 21:31:11",
+    "last_status": 200,
+    "last_check": "2026-09-11T21:31:11.371Z",
+    "response_ms": 10755,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-10T14:57:03.241Z",
-        "status": 200
-      },
       {
         "t": "2026-09-10T15:01:46.391Z",
         "status": 403
@@ -1869,6 +1869,10 @@
       {
         "t": "2026-09-11T21:16:33.848Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-11T21:31:11.371Z",
+        "status": 200
       }
     ]
   },
@@ -2084,10 +2088,10 @@
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-09-11 21:17:12",
-    "last_status": -1,
-    "last_check": "2026-09-11T21:16:58.442Z",
-    "response_ms": 493,
+    "time_change": "2026-09-11 21:31:15",
+    "last_status": 200,
+    "last_check": "2026-09-11T21:31:15.730Z",
+    "response_ms": 589,
     "ssl_expiry": "2026-10-28",
     "history": [
       {
@@ -2281,6 +2285,10 @@
       {
         "t": "2026-09-11T21:16:58.442Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-11T21:31:15.730Z",
+        "status": 200
       }
     ]
   },
