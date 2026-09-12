@@ -1,16 +1,12 @@
 {
   "toonitalia": {
     "full_url": "https://toonitalia.xyz/",
-    "time_change": "2026-09-12 16:02:55",
-    "last_status": 200,
-    "last_check": "2026-09-12T16:02:55.223Z",
-    "response_ms": 1029,
+    "time_change": "2026-09-12 16:17:47",
+    "last_status": 403,
+    "last_check": "2026-09-12T16:17:47.388Z",
+    "response_ms": 27,
     "ssl_expiry": "2026-10-31",
     "history": [
-      {
-        "t": "2026-09-11T11:46:10.361Z",
-        "status": 403
-      },
       {
         "t": "2026-09-11T12:16:10.141Z",
         "status": 200
@@ -206,6 +202,10 @@
       {
         "t": "2026-09-12T16:02:55.223Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-12T16:17:47.388Z",
+        "status": 403
       }
     ]
   },
@@ -219,10 +219,10 @@
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
-    "time_change": "2026-09-12 06:16:52",
-    "last_status": 200,
-    "last_check": "2026-09-12T06:16:52.680Z",
-    "response_ms": 687,
+    "time_change": "2026-09-12 16:17:51",
+    "last_status": 202,
+    "last_check": "2026-09-12T16:17:51.154Z",
+    "response_ms": 141,
     "ssl_expiry": "2026-10-27",
     "history": [
       {
@@ -316,6 +316,10 @@
       {
         "t": "2026-09-12T06:16:52.680Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-12T16:17:51.154Z",
+        "status": 202
       }
     ]
   },
