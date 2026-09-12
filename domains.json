@@ -219,10 +219,10 @@
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
-    "time_change": "2026-09-11 22:15:34",
-    "last_status": 200,
-    "last_check": "2026-09-11T22:15:34.803Z",
-    "response_ms": 424,
+    "time_change": "2026-09-12 06:01:33",
+    "last_status": 520,
+    "last_check": "2026-09-12T06:01:33.857Z",
+    "response_ms": 8779,
     "ssl_expiry": "2026-10-27",
     "history": [
       {
@@ -308,6 +308,10 @@
       {
         "t": "2026-09-11T22:15:34.803Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-12T06:01:33.857Z",
+        "status": 520
       }
     ]
   },
@@ -1684,16 +1688,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-11 22:31:17",
-    "last_status": 200,
-    "last_check": "2026-09-11T22:31:17.475Z",
-    "response_ms": 1921,
+    "time_change": "2026-09-12 06:02:00",
+    "last_status": 403,
+    "last_check": "2026-09-12T06:02:00.583Z",
+    "response_ms": 19,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-10T15:46:22.983Z",
-        "status": 200
-      },
       {
         "t": "2026-09-10T16:46:24.914Z",
         "status": 403
@@ -1889,21 +1889,21 @@
       {
         "t": "2026-09-11T22:31:17.475Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-12T06:02:00.583Z",
+        "status": 403
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-11 23:46:02",
-    "last_status": 200,
-    "last_check": "2026-09-11T23:46:02.789Z",
-    "response_ms": 679,
+    "time_change": "2026-09-12 06:02:02",
+    "last_status": 403,
+    "last_check": "2026-09-12T06:02:02.443Z",
+    "response_ms": 14,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-10T15:46:24.840Z",
-        "status": 403
-      },
       {
         "t": "2026-09-10T16:16:25.075Z",
         "status": 200
@@ -2099,6 +2099,10 @@
       {
         "t": "2026-09-11T23:46:02.789Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-12T06:02:02.443Z",
+        "status": 403
       }
     ]
   },
