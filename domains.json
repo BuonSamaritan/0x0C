@@ -540,16 +540,12 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-13 01:03:49",
-    "last_status": 403,
-    "last_check": "2026-09-13T01:03:49.685Z",
-    "response_ms": 27,
+    "time_change": "2026-09-13 06:01:28",
+    "last_status": 200,
+    "last_check": "2026-09-13T06:01:28.809Z",
+    "response_ms": 398,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-12T09:02:10.546Z",
-        "status": 200
-      },
       {
         "t": "2026-09-12T09:17:45.456Z",
         "status": 403
@@ -745,6 +741,10 @@
       {
         "t": "2026-09-13T01:03:49.685Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-13T06:01:28.809Z",
+        "status": 200
       }
     ]
   },
@@ -1610,11 +1610,11 @@
   },
   "tantifilm": {
     "full_url": "https://tantifilm.online/",
-    "time_change": "2026-09-02 01:26:25",
-    "last_status": -1,
-    "last_check": "2026-09-02T01:26:24.616Z",
-    "response_ms": 121,
-    "ssl_expiry": "2026-11-14",
+    "time_change": "2026-09-13 06:01:47",
+    "last_status": 200,
+    "last_check": "2026-09-13T06:01:46.818Z",
+    "response_ms": 246,
+    "ssl_expiry": "2026-12-12",
     "history": [
       {
         "t": "2026-08-01T18:16:17.148Z",
@@ -1627,6 +1627,10 @@
       {
         "t": "2026-09-02T01:26:24.616Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-13T06:01:46.818Z",
+        "status": 200
       }
     ]
   },
@@ -1700,16 +1704,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-13 01:04:13",
-    "last_status": 403,
-    "last_check": "2026-09-13T01:04:13.332Z",
-    "response_ms": 29,
+    "time_change": "2026-09-13 06:01:52",
+    "last_status": 200,
+    "last_check": "2026-09-13T06:01:52.643Z",
+    "response_ms": 961,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-11T21:16:33.848Z",
-        "status": 403
-      },
       {
         "t": "2026-09-11T21:31:11.371Z",
         "status": 200
@@ -1905,6 +1905,10 @@
       {
         "t": "2026-09-13T01:04:13.332Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-13T06:01:52.643Z",
+        "status": 200
       }
     ]
   },
