@@ -330,16 +330,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-14 14:45:29",
-    "last_status": 403,
-    "last_check": "2026-09-14T14:45:28.537Z",
-    "response_ms": 133,
+    "time_change": "2026-09-14 15:00:33",
+    "last_status": 200,
+    "last_check": "2026-09-14T15:00:33.652Z",
+    "response_ms": 967,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-12T22:16:10.647Z",
-        "status": 200
-      },
       {
         "t": "2026-09-12T22:17:39.544Z",
         "status": 403
@@ -535,6 +531,10 @@
       {
         "t": "2026-09-14T14:45:28.537Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-14T15:00:33.652Z",
+        "status": 200
       }
     ]
   },
@@ -1712,16 +1712,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-14 14:46:17",
-    "last_status": 403,
-    "last_check": "2026-09-14T14:46:16.537Z",
-    "response_ms": 107,
+    "time_change": "2026-09-14 15:01:17",
+    "last_status": 200,
+    "last_check": "2026-09-14T15:01:17.525Z",
+    "response_ms": 430,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-12T23:31:43.384Z",
-        "status": 200
-      },
       {
         "t": "2026-09-13T01:04:13.332Z",
         "status": 403
@@ -1917,6 +1913,10 @@
       {
         "t": "2026-09-14T14:46:16.537Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-14T15:01:17.525Z",
+        "status": 200
       }
     ]
   },
