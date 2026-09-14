@@ -540,16 +540,12 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-14 18:08:32",
-    "last_status": 403,
-    "last_check": "2026-09-14T18:08:32.295Z",
-    "response_ms": 17,
+    "time_change": "2026-09-14 18:15:28",
+    "last_status": 200,
+    "last_check": "2026-09-14T18:15:28.910Z",
+    "response_ms": 699,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-12T21:31:15.481Z",
-        "status": 200
-      },
       {
         "t": "2026-09-12T22:16:12.212Z",
         "status": 403
@@ -745,6 +741,10 @@
       {
         "t": "2026-09-14T18:08:32.295Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-14T18:15:28.910Z",
+        "status": 200
       }
     ]
   },
@@ -1266,10 +1266,10 @@
   },
   "eurostreaming": {
     "full_url": "https://eurostream.mom/",
-    "time_change": "2026-09-14 18:09:07",
-    "last_status": -1,
-    "last_check": "2026-09-14T18:09:06.780Z",
-    "response_ms": 720,
+    "time_change": "2026-09-14 18:15:42",
+    "last_status": 200,
+    "last_check": "2026-09-14T18:15:42.794Z",
+    "response_ms": 651,
     "ssl_expiry": "2026-11-27",
     "history": [
       {
@@ -1407,6 +1407,10 @@
       {
         "t": "2026-09-14T18:09:06.780Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-14T18:15:42.794Z",
+        "status": 200
       }
     ]
   },
