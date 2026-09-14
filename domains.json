@@ -330,16 +330,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.homes/",
     "old_domain": "live",
-    "time_change": "2026-09-14 12:30:28",
-    "last_status": 200,
-    "last_check": "2026-09-14T12:30:28.767Z",
-    "response_ms": 576,
+    "time_change": "2026-09-14 13:00:28",
+    "last_status": 403,
+    "last_check": "2026-09-14T13:00:28.323Z",
+    "response_ms": 43,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-12T20:32:46.669Z",
-        "status": 403
-      },
       {
         "t": "2026-09-12T20:47:54.214Z",
         "status": 200
@@ -535,6 +531,10 @@
       {
         "t": "2026-09-14T12:30:28.767Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-14T13:00:28.323Z",
+        "status": 403
       }
     ]
   },
