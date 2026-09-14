@@ -540,16 +540,12 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-14 22:45:26",
-    "last_status": 200,
-    "last_check": "2026-09-14T22:45:26.649Z",
-    "response_ms": 648,
+    "time_change": "2026-09-14 23:30:26",
+    "last_status": 403,
+    "last_check": "2026-09-14T23:30:25.932Z",
+    "response_ms": 58,
     "ssl_expiry": "2026-11-25",
     "history": [
-      {
-        "t": "2026-09-13T07:01:22.097Z",
-        "status": 403
-      },
       {
         "t": "2026-09-13T07:16:32.012Z",
         "status": 200
@@ -745,6 +741,10 @@
       {
         "t": "2026-09-14T22:45:26.649Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-14T23:30:25.932Z",
+        "status": 403
       }
     ]
   },
@@ -1231,12 +1231,12 @@
     ]
   },
   "guardaplay": {
-    "full_url": "https://guardaplay.online/",
-    "time_change": "2026-09-10 15:16:19",
-    "last_status": 403,
-    "last_check": "2026-09-10T15:16:18.720Z",
-    "response_ms": 370,
-    "ssl_expiry": "2026-10-27",
+    "full_url": "https://guardaplay.info/",
+    "time_change": "2026-09-14 23:30:38",
+    "last_status": 200,
+    "last_check": "2026-09-14T23:30:38.868Z",
+    "response_ms": 1528,
+    "ssl_expiry": "2026-12-10",
     "history": [
       {
         "t": "2026-08-16T21:01:31.667Z",
@@ -1261,6 +1261,10 @@
       {
         "t": "2026-09-10T15:16:18.720Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-14T23:30:38.868Z",
+        "status": 200
       }
     ]
   },
@@ -1728,16 +1732,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-14 23:00:49",
-    "last_status": 403,
-    "last_check": "2026-09-14T23:00:48.702Z",
-    "response_ms": 34,
+    "time_change": "2026-09-14 23:30:51",
+    "last_status": 200,
+    "last_check": "2026-09-14T23:30:51.080Z",
+    "response_ms": 352,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-13T14:30:48.450Z",
-        "status": 200
-      },
       {
         "t": "2026-09-13T16:30:51.102Z",
         "status": 403
@@ -1933,6 +1933,10 @@
       {
         "t": "2026-09-14T23:00:48.702Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-14T23:30:51.080Z",
+        "status": 200
       }
     ]
   },
