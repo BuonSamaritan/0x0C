@@ -749,12 +749,12 @@
     ]
   },
   "guardaserie": {
-    "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-09-10 19:01:01",
+    "full_url": "https://altadefinizione.fast/",
+    "time_change": "2026-09-15 23:00:35",
     "last_status": 200,
-    "last_check": "2026-09-10T19:01:01.088Z",
-    "response_ms": 120,
-    "ssl_expiry": "2026-11-26",
+    "last_check": "2026-09-15T23:00:35.590Z",
+    "response_ms": 1266,
+    "ssl_expiry": "2026-11-25",
     "history": [
       {
         "t": "2026-07-09T12:06:13.524Z",
@@ -929,12 +929,12 @@
     ]
   },
   "altadefinizione": {
-    "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-09-11 20:15:46",
+    "full_url": "https://altadefinizione.fast/",
+    "time_change": "2026-09-15 23:00:39",
     "last_status": 200,
-    "last_check": "2026-09-11T20:15:46.262Z",
-    "response_ms": 26,
-    "ssl_expiry": "2026-11-26",
+    "last_check": "2026-09-15T23:00:39.256Z",
+    "response_ms": 90,
+    "ssl_expiry": "2026-11-25",
     "history": [
       {
         "t": "2026-07-09T12:06:36.975Z",
