@@ -1232,10 +1232,10 @@
   },
   "guardaplay": {
     "full_url": "https://guardaplay.info/",
-    "time_change": "2026-09-15 08:00:43",
-    "last_status": -1,
-    "last_check": "2026-09-15T08:00:43.169Z",
-    "response_ms": 20,
+    "time_change": "2026-09-15 08:15:39",
+    "last_status": 403,
+    "last_check": "2026-09-15T08:15:38.677Z",
+    "response_ms": 39,
     "ssl_expiry": "2026-12-10",
     "history": [
       {
@@ -1273,6 +1273,10 @@
       {
         "t": "2026-09-15T08:00:43.169Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-15T08:15:38.677Z",
+        "status": 403
       }
     ]
   },
@@ -1950,16 +1954,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-15 08:00:58",
-    "last_status": 403,
-    "last_check": "2026-09-15T08:00:58.230Z",
-    "response_ms": 45,
+    "time_change": "2026-09-15 08:15:53",
+    "last_status": 200,
+    "last_check": "2026-09-15T08:15:53.570Z",
+    "response_ms": 922,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-13T17:01:01.010Z",
-        "status": 200
-      },
       {
         "t": "2026-09-13T17:15:49.623Z",
         "status": 403
@@ -2155,21 +2155,21 @@
       {
         "t": "2026-09-15T08:00:58.230Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-15T08:15:53.570Z",
+        "status": 200
       }
     ]
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-09-15 08:01:00",
-    "last_status": -1,
-    "last_check": "2026-09-15T08:01:00.217Z",
-    "response_ms": 589,
+    "time_change": "2026-09-15 08:15:55",
+    "last_status": 200,
+    "last_check": "2026-09-15T08:15:55.821Z",
+    "response_ms": 680,
     "ssl_expiry": "2026-10-28",
     "history": [
-      {
-        "t": "2026-07-01T14:46:32.010Z",
-        "status": 520
-      },
       {
         "t": "2026-07-01T15:01:32.584Z",
         "status": 200
@@ -2365,6 +2365,10 @@
       {
         "t": "2026-09-15T08:01:00.217Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-15T08:15:55.821Z",
+        "status": 200
       }
     ]
   },
