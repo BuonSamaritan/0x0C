@@ -328,13 +328,13 @@
     ]
   },
   "cb01new": {
-    "full_url": "https://cb01uno.homes/",
+    "full_url": "https://cb01uno.cyou/",
     "old_domain": "live",
-    "time_change": "2026-09-15 21:30:23",
+    "time_change": "2026-09-15 21:45:24",
     "last_status": 200,
-    "last_check": "2026-09-15T21:30:23.726Z",
-    "response_ms": 712,
-    "ssl_expiry": "2026-11-25",
+    "last_check": "2026-09-15T21:45:24.268Z",
+    "response_ms": 544,
+    "ssl_expiry": "2026-11-24",
     "history": [
       {
         "t": "2026-09-14T11:15:52.274Z",
@@ -539,17 +539,13 @@
     ]
   },
   "cb01_2": {
-    "full_url": "https://cb01uno.homes/",
-    "time_change": "2026-09-15 21:00:28",
-    "last_status": 403,
-    "last_check": "2026-09-15T21:00:28.470Z",
-    "response_ms": 8,
-    "ssl_expiry": "2026-11-25",
+    "full_url": "https://cb01uno.cyou/",
+    "time_change": "2026-09-15 21:45:26",
+    "last_status": 200,
+    "last_check": "2026-09-15T21:45:26.784Z",
+    "response_ms": 835,
+    "ssl_expiry": "2026-11-24",
     "history": [
-      {
-        "t": "2026-09-14T07:00:28.167Z",
-        "status": 200
-      },
       {
         "t": "2026-09-14T07:45:26.385Z",
         "status": 403
@@ -745,6 +741,10 @@
       {
         "t": "2026-09-15T21:00:28.470Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-15T21:45:26.784Z",
+        "status": 200
       }
     ]
   },
