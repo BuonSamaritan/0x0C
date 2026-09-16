@@ -1744,16 +1744,12 @@
   },
   "mappl": {
     "full_url": "https://mapplee.com/",
-    "time_change": "2026-09-16 08:45:50",
-    "last_status": 200,
-    "last_check": "2026-09-16T08:45:50.704Z",
-    "response_ms": 412,
+    "time_change": "2026-09-16 09:45:47",
+    "last_status": 403,
+    "last_check": "2026-09-16T09:45:47.262Z",
+    "response_ms": 28,
     "ssl_expiry": "2026-11-12",
     "history": [
-      {
-        "t": "2026-09-14T18:45:53.197Z",
-        "status": 403
-      },
       {
         "t": "2026-09-14T19:45:49.370Z",
         "status": 200
@@ -1949,21 +1945,21 @@
       {
         "t": "2026-09-16T08:45:50.704Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-16T09:45:47.262Z",
+        "status": 403
       }
     ]
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-16 09:15:51",
-    "last_status": 200,
-    "last_check": "2026-09-16T09:15:51.189Z",
-    "response_ms": 664,
+    "time_change": "2026-09-16 09:45:49",
+    "last_status": 403,
+    "last_check": "2026-09-16T09:45:49.037Z",
+    "response_ms": 26,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-14T22:30:59.572Z",
-        "status": 403
-      },
       {
         "t": "2026-09-14T23:00:51.423Z",
         "status": 200
@@ -2159,6 +2155,10 @@
       {
         "t": "2026-09-16T09:15:51.189Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-16T09:45:49.037Z",
+        "status": 403
       }
     ]
   },
