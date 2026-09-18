@@ -219,9 +219,9 @@
   },
   "animeworld": {
     "full_url": "https://www.animeworld.ac/",
-    "time_change": "2026-09-17 13:30:52",
-    "last_status": 200,
-    "last_check": "2026-09-17T13:30:52.177Z",
+    "time_change": "2026-09-18 17:45:36",
+    "last_status": -1,
+    "last_check": "2026-09-18T17:45:35.467Z",
     "response_ms": 913,
     "ssl_expiry": "2026-10-27",
     "history": [
@@ -332,6 +332,10 @@
       {
         "t": "2026-09-17T13:30:52.177Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-18T17:45:35.467Z",
+        "status": -1
       }
     ]
   },
@@ -1978,16 +1982,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-18 16:15:46",
-    "last_status": 200,
-    "last_check": "2026-09-18T16:15:46.733Z",
-    "response_ms": 769,
+    "time_change": "2026-09-18 17:46:11",
+    "last_status": 403,
+    "last_check": "2026-09-18T17:46:10.732Z",
+    "response_ms": 101,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-16T23:30:58.281Z",
-        "status": 200
-      },
       {
         "t": "2026-09-16T23:46:02.351Z",
         "status": 403
@@ -2183,6 +2183,10 @@
       {
         "t": "2026-09-18T16:15:46.733Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-18T17:46:10.732Z",
+        "status": 403
       }
     ]
   },
