@@ -888,10 +888,10 @@
   },
   "guardoserie_2": {
     "full_url": "https://guardoserie.courses/",
-    "time_change": "2026-09-19 11:15:23",
-    "last_status": -1,
-    "last_check": "2026-09-19T11:15:23.516Z",
-    "response_ms": 40,
+    "time_change": "2026-09-19 11:30:26",
+    "last_status": 403,
+    "last_check": "2026-09-19T11:30:26.578Z",
+    "response_ms": 32,
     "ssl_expiry": "2026-11-18",
     "history": [
       {
@@ -945,6 +945,10 @@
       {
         "t": "2026-09-19T11:15:23.516Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-19T11:30:26.578Z",
+        "status": 403
       }
     ]
   },
@@ -1318,10 +1322,10 @@
   },
   "eurostreaming": {
     "full_url": "https://eurostream.mom/",
-    "time_change": "2026-09-19 11:15:34",
-    "last_status": -1,
-    "last_check": "2026-09-19T11:15:33.443Z",
-    "response_ms": 813,
+    "time_change": "2026-09-19 11:30:36",
+    "last_status": 200,
+    "last_check": "2026-09-19T11:30:36.841Z",
+    "response_ms": 861,
     "ssl_expiry": "2026-11-27",
     "history": [
       {
@@ -1483,6 +1487,10 @@
       {
         "t": "2026-09-19T11:15:33.443Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-19T11:30:36.841Z",
+        "status": 200
       }
     ]
   },
@@ -2002,16 +2010,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-19 11:15:46",
-    "last_status": -1,
-    "last_check": "2026-09-19T11:15:46.098Z",
-    "response_ms": 1063,
+    "time_change": "2026-09-19 11:30:48",
+    "last_status": 200,
+    "last_check": "2026-09-19T11:30:48.081Z",
+    "response_ms": 979,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-17T18:30:44.018Z",
-        "status": 200
-      },
       {
         "t": "2026-09-17T19:45:48.578Z",
         "status": 403
@@ -2207,6 +2211,10 @@
       {
         "t": "2026-09-19T11:15:46.098Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-19T11:30:48.081Z",
+        "status": 200
       }
     ]
   },
