@@ -1047,11 +1047,11 @@
     ]
   },
   "streamingcommunity": {
-    "full_url": "https://streamingcommunityz.academy/",
-    "time_change": "2026-09-14 19:30:35",
+    "full_url": "https://streamingcommunityz.photos/",
+    "time_change": "2026-09-21 16:15:29",
     "last_status": 200,
-    "last_check": "2026-09-14T19:30:35.072Z",
-    "response_ms": 355,
+    "last_check": "2026-09-21T16:15:29.508Z",
+    "response_ms": 533,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -1731,12 +1731,12 @@
     ]
   },
   "tantifilm_2": {
-    "full_url": "https://tanti-film.website/",
-    "time_change": "2026-09-15 10:30:47",
+    "full_url": "https://tanti-film.beer/",
+    "time_change": "2026-09-21 16:15:43",
     "last_status": 200,
-    "last_check": "2026-09-15T10:30:47.605Z",
-    "response_ms": 430,
-    "ssl_expiry": "2026-12-14",
+    "last_check": "2026-09-21T16:15:43.410Z",
+    "response_ms": 322,
+    "ssl_expiry": "2026-12-20",
     "history": [
       {
         "t": "2026-07-20T20:01:58.057Z",
