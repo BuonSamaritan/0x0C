@@ -2220,16 +2220,12 @@
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-09-21 18:31:17",
-    "last_status": -1,
-    "last_check": "2026-09-21T18:31:16.772Z",
-    "response_ms": 513,
+    "time_change": "2026-09-21 18:45:52",
+    "last_status": 200,
+    "last_check": "2026-09-21T18:45:52.181Z",
+    "response_ms": 371,
     "ssl_expiry": "2026-10-28",
     "history": [
-      {
-        "t": "2026-07-01T15:46:39.609Z",
-        "status": 520
-      },
       {
         "t": "2026-07-01T16:01:47.210Z",
         "status": 403
@@ -2425,6 +2421,10 @@
       {
         "t": "2026-09-21T18:31:16.772Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-21T18:45:52.181Z",
+        "status": 200
       }
     ]
   },
