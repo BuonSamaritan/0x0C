@@ -765,12 +765,12 @@
     ]
   },
   "guardaserie": {
-    "full_url": "https://altadefinizione.fast/",
-    "time_change": "2026-09-15 23:00:35",
+    "full_url": "https://altadefinizionex.live/",
+    "time_change": "2026-09-21 15:00:23",
     "last_status": 200,
-    "last_check": "2026-09-15T23:00:35.590Z",
-    "response_ms": 1266,
-    "ssl_expiry": "2026-11-25",
+    "last_check": "2026-09-21T15:00:23.087Z",
+    "response_ms": 1490,
+    "ssl_expiry": "2026-11-26",
     "history": [
       {
         "t": "2026-07-09T12:06:13.524Z",
@@ -953,12 +953,12 @@
     ]
   },
   "altadefinizione": {
-    "full_url": "https://altadefinizione.fast/",
-    "time_change": "2026-09-15 23:00:39",
+    "full_url": "https://altadefinizionex.live/",
+    "time_change": "2026-09-21 15:00:27",
     "last_status": 200,
-    "last_check": "2026-09-15T23:00:39.256Z",
-    "response_ms": 90,
-    "ssl_expiry": "2026-11-25",
+    "last_check": "2026-09-21T15:00:26.973Z",
+    "response_ms": 103,
+    "ssl_expiry": "2026-11-26",
     "history": [
       {
         "t": "2026-07-09T12:06:36.975Z",
@@ -2010,16 +2010,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-21 14:45:47",
-    "last_status": 403,
-    "last_check": "2026-09-21T14:45:47.214Z",
-    "response_ms": 17,
+    "time_change": "2026-09-21 15:00:48",
+    "last_status": 200,
+    "last_check": "2026-09-21T15:00:48.456Z",
+    "response_ms": 801,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-20T07:00:41.979Z",
-        "status": 200
-      },
       {
         "t": "2026-09-20T07:15:44.322Z",
         "status": 403
@@ -2215,21 +2211,21 @@
       {
         "t": "2026-09-21T14:45:47.214Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-21T15:00:48.456Z",
+        "status": 200
       }
     ]
   },
   "cinezo": {
     "full_url": "https://www.cinezo.org/",
-    "time_change": "2026-09-21 14:46:09",
-    "last_status": -1,
-    "last_check": "2026-09-21T14:46:09.223Z",
-    "response_ms": 680,
+    "time_change": "2026-09-21 15:00:50",
+    "last_status": 200,
+    "last_check": "2026-09-21T15:00:50.625Z",
+    "response_ms": 513,
     "ssl_expiry": "2026-10-28",
     "history": [
-      {
-        "t": "2026-07-01T15:04:36.386Z",
-        "status": 520
-      },
       {
         "t": "2026-07-01T15:30:21.726Z",
         "status": 200
@@ -2425,6 +2421,10 @@
       {
         "t": "2026-09-21T14:46:09.223Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-21T15:00:50.625Z",
+        "status": 200
       }
     ]
   },
