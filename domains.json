@@ -1706,9 +1706,9 @@
   },
   "tantifilm": {
     "full_url": "https://tantifilm.online/",
-    "time_change": "2026-09-13 06:01:47",
-    "last_status": 200,
-    "last_check": "2026-09-13T06:01:46.818Z",
+    "time_change": "2026-09-22 22:18:31",
+    "last_status": -1,
+    "last_check": "2026-09-22T22:18:31.016Z",
     "response_ms": 246,
     "ssl_expiry": "2026-12-12",
     "history": [
@@ -1727,6 +1727,10 @@
       {
         "t": "2026-09-13T06:01:46.818Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-22T22:18:31.016Z",
+        "status": -1
       }
     ]
   },
@@ -2010,16 +2014,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-22 22:01:28",
-    "last_status": 200,
-    "last_check": "2026-09-22T22:01:28.388Z",
-    "response_ms": 932,
+    "time_change": "2026-09-22 22:18:39",
+    "last_status": 403,
+    "last_check": "2026-09-22T22:18:39.539Z",
+    "response_ms": 18,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-21T14:45:47.214Z",
-        "status": 403
-      },
       {
         "t": "2026-09-21T15:00:48.456Z",
         "status": 200
@@ -2215,6 +2215,10 @@
       {
         "t": "2026-09-22T22:01:28.388Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-22T22:18:39.539Z",
+        "status": 403
       }
     ]
   },
