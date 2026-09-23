@@ -1776,10 +1776,10 @@
   },
   "tantifilm_2": {
     "full_url": "https://tanti-film.beer/",
-    "time_change": "2026-09-23 16:02:01",
-    "last_status": -1,
-    "last_check": "2026-09-23T16:02:00.833Z",
-    "response_ms": 331,
+    "time_change": "2026-09-23 16:16:25",
+    "last_status": 200,
+    "last_check": "2026-09-23T16:16:24.995Z",
+    "response_ms": 339,
     "ssl_expiry": "2026-12-20",
     "history": [
       {
@@ -1825,6 +1825,10 @@
       {
         "t": "2026-09-23T16:02:00.833Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-23T16:16:24.995Z",
+        "status": 200
       }
     ]
   },
