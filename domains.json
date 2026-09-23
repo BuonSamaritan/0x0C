@@ -1068,10 +1068,10 @@
   },
   "streamingcommunity": {
     "full_url": "https://streamingcommunityz.photos/",
-    "time_change": "2026-09-23 17:01:52",
-    "last_status": -1,
-    "last_check": "2026-09-23T17:01:51.412Z",
-    "response_ms": 388,
+    "time_change": "2026-09-23 17:16:11",
+    "last_status": 200,
+    "last_check": "2026-09-23T17:16:11.128Z",
+    "response_ms": 358,
     "ssl_expiry": "2026-11-25",
     "history": [
       {
@@ -1221,6 +1221,10 @@
       {
         "t": "2026-09-23T17:01:51.412Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-23T17:16:11.128Z",
+        "status": 200
       }
     ]
   },
