@@ -766,10 +766,10 @@
   },
   "guardaserie": {
     "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-09-21 15:00:23",
-    "last_status": 200,
-    "last_check": "2026-09-21T15:00:23.087Z",
-    "response_ms": 1490,
+    "time_change": "2026-09-23 08:16:27",
+    "last_status": 522,
+    "last_check": "2026-09-23T08:16:27.730Z",
+    "response_ms": 19301,
     "ssl_expiry": "2026-11-26",
     "history": [
       {
@@ -883,6 +883,10 @@
       {
         "t": "2026-09-10T19:01:01.088Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-23T08:16:27.730Z",
+        "status": 522
       }
     ]
   },
@@ -954,10 +958,10 @@
   },
   "altadefinizione": {
     "full_url": "https://altadefinizionex.live/",
-    "time_change": "2026-09-21 15:00:27",
-    "last_status": 200,
-    "last_check": "2026-09-21T15:00:26.973Z",
-    "response_ms": 103,
+    "time_change": "2026-09-23 08:16:50",
+    "last_status": 522,
+    "last_check": "2026-09-23T08:16:50.768Z",
+    "response_ms": 19710,
     "ssl_expiry": "2026-11-26",
     "history": [
       {
@@ -1043,6 +1047,10 @@
       {
         "t": "2026-09-11T20:15:46.262Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-23T08:16:50.768Z",
+        "status": 522
       }
     ]
   },
@@ -1740,10 +1748,10 @@
   },
   "tantifilm_2": {
     "full_url": "https://tanti-film.beer/",
-    "time_change": "2026-09-21 16:15:43",
-    "last_status": 200,
-    "last_check": "2026-09-21T16:15:43.410Z",
-    "response_ms": 322,
+    "time_change": "2026-09-23 08:17:24",
+    "last_status": 522,
+    "last_check": "2026-09-23T08:17:24.234Z",
+    "response_ms": 19547,
     "ssl_expiry": "2026-12-20",
     "history": [
       {
@@ -1777,15 +1785,19 @@
       {
         "t": "2026-09-09T17:16:45.994Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-23T08:17:24.234Z",
+        "status": 522
       }
     ]
   },
   "filmsenzalimite": {
     "full_url": "https://filmsenzalimiti.study/",
-    "time_change": "2026-09-11 23:17:17",
-    "last_status": 200,
-    "last_check": "2026-09-11T23:17:17.312Z",
-    "response_ms": 49,
+    "time_change": "2026-09-23 08:17:45",
+    "last_status": 522,
+    "last_check": "2026-09-23T08:17:45.520Z",
+    "response_ms": 19678,
     "ssl_expiry": "2026-11-19",
     "history": [
       {
@@ -1803,6 +1815,10 @@
       {
         "t": "2026-09-11T23:17:17.312Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-23T08:17:45.520Z",
+        "status": 522
       }
     ]
   },
