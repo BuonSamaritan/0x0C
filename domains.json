@@ -346,16 +346,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.top/",
     "old_domain": "live",
-    "time_change": "2026-09-24 15:31:10",
-    "last_status": 403,
-    "last_check": "2026-09-24T15:31:10.498Z",
-    "response_ms": 41,
+    "time_change": "2026-09-24 15:46:04",
+    "last_status": 200,
+    "last_check": "2026-09-24T15:46:04.722Z",
+    "response_ms": 468,
     "ssl_expiry": "2026-11-24",
     "history": [
-      {
-        "t": "2026-09-15T12:00:31.792Z",
-        "status": 200
-      },
       {
         "t": "2026-09-15T12:45:25.261Z",
         "status": 403
@@ -551,6 +547,10 @@
       {
         "t": "2026-09-24T15:31:10.498Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-24T15:46:04.722Z",
+        "status": 200
       }
     ]
   },
@@ -1366,9 +1366,9 @@
   },
   "eurostreaming": {
     "full_url": "https://eurostream.mom/",
-    "time_change": "2026-09-19 11:30:36",
-    "last_status": 200,
-    "last_check": "2026-09-19T11:30:36.841Z",
+    "time_change": "2026-09-24 15:46:42",
+    "last_status": -1,
+    "last_check": "2026-09-24T15:46:40.322Z",
     "response_ms": 861,
     "ssl_expiry": "2026-11-27",
     "history": [
@@ -1535,6 +1535,10 @@
       {
         "t": "2026-09-19T11:30:36.841Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-24T15:46:40.322Z",
+        "status": -1
       }
     ]
   },
