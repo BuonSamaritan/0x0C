@@ -346,16 +346,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.top/",
     "old_domain": "live",
-    "time_change": "2026-09-24 22:16:03",
-    "last_status": 403,
-    "last_check": "2026-09-24T22:16:03.468Z",
-    "response_ms": 36,
+    "time_change": "2026-09-24 22:46:04",
+    "last_status": 200,
+    "last_check": "2026-09-24T22:46:04.336Z",
+    "response_ms": 602,
     "ssl_expiry": "2026-11-24",
     "history": [
-      {
-        "t": "2026-09-15T20:30:24.512Z",
-        "status": 200
-      },
       {
         "t": "2026-09-15T21:15:29.484Z",
         "status": 403
@@ -551,21 +547,21 @@
       {
         "t": "2026-09-24T22:16:03.468Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-24T22:46:04.336Z",
+        "status": 200
       }
     ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.top/",
-    "time_change": "2026-09-24 21:46:12",
-    "last_status": 200,
-    "last_check": "2026-09-24T21:46:12.122Z",
-    "response_ms": 598,
+    "time_change": "2026-09-24 22:46:06",
+    "last_status": 403,
+    "last_check": "2026-09-24T22:46:05.887Z",
+    "response_ms": 23,
     "ssl_expiry": "2026-11-24",
     "history": [
-      {
-        "t": "2026-09-15T19:14:19.983Z",
-        "status": 200
-      },
       {
         "t": "2026-09-15T20:30:26.136Z",
         "status": 403
@@ -761,6 +757,10 @@
       {
         "t": "2026-09-24T21:46:12.122Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-24T22:46:05.887Z",
+        "status": 403
       }
     ]
   },
@@ -900,9 +900,9 @@
   },
   "guardoserie_2": {
     "full_url": "https://guardoserie.courses/",
-    "time_change": "2026-09-19 11:30:26",
-    "last_status": 403,
-    "last_check": "2026-09-19T11:30:26.578Z",
+    "time_change": "2026-09-24 22:46:10",
+    "last_status": -1,
+    "last_check": "2026-09-24T22:46:10.155Z",
     "response_ms": 32,
     "ssl_expiry": "2026-11-18",
     "history": [
@@ -961,6 +961,10 @@
       {
         "t": "2026-09-19T11:30:26.578Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-24T22:46:10.155Z",
+        "status": -1
       }
     ]
   },
