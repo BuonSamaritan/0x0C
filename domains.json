@@ -346,16 +346,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.top/",
     "old_domain": "live",
-    "time_change": "2026-09-25 18:45:49",
-    "last_status": 200,
-    "last_check": "2026-09-25T18:45:49.708Z",
-    "response_ms": 820,
+    "time_change": "2026-09-25 19:15:43",
+    "last_status": 403,
+    "last_check": "2026-09-25T19:15:43.265Z",
+    "response_ms": 66,
     "ssl_expiry": "2026-11-24",
     "history": [
-      {
-        "t": "2026-09-24T11:46:05.707Z",
-        "status": 403
-      },
       {
         "t": "2026-09-24T12:01:15.915Z",
         "status": 200
@@ -551,6 +547,10 @@
       {
         "t": "2026-09-25T18:45:49.708Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-25T19:15:43.265Z",
+        "status": 403
       }
     ]
   },
@@ -2114,16 +2114,12 @@
   },
   "hydrahd": {
     "full_url": "https://hydrahd.ws/",
-    "time_change": "2026-09-25 18:31:14",
-    "last_status": 200,
-    "last_check": "2026-09-25T18:31:14.627Z",
-    "response_ms": 877,
+    "time_change": "2026-09-25 19:16:16",
+    "last_status": 403,
+    "last_check": "2026-09-25T19:16:16.008Z",
+    "response_ms": 69,
     "ssl_expiry": "2026-11-10",
     "history": [
-      {
-        "t": "2026-09-24T12:46:36.167Z",
-        "status": 403
-      },
       {
         "t": "2026-09-24T12:59:12.541Z",
         "status": 200
@@ -2319,6 +2315,10 @@
       {
         "t": "2026-09-25T18:31:14.627Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-25T19:16:16.008Z",
+        "status": 403
       }
     ]
   },
@@ -2534,10 +2534,10 @@
   },
   "monochrome": {
     "full_url": "https://monochrome.tf/",
-    "last_status": -1,
-    "time_change": "2026-09-25 19:01:24",
-    "last_check": "2026-09-25T19:01:24.322Z",
-    "response_ms": 329,
+    "last_status": 503,
+    "time_change": "2026-09-25 19:16:21",
+    "last_check": "2026-09-25T19:16:20.738Z",
+    "response_ms": 652,
     "ssl_expiry": "2026-12-22",
     "history": [
       {
@@ -2639,6 +2639,10 @@
       {
         "t": "2026-09-25T19:01:24.322Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-25T19:16:20.738Z",
+        "status": 503
       }
     ]
   }
