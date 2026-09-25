@@ -556,16 +556,12 @@
   },
   "cb01_2": {
     "full_url": "https://cb01uno.top/",
-    "time_change": "2026-09-25 16:30:50",
-    "last_status": 403,
-    "last_check": "2026-09-25T16:30:50.254Z",
-    "response_ms": 22,
+    "time_change": "2026-09-25 17:00:49",
+    "last_status": 200,
+    "last_check": "2026-09-25T17:00:49.535Z",
+    "response_ms": 736,
     "ssl_expiry": "2026-11-24",
     "history": [
-      {
-        "t": "2026-09-23T23:31:05.084Z",
-        "status": 200
-      },
       {
         "t": "2026-09-23T23:46:02.388Z",
         "status": 403
@@ -761,6 +757,10 @@
       {
         "t": "2026-09-25T16:30:50.254Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-25T17:00:49.535Z",
+        "status": 200
       }
     ]
   },
@@ -2534,9 +2534,9 @@
   },
   "monochrome": {
     "full_url": "https://monochrome.tf/",
-    "last_status": 503,
-    "time_change": "2026-09-25 16:46:16",
-    "last_check": "2026-09-25T16:46:15.774Z",
+    "last_status": -1,
+    "time_change": "2026-09-25 17:01:22",
+    "last_check": "2026-09-25T17:01:21.957Z",
     "response_ms": 425,
     "ssl_expiry": "2026-12-22",
     "history": [
@@ -2619,6 +2619,10 @@
       {
         "t": "2026-09-25T16:46:15.774Z",
         "status": 503
+      },
+      {
+        "t": "2026-09-25T17:01:21.957Z",
+        "status": -1
       }
     ]
   }
