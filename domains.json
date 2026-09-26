@@ -221,9 +221,9 @@
     "full_url": "https://www.animeworld.ac/",
     "time_change": "2026-09-18 18:00:21",
     "last_status": 200,
-    "last_check": "2026-09-18T18:00:21.326Z",
-    "response_ms": 889,
-    "ssl_expiry": "2026-10-27",
+    "last_check": "2026-09-26T21:28:48.067Z",
+    "response_ms": 469,
+    "ssl_expiry": "2026-12-25",
     "history": [
       {
         "t": "2026-07-02T06:46:12.509Z",
@@ -346,16 +346,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.top/",
     "old_domain": "live",
-    "time_change": "2026-09-26 21:00:32",
-    "last_status": 200,
-    "last_check": "2026-09-26T21:00:32.820Z",
-    "response_ms": 942,
+    "time_change": "2026-09-26 21:28:50",
+    "last_status": 403,
+    "last_check": "2026-09-26T21:28:49.725Z",
+    "response_ms": 53,
     "ssl_expiry": "2026-11-24",
     "history": [
-      {
-        "t": "2026-09-25T06:01:19.735Z",
-        "status": 403
-      },
       {
         "t": "2026-09-25T06:16:04.517Z",
         "status": 200
@@ -551,21 +547,21 @@
       {
         "t": "2026-09-26T21:00:32.820Z",
         "status": 200
+      },
+      {
+        "t": "2026-09-26T21:28:49.725Z",
+        "status": 403
       }
     ]
   },
   "cb01_2": {
     "full_url": "https://cb01uno.top/",
-    "time_change": "2026-09-26 21:15:39",
-    "last_status": 403,
-    "last_check": "2026-09-26T21:15:39.073Z",
-    "response_ms": 52,
+    "time_change": "2026-09-26 21:28:52",
+    "last_status": 200,
+    "last_check": "2026-09-26T21:28:52.258Z",
+    "response_ms": 457,
     "ssl_expiry": "2026-11-24",
     "history": [
-      {
-        "t": "2026-09-25T09:30:42.940Z",
-        "status": 200
-      },
       {
         "t": "2026-09-25T09:46:17.882Z",
         "status": 403
@@ -761,6 +757,10 @@
       {
         "t": "2026-09-26T21:15:39.073Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-26T21:28:52.258Z",
+        "status": 200
       }
     ]
   },
@@ -2534,10 +2534,10 @@
   },
   "monochrome": {
     "full_url": "https://monochrome.tf/",
-    "last_status": -1,
-    "time_change": "2026-09-26 20:31:03",
-    "last_check": "2026-09-26T20:31:03.548Z",
-    "response_ms": 167,
+    "last_status": 503,
+    "time_change": "2026-09-26 21:29:24",
+    "last_check": "2026-09-26T21:29:23.897Z",
+    "response_ms": 199,
     "ssl_expiry": "2026-12-22",
     "history": [
       {
@@ -2719,6 +2719,10 @@
       {
         "t": "2026-09-26T20:31:03.548Z",
         "status": -1
+      },
+      {
+        "t": "2026-09-26T21:29:23.897Z",
+        "status": 503
       }
     ]
   }
