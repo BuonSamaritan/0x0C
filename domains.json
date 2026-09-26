@@ -346,16 +346,12 @@
   "cb01new": {
     "full_url": "https://cb01uno.top/",
     "old_domain": "live",
-    "time_change": "2026-09-26 21:28:50",
-    "last_status": 403,
-    "last_check": "2026-09-26T21:28:49.725Z",
-    "response_ms": 53,
+    "time_change": "2026-09-26 21:30:38",
+    "last_status": 200,
+    "last_check": "2026-09-26T21:30:38.363Z",
+    "response_ms": 787,
     "ssl_expiry": "2026-11-24",
     "history": [
-      {
-        "t": "2026-09-25T06:16:04.517Z",
-        "status": 200
-      },
       {
         "t": "2026-09-25T06:31:02.073Z",
         "status": 403
@@ -551,6 +547,10 @@
       {
         "t": "2026-09-26T21:28:49.725Z",
         "status": 403
+      },
+      {
+        "t": "2026-09-26T21:30:38.363Z",
+        "status": 200
       }
     ]
   },
